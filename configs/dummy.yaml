@@ -1,0 +1,14 @@
+model_name: regression
+loss_fn: crossentropy
+# add options as needed for dataset
+training:
+  - lr: 1e-3
+  - restore_ckpt: null
+  - num_epochs: 10
+  - loss_fn: "crossentropy"
+test:
+  - ckpt: null
+logging: # frequency in number of iterations
+  - log_freq: 100
+  - val_freq: 2000
+  - save_freq: 2000
