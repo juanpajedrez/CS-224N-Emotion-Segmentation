@@ -4,6 +4,7 @@ import sys, os
 from torch.utils.data import Dataset
 import json
 from transformers import BertTokenizer, BertModel
+from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence
 
 # define class indices for task here
 EMOTION_IDX = {"SAD": 0, "HAPPY": 1, "ANGER": 2, "SURPRISE": 3, "DISGUST": 4}
@@ -12,7 +13,7 @@ class EmotionDataset(Dataset):
 
     def __init__(self, params):
         super().__init__()
-        self.params = params["dataset"]
+        self.params = params["data"]
         with open(self.params['train_filepath']) as f:
             self.data = json.load(f)
 
@@ -52,6 +53,39 @@ class EmotionDataset(Dataset):
         num_tokens = torch.tensor(len(tokens))
 
         return {"tokens": tokens, "labels": labels, "embeddings": embeddings, "num_tokens": num_tokens}
+
+
+# collate function to collate samples into a batch and pad (pack if specified) as needed
+class collate_fn:
+
+    def __init__(self, pack_seq=False, batch_first=True):
+        self.pack_seq = pack_seq
+        self.batch_first = batch_first
+    
+    def __call__(self, batch):
+        length_list = []
+        emb_list = []
+        label_list = []
+        for sample in batch:
+            length_list.append(sample['num_tokens'])
+            emb_list.append(sample['embeddings'])
+            label_list.append(sample['labels'])
+
+        lengths = torch.stack(length_list)
+        padded_embs = pad_sequence(emb_list, batch_first=self.batch_first, padding_value=0)
+        padded_labels = pad_sequence(label_list, batch_first=self.batch_first, padding_value=-1)
+        if self.pack_seq:
+            padded_embs = pack_padded_sequence(padded_embs, lengths, batch_first=self.batch_first)
+            padded_labels = pack_padded_sequence(padded_labels, lengths, batch_first=self.batch_first)
+
+        proc_batch = {
+            "embeddings": padded_embs,
+            "labels": padded_labels,
+            "num_tokens": lengths
+        }
+
+        return proc_batch
+
 
 
 # if __name__ == "__main__":    

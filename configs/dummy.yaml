@@ -1,16 +1,21 @@
 model_name: regression
-loss_fn: crossentropy
 # add options as needed for dataset
 training:
-  - lr: 1e-3
-  - restore_ckpt: null
-  - num_epochs: 10
-  - loss_fn: "crossentropy"
+  lr: 0.001
+  restore_ckpt: null
+  num_epochs: 10
+  loss_fn: "crossentropy"
+  batch_size: 16
 test:
-  - ckpt: null
+  ckpt: null
 logging: # frequency in number of iterations
-  - log_freq: 100
-  - val_freq: 2000
-  - save_freq: 2000
+  log_freq: 100
+  val_freq: 2000
+  save_freq: 2000
+  ckpt_dir: "./ckpts"
 data:
-  - use_start_end: False # to encode start, middle and end for each emotion
+  use_start_end: False # to encode start, middle and end for each emotion (i.e. segmentation)
+  train_filepath: "./data/dummy.json" # data file for training
+  batch_first: True # batch first is default
+  pack_seq: False # only pack for rnn/lstm
+  bert_dim: 784 # dimension of encoding from bert
