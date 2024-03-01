@@ -2,30 +2,10 @@ import torch
 from torch.utils.data import DataLoader
 import numpy as np
 import os
-
-# define class indices for problem here
-EMOTION_IDX = {"SAD": 0, "HAPPY": 1, "ANGER": 2, "SURPRISE": 3, "DISGUST": 4}
-CLASS_IDX = {
-    "SAD-START": 0,
-    "SAD-MIDDLE": 1,
-    "SAD-END": 2,
-    "HAPPY-START": 3,
-    "HAPPY-MIDDLE": 4,
-    "HAPPY-END": 5,
-    "ANGER-START": 6,
-    "ANGER-MIDDLE": 7,
-    "ANGER-END": 8,
-    "SURPRISE-START": 9,
-    "SURPRISE-MIDDLE": 10,
-    "SURPRISE-END": 11,
-    "DISGUST-START": 12,
-    "DISGUST-MIDDLE": 13,
-    "DISGUST-END": 14
-}
+from data import EmotionDataset
 
 
 def create_dataloader(args, split):
-    raise NotImplementedError("Need to load dataset object")
     dataset = EmotionDataset(args, split=split)
     dataloader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True)
     return dataloader
