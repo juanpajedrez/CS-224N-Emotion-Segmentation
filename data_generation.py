@@ -4,6 +4,8 @@
 from ast import Continue
 import re
 import json
+import requests
+import time
 
 
 def parse_text(text):
@@ -24,13 +26,12 @@ def parse_text(text):
             sentence_text = line.split("Sentence")[1].split(":")[1].strip()
             cur_sentence = sentence_text
             sentence_emotion_dict[cur_sentence] = []
-            raw_text.append(line)
+            raw_text.append(line) # problem: it appends sentence and emotion even though emotion is improperlty formatted and hsould not be added to raw text
             print(line)
 
         if "Emotion" in line:
             pattern = r'<(.*?)-Start>(.*?)<(.*?)-End>'
             pairings = re.findall(pattern, line)
-            raw_text.append(line)
             # print(pairings)
             print(line)
 
@@ -40,10 +41,11 @@ def parse_text(text):
                 sentence_emotion_dict[cur_sentence].append((emotion_text, emotion))
 
             annotated_concat_sentence = ''.join(item[1] for item in sentence_emotion_dict[cur_sentence])
-            print("Full emotion text....", annotated_concat_sentence)
             if cur_sentence != annotated_concat_sentence:
                 print("REMOVE BATCH")
+                raw_text.pop(-1)
                 continue
+            raw_text.append(line)
 
                 # if segments dont add up to the exact sentence then continue and trash the batch
     print("------")
@@ -67,8 +69,7 @@ def dict_to_json(sentence_emotion_dict, data_file, to_save=False):
               # json_file.write('\n')  # Add a newline after each entry
 
 
-import requests
-import time
+
 
 new_prompt = '''
 [INST] We want to generate a dataset of examples for emotion segmentation in text. The only possible tags for emotions are <Angry>, <Surprised>, <Disgusted>, <Happy>, <Fearful>, <Sad>, and if there is no emotions in a segment use <Neutral>. For each emotion additionally tag it with a suffix -Start and -End. Each -Start must have a corresponding -End or the example is invalid. Here are in-context examples to learn from:
@@ -109,7 +110,7 @@ for batch_num in range(10):
     print(f"Batch {batch_num} / {range_total}")
     res = requests.post(endpoint, json={
         "model": "meta-llama/Llama-2-70b-chat-hf",
-        "max_tokens": 1000,
+        "max_tokens": 2000,
         "prompt": new_prompt,
         "temperature": 0.7,
         "top_p": 0.7,
