@@ -51,9 +51,12 @@ def train(config):
         raise ValueError("Invalid loss function %s" % (config["training"]["loss_fn"]))
     
     # define optimizer
-    optimizer = torch.optim.Adam(model.parameters(), lr=config["training"]["lr"])
-
-    writer = SummaryWriter()
+    if config["training"]["optimizer"] == "adam":
+        optimizer = torch.optim.Adam(model.parameters(), lr=config["training"]["lr"])
+    elif config["training"]["optimizer"] == "sgd":
+        optimizer = torch.optim.SGD(model.parameters(), lr=config["training"]["lr"], momentum=0.9)
+    else:
+        raise ValueError("Optimizer not defined %s" % (config["training"]["optimizer"]))
 
     if config["training"]["restore_ckpt"] is not None:
         ckpt = torch.load(config["training"]["restore_ckpt"], map_location=device)
@@ -61,12 +64,20 @@ def train(config):
         model.load_state_dict(ckpt['model_state_dict'])
         optimizer.load_state_dict(ckpt['optim_state_dict'])
         run_name = ckpt['run_name']
+        purge_step = num_iters
 
         print("Restored checkpoint at iteration %d..." % (num_iters))
     else:
         print("Starting training at iteration 0...")
         num_iters = 0
-        run_name = datetime.now().strftime('%d-%m-%Y-%H-%M')
+        if config["run_name"] is None:
+            run_name = datetime.now().strftime('%d-%m-%Y-%H-%M')
+        else:
+            run_name = config["run_name"]
+        purge_step = None
+
+    # creating summary writer and runs and enabling restart of summary writer
+    writer = SummaryWriter(log_dir=os.path.join("./runs", run_name), purge_step=purge_step)
 
     for e in range(config["training"]["num_epochs"]):
         for i, batch in tqdm(enumerate(train_loader)):

@@ -1,4 +1,5 @@
 model_name: regression
+run_name: "0302_regression_lr=1e-3"
 # add options as needed for dataset
 training:
   lr: 0.001
@@ -6,6 +7,7 @@ training:
   num_epochs: 30
   loss_fn: "crossentropy"
   batch_size: 16
+  optimizer: "adam"
 test:
   ckpt: null
 logging: # frequency in number of iterations
