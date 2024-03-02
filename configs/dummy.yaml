@@ -18,4 +18,4 @@ data:
   train_filepath: "./data/dummy.json" # data file for training
   batch_first: True # batch first is default
   pack_seq: False # only pack for rnn/lstm
-  bert_dim: 784 # dimension of encoding from bert
+  bert_dim: 768 # dimension of encoding from bert
