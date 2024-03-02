@@ -9,7 +9,7 @@ training:
 test:
   ckpt: null
 logging: # frequency in number of iterations
-  log_freq: 100
+  log_freq: 5
   val_freq: 2000
   save_freq: 2000
   ckpt_dir: "./ckpts"
