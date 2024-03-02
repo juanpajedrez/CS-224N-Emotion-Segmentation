@@ -112,8 +112,11 @@ def inference(config, dataset, device="cuda"):
     
     tokenizer = dataset.dataset.tokenizer # dataset is a subset object
 
+    gt_data = {}
+
     for i in tqdm(range(len(dataset))):
         sample = dataset[i]
+        gt_data[str(i)] = dataset.dataset.data[dataset.indices[i]]
 
         # get data from batch (dictionary)
         embs = sample["embeddings"].float()
@@ -172,6 +175,9 @@ def inference(config, dataset, device="cuda"):
     with open(config["inference"]["output_file"], 'w') as f:
         json.dump(data, f, indent=4)
 
+    if config["inference"]["gt_json"] is not None:
+        with open(config["inference"]["gt_json"], 'w') as f:
+            json.dump(gt_data, f, indent=4)
 
 @torch.no_grad()          
 def run_validation(val_loader, model, loss_fn, device='cuda'):
