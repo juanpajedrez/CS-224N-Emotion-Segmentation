@@ -11,7 +11,7 @@ from data import EMOTION_IDX
 
 
 def parse_text(text):
-    print("Parsing...")
+    #print("Parsing...")
     num_bad = 0
     lines = text.strip().split("\n")
 
@@ -26,41 +26,49 @@ def parse_text(text):
             continue  # ignore if nothing generated
 
         if "Sentence" in line:
+            print(line)
             sentence_text = line.split("Sentence")[1].split(":")[1].strip()
             cur_sentence = sentence_text
             sentence_emotion_dict[cur_sentence] = []
             raw_text.append(line)
-            print(line)
+            #print(line)
 
         if "Emotion" in line:
             pattern = r'<(.*?)-Start>(.*?)<(.*?)-End>'
             pairings = re.findall(pattern, line)
             # print(pairings)
-            print(line)
+            #print(line)
 
             for pair in pairings:
                 emotion = pair[1]
                 emotion_label = pair[2]
+
                 if emotion_label.upper() not in EMOTION_IDX:
                     print(f"emotion BAD: {emotion_label}")
+
+                if emotion_label.upper() not in EMOTION_IDX or len(emotion) <= 1:
                     raw_text.pop(-1)
-                    print("Bad removed, go to next line")
+                    #print("Bad removed, go to next line")
                     num_bad += 1
                     continue
                 sentence_emotion_dict[cur_sentence].append((emotion_label, emotion))
 
             annotated_concat_sentence = ''.join(item[1] for item in sentence_emotion_dict[cur_sentence])
+            #print("true sentence: ", cur_sentence)
+            #print("annotated version: ", annotated_concat_sentence)
             if cur_sentence != annotated_concat_sentence:
+                #print(f"{cur_sentence} is a problem")
+
                 raw_text.pop(-1)
                 num_bad += 1
-                print("Bad removed, go to next line")
+                #print("Bad removed, go to next line")
                 continue
             raw_text.append(line)
 
                 # if segments dont add up to the exact sentence then continue and trash the batch
     if num_bad >= 5:
         return None, None
-    print("------")
+    #print("------")
     return sentence_emotion_dict, raw_text
 
 def dict_to_json(sentence_emotion_dict, data_file, to_save=False):
@@ -76,7 +84,7 @@ def dict_to_json(sentence_emotion_dict, data_file, to_save=False):
       data_file[len(data_file.keys())] = entry_data
 
       if to_save:
-        with open("data/data_final.json", "w") as json_file:
+        with open("data/data_new.json", "w") as json_file:
             json.dump(data_file, json_file, indent=4)
               # json_file.write('\n')  # Add a newline after each entry
 
@@ -98,14 +106,14 @@ Emotions: <Neutral-Start>My teacher called on my friend in class to presents<Neu
 Sentence: The pizza was delicious, but it gave me a stomachache.
 Emotions: <Happy-Start>The pizza was delicious<Happy-End><Sad-Start>, but it gave me a stomachache.<Sad-End>
 
-Sentence: I'm so done with this project... it's taking forever, but I'm close to being done and I have to admit that I'm kind of excited to see the final result.
-Emotions: <Angry-Start>I'm so done with this project... it's taking forever<Angry-End><Neutral-Start>, but I'm close to being done<Neutral-End><Happy-Start> and I have to admit that I'm kind of excited to see the final result.<Happy-End>
+Sentence: I'm so done with this project it's taking forever, but I'm close to being done and I have to admit that I'm kind of excited to see the final result.
+Emotions: <Angry-Start>I'm so done with this project it's taking forever<Angry-End><Neutral-Start>, but I'm close to being done<Neutral-End><Happy-Start> and I have to admit that I'm kind of excited to see the final result.<Happy-End>
 
-Sentence: I can't believe I found a cockroach in the shower... it totally grossed me out and now I have to move it!
-Emotions: <Surprise-Start> I can't believe I found a cockroach in the shower<Surprise-End><Disgust-Start>... it totally grossed me out<Disgust-End><Angry-Start> and now I have to move it!<Angry-End>
+Sentence: I can't believe I found a cockroach in the shower. It totally grossed me out and now I have to move it!
+Emotions: <Surprised-Start> I can't believe I found a cockroach in the shower.<Surprised-End><Disgusted-Start> It totally grossed me out<Disgusted-End><Fearful-Start> and now I have to move it!<Fearful-End>
 
 
-ONLY output exactly ten additional unique examples using this format and using ONLY 1-3 emotion tags of <Angry>, <Surprised>, <Disgusted>, <Happy>, <Fearful>, <Sad> per sentence.   [/INST]"
+ONLY output exactly ten additional unique examples using this format and using EXACTLY two or three different emotion tags of <Angry>, <Surprised>, <Disgusted>, <Happy>, <Fearful>, <Sad> per sentence. DO NOT explicitly state an emotion in the sentence generated. Don't say "I feel <emotion>" or "it made me <emotion>" ). The annotated emotions must correctly reflect the order and use of words in the sentence given.   [/INST]"
 '''
 endpoint = 'https://api.together.xyz/v1/chat/completions'
 
@@ -113,13 +121,13 @@ data_file = {}
 num_iters = 0
 
 raw_data = []
-total_generated_examples = 1700  # we expect 100 total examples
+total_generated_examples = 5000  # we expect 100 total examples
 sentences_per_batch = 10
 
 range_total = total_generated_examples // sentences_per_batch
-for batch_num in range(10):
-    print("new prompt: ", new_prompt)
-    print("-----------")
+for batch_num in range(range_total):
+    #print("new prompt: ", new_prompt)
+    #print("-----------")
     print(f"Batch {batch_num} / {range_total}")
     res = requests.post(endpoint, json={
         "model": "meta-llama/Llama-2-70b-chat-hf",
@@ -140,20 +148,23 @@ for batch_num in range(10):
     })
 
     num_iters += 1
-    print("request to llama made")
-
-    data = res.json()
-    # Extract text from the choices
-    text = data["choices"][0]["message"]["content"]
-
-    with open("data/raw_data_final.txt", "a") as fout:
-        fout.write(text)
-        fout.write('\n')
-        fout.close()
+    #print("request to llama made")
 
     try:
-        sentence_emotion_dict, raw_text = parse_text(text)
+        data = res.json()
+        # Extract text from the choices
+        text = data["choices"][0]["message"]["content"]
+
+        with open("data/raw_data_new.txt", "a") as fout:
+            fout.write(text)
+            fout.write('\n')
+            fout.close()
+
+            sentence_emotion_dict, raw_text = parse_text(text)
     except:
+        print("Something went wrong with API end... plz wait a few")
+        print("Here was the request: ", new_prompt)
+        time.sleep(30)
         continue
 
     if sentence_emotion_dict == None:
@@ -163,15 +174,16 @@ for batch_num in range(10):
         raw_string = '\n'.join(raw_text)
         # convert list of strings to str + \n + str
 
-        new_prompt = f'''
-[INST] We want to generate a dataset of examples for emotion segmentation in text. The only possible tags for emotions are <Angry>, <Surprised>, <Disgusted>, <Happy>, <Fearful>, <Sad>, and if there is no emotions in a segment use <Neutral>. For each emotion additionally tag it with a suffix -Start and -End. Each -Start must have a corresponding -End or the example is invalid. Here are in-context examples to learn from:
 
-Some examples:
+        # new_prompt = f'''
+#[INST] We want to generate a dataset of examples for emotion segmentation in text. The only possible tags for emotions are <Angry>, <Surprised>, <Disgusted>, <Happy>, <Fearful>, <Sad>, and if there is no emotions in a segment use <Neutral>. For each emotion additionally tag it with a suffix -Start and -End. Each -Start must have a corresponding -End or the example is invalid. Here are in-context examples to learn from:
 
-{raw_string}
+#Some examples:
 
-ONLY output exactly ten additional unique examples using this format and using ONLY 1-3 emotion tags of <Angry>, <Surprised>, <Disgusted>, <Happy>, <Fearful>, <Sad> per sentence.   [/INST]"
-'''
+#{raw_string}
+
+#ONLY output exactly ten additional unique examples using this format and using ONLY 1-3 emotion tags of <Angry>, <Surprised>, <Disgusted>, <Happy>, <Fearful>, <Sad> per sentence.   [/INST]"
+#'''
 
     raw_data.append(raw_text)
 
@@ -180,7 +192,9 @@ ONLY output exactly ten additional unique examples using this format and using O
     # print("----------")
     time.sleep(2)
 
-with open("data/data_final.json", "w") as json_file:
+
+with open("data/data_new.json", "w") as json_file:
     json.dump(data_file, json_file, indent=4)
+
 
 print("done")
