@@ -7,9 +7,12 @@ import json
 import requests
 import time
 
+from data import EMOTION_IDX
+
 
 def parse_text(text):
     print("Parsing...")
+    num_bad = 0
     lines = text.strip().split("\n")
 
     # Concatenate the lines to get each sentence in one row
@@ -26,7 +29,7 @@ def parse_text(text):
             sentence_text = line.split("Sentence")[1].split(":")[1].strip()
             cur_sentence = sentence_text
             sentence_emotion_dict[cur_sentence] = []
-            raw_text.append(line) # problem: it appends sentence and emotion even though emotion is improperlty formatted and hsould not be added to raw text
+            raw_text.append(line)
             print(line)
 
         if "Emotion" in line:
@@ -37,18 +40,26 @@ def parse_text(text):
 
             for pair in pairings:
                 emotion = pair[1]
-                emotion_text = pair[2]
-                sentence_emotion_dict[cur_sentence].append((emotion_text, emotion))
+                emotion_label = pair[2]
+                if emotion_label.upper() not in EMOTION_IDX:
+                    print(f"emotion BAD: {emotion_label}")
+                    raw_text.pop(-1)
+                    print("Bad removed, go to next line")
+                    num_bad += 1
+                    continue
+                sentence_emotion_dict[cur_sentence].append((emotion_label, emotion))
 
             annotated_concat_sentence = ''.join(item[1] for item in sentence_emotion_dict[cur_sentence])
             if cur_sentence != annotated_concat_sentence:
-                print("REMOVE BATCH")
-                return None, None
-                # raw_text.pop(-1)
-                # continue
+                raw_text.pop(-1)
+                num_bad += 1
+                print("Bad removed, go to next line")
+                continue
             raw_text.append(line)
 
                 # if segments dont add up to the exact sentence then continue and trash the batch
+    if num_bad >= 5:
+        return None, None
     print("------")
     return sentence_emotion_dict, raw_text
 
@@ -127,7 +138,8 @@ for batch_num in range(10):
         "Authorization": "Bearer f02ad1986b51f7b84aac3379ccbf23f9ae555caf720003d7c322ad32cda12531",
     })
 
-    num_iters += 1;
+    num_iters += 1
+    print("request to llama made")
 
     data = res.json()
     # Extract text from the choices
