@@ -101,8 +101,9 @@ Emotions: <Happy-Start>The pizza was delicious<Happy-End><Sad-Start>, but it gav
 Sentence: I'm so done with this project... it's taking forever, but I'm close to being done and I have to admit that I'm kind of excited to see the final result.
 Emotions: <Angry-Start>I'm so done with this project... it's taking forever<Angry-End><Neutral-Start>, but I'm close to being done<Neutral-End><Happy-Start> and I have to admit that I'm kind of excited to see the final result.<Happy-End>
 
-Sentence: I can't believe I found a cockroach in the shower... it totally grossed me out.
-Emotions: <Surprise-Start> I can't believe I found a cockroach in the shower<Surprise-End><Disgust-Start... it totally grossed me out.<Disgust-End>
+Sentence: I can't believe I found a cockroach in the shower... it totally grossed me out and now I have to move it!
+Emotions: <Surprise-Start> I can't believe I found a cockroach in the shower<Surprise-End><Disgust-Start>... it totally grossed me out<Disgust-End><Angry-Start> and now I have to move it!<Angry-End>
+
 
 ONLY output exactly ten additional unique examples using this format and using ONLY 1-3 emotion tags of <Angry>, <Surprised>, <Disgusted>, <Happy>, <Fearful>, <Sad> per sentence.   [/INST]"
 '''
@@ -179,7 +180,7 @@ ONLY output exactly ten additional unique examples using this format and using O
     # print("----------")
     time.sleep(2)
 
-with open("data/data_final.json", "a") as json_file:
+with open("data/data_final.json", "w") as json_file:
     json.dump(data_file, json_file, indent=4)
 
 print("done")
