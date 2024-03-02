@@ -116,7 +116,7 @@ def inference(config, dataset, device="cuda"):
 
     for i in tqdm(range(len(dataset))):
         sample = dataset[i]
-        gt_data[str(i)] = dataset.dataset.data[dataset.indices[i]]
+        gt_data[str(i)] = dataset.dataset.data[str(dataset.indices[i])]
 
         # get data from batch (dictionary)
         embs = sample["embeddings"].float()
