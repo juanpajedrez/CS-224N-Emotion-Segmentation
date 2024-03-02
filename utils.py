@@ -48,7 +48,6 @@ def process_data_json(input_path, output_path):
             if cur_segment != sentence[:len(cur_segment)]:
                 pattern = r'(?<=concat_segments).*?(?=seg["Segment"])'
                 try:
-                    breakpoint()
                     match = re.findall(pattern, sentence)[0]
                 except:
                     continue
