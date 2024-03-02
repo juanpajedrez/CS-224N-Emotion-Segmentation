@@ -18,8 +18,8 @@ class EmotionDataset(Dataset):
         with open(self.params['train_filepath']) as f:
             self.data = json.load(f)
 
-        self.tokenizer = BertTokenizer.from_pretrained('bert-base-cased')
-        self.model = BertModel.from_pretrained('bert-base-cased')
+        self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+        self.model = BertModel.from_pretrained('bert-base-uncased')
         self.model.to(device)
         self.device = device
 
