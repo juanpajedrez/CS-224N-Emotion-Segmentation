@@ -173,5 +173,4 @@ def inference(config, dataset, device="cuda"):
 
 @torch.no_grad()          
 def run_validation(dataset, model):
-
-
+    pass
