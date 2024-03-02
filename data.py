@@ -20,10 +20,10 @@ class EmotionDataset(Dataset):
 
         self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
         self.model = BertModel.from_pretrained('bert-base-uncased')
+        self.model.to("cuda")
 
     def __len__(self):
         return len(self.data)
-
 
     def __getitem__(self, idx):
 
@@ -35,7 +35,9 @@ class EmotionDataset(Dataset):
 
         for  seg in segments:
             tokenized_seg = self.tokenizer(seg["Segment"], return_tensors = "pt")
-            segments_tokenized.append(np.array(tokenized_seg["input_ids"]).reshape((-1,)))
+            np_tokenized_seg = np.array(tokenized_seg["input_ids"])
+            segments_tokenized.append(np_tokenized_seg.reshape((-1,)))
+            tokenized_seg.to("cuda")
             outputs = self.model(**tokenized_seg)
             embeddings = outputs.last_hidden_state[0]
             segments_embedded.append(embeddings)
@@ -62,7 +64,7 @@ class collate_fn:
     def __init__(self, pack_seq=False, batch_first=True):
         self.pack_seq = pack_seq
         self.batch_first = batch_first
-    
+
     def __call__(self, batch):
         length_list = []
         emb_list = []
@@ -87,11 +89,9 @@ class collate_fn:
 
         return proc_batch
 
-
-
-# if __name__ == "__main__":    
-#     data_path = os.path.join("./data", "dummy.json")
-
-#     params_test = {"dataset": {"train_filepath": data_path, "use_start_end": True}}
-#     emotion_dataset = EmotionDataset(params=params_test) 
-#     breakpoint()
+#if __name__ == "__main__":    
+#    data_path = os.path.join("./data", "dummy.json")
+#
+#    params_test = {"data": {"train_filepath": data_path, "use_start_end": True}}
+#    emotion_dataset = EmotionDataset(params=params_test) 
+#    breakpoint()
