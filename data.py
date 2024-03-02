@@ -7,7 +7,7 @@ from transformers import BertTokenizer, BertModel
 from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence
 
 # define class indices for task here
-EMOTION_IDX = {"SAD": 0, "HAPPY": 1, "ANGER": 2, "SURPRISE": 3, "DISGUST": 4}
+EMOTION_IDX = {"ANGRY": 0, "SURPRISED": 1, "DISGUSTED": 2, "HAPPY": 3, "FEARFUL": 4, "SAD": 5, "NEUTRAL": 6}
 
 class EmotionDataset(Dataset):
 
