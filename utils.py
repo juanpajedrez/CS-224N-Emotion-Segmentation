@@ -171,5 +171,7 @@ def inference(config, dataset, device="cuda"):
         json.dump(data, f, indent=4)
 
 
-            
+@torch.no_grad()          
+def run_validation(dataset, model):
+
 

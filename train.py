@@ -23,6 +23,10 @@ def train(config):
                 pack_seq=config["data"]["pack_seq"], batch_first=config["data"]["batch_first"], \
                 device=device)
     
+    val_dataset, _ = utils.create_dataloader(config, split="val", \
+                pack_seq=config["data"]["pack_seq"], batch_first=config["data"]["batch_first"], \
+                device=device)
+    
     # define number of classes
     if config["data"]["use_start_end"]:
         n_classes = 3 * len(EMOTION_IDX)
@@ -94,9 +98,9 @@ def train(config):
                 print("Iteration %d, loss %.3f" % (num_iters, loss.item()))
 
             
-            # if num_iters % config["logging"]["val_freq"] == 0:
-            #     # TODO: run validation code
-            #     pass
+            if num_iters % config["logging"]["val_freq"] == 0:
+                # TODO: run validation code
+                pass
 
             if num_iters % config["logging"]["save_freq"] == 0:
                 utils.save_state(config, model, optimizer, run_name, num_iters)

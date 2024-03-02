@@ -10,6 +10,8 @@ unique_entries = {}
 # Iterate over entries and keep only unique ones
 for key, entry in data.items():
     sentence = entry['full sentence']
+    if entry["num_segments"] == 0:
+        continue
     if sentence not in [e for e in unique_entries.values()]:
         entry['full sentence'] = re.sub(r'[^\w\s]', '', sentence)
         # Expand contractions using the contractions library
