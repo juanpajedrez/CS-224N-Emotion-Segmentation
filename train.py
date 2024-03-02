@@ -9,7 +9,7 @@ from models import lstm, regression
 from torch.utils.tensorboard import SummaryWriter
 from datetime import datetime
 import yaml
-from data import EMOTION_IDX
+from data import EMOTION_IDX, EmotionDataset
 
 
 if torch.cuda.is_available():
@@ -19,8 +19,9 @@ else:
 
 def train(config):
 
-    train_loader = utils.create_dataloader(config, split="train", \
-                pack_seq=config["data"]["pack_seq"], batch_first=config["data"]["batch_first"])
+    _, train_loader = utils.create_dataloader(config, split="train", \
+                pack_seq=config["data"]["pack_seq"], batch_first=config["data"]["batch_first"], \
+                device=device)
     
     # define number of classes
     if config["data"]["use_start_end"]:
@@ -117,8 +118,10 @@ if __name__=="__main__":
     if args.train:
         train(config)
     elif args.test:
-        pass
-        # call code to test provided model on test data
+        dataset, _ = utils.create_dataloader(config, split="test", \
+                    pack_seq=config["data"]["pack_seq"], batch_first=config["data"]["batch_first"], \
+                    device=device)
+        utils.inference(config, dataset, device=device)
 
     
 

@@ -12,15 +12,16 @@ IDX_2_EMOTION = {0: "ANGRY", 1: "SURPRISED", 2: "DISGUSTED", 3: "HAPPY", 4: "FEA
 
 class EmotionDataset(Dataset):
 
-    def __init__(self, params):
+    def __init__(self, params, device="cuda"):
         super().__init__()
         self.params = params["data"]
         with open(self.params['train_filepath']) as f:
             self.data = json.load(f)
 
-        self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        self.model = BertModel.from_pretrained('bert-base-uncased')
-        self.model.to("cuda")
+        self.tokenizer = BertTokenizer.from_pretrained('bert-base-cased')
+        self.model = BertModel.from_pretrained('bert-base-cased')
+        self.model.to(device)
+        self.device = device
 
     def __len__(self):
         return len(self.data)
@@ -37,7 +38,7 @@ class EmotionDataset(Dataset):
             tokenized_seg = self.tokenizer(seg["Segment"], return_tensors = "pt")
             np_tokenized_seg = np.array(tokenized_seg["input_ids"])
             segments_tokenized.append(np_tokenized_seg.reshape((-1,)))
-            tokenized_seg.to("cuda")
+            tokenized_seg.to(self.device)
             outputs = self.model(**tokenized_seg)
             embeddings = outputs.last_hidden_state[0]
             segments_embedded.append(embeddings)
