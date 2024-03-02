@@ -89,10 +89,3 @@ class collate_fn:
         }
 
         return proc_batch
-
-#if __name__ == "__main__":    
-#    data_path = os.path.join("./data", "dummy.json")
-#
-#    params_test = {"data": {"train_filepath": data_path, "use_start_end": True}}
-#    emotion_dataset = EmotionDataset(params=params_test) 
-#    breakpoint()

@@ -16,7 +16,7 @@ def create_dataloader(args, split, pack_seq=False, batch_first=True, device="cud
 
     dataset = EmotionDataset(args, device=device)
     generator = torch.Generator().manual_seed(42)
-    train_dataset, val_dataset, test_dataset = torch.utils.data.random_split(dataset, [0.70, 0.10, 0.20], \
+    train_dataset, val_dataset, test_dataset = torch.utils.data.random_split(dataset, [0.75, 0.05, 0.20], \
                                                                              generator=generator)
     if split == "train":
         dataset = train_dataset
