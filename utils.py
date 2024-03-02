@@ -85,6 +85,7 @@ def process_data_json(input_path, output_path):
 
 
 def inference(config, dataset, device="cuda"):
+    print("running inference!")
 
     if config["data"]["use_start_end"]:
         n_classes = 3 * len(EMOTION_IDX)
@@ -111,7 +112,7 @@ def inference(config, dataset, device="cuda"):
     
     tokenizer = dataset.dataset.tokenizer # dataset is a subset object
 
-    for i in range(len(dataset)):
+    for i in tqdm(range(len(dataset))):
         sample = dataset[i]
 
         # get data from batch (dictionary)
