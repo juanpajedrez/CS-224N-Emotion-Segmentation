@@ -8,14 +8,27 @@ import re
 from models import regression
 from transformers import BertTokenizer, BertModel
 
-def create_dataloader(args, split, pack_seq=False, batch_first=True):
+BERT_IGNORE_TOKENS = [101, 102] # 101 is [CLS] and 102 is [SEP] for BERT
+
+def create_dataloader(args, split, pack_seq=False, batch_first=True, device="cuda"):
     # pack_seq: to pack sequence in collate function, batch_first by default
 
-    # TODO: support splitting of dataset into train/val/test
-    dataset = EmotionDataset(args)
+    dataset = EmotionDataset(args, device=device)
+    generator = torch.Generator().manual_seed(42)
+    train_dataset, val_dataset, test_dataset = torch.utils.data.random_split(dataset, [0.70, 0.10, 0.20], \
+                                                                             generator=generator)
+    if split == "train":
+        dataset = train_dataset
+    elif split == "val":
+        dataset = val_dataset
+    elif split == "test":
+        dataset = test_dataset
+    else:
+        raise ValueError("Invalid split %s for creating dataset" % (split))
+
     dataloader = DataLoader(dataset, batch_size=args["training"]["batch_size"], shuffle=True, \
                     collate_fn=collate_fn(pack_seq=pack_seq, batch_first=batch_first))
-    return dataloader
+    return dataset, dataloader
 
 
 def save_state(args, model, optimizer, run_name, num_iters):
@@ -85,15 +98,16 @@ def inference(config, dataset, device="cuda"):
         raise NotImplementedError("Implementation not complete yet")
         model = lstm.LSTM(config)
     
-    ckpt = torch.load(config["inference"]["checkpoint"])
-    model.load_state_dict(ckpt["model_state_dict"])
+    if config["inference"]["checkpoint"] is not None:
+        ckpt = torch.load(config["inference"]["checkpoint"])
+        model.load_state_dict(ckpt["model_state_dict"])
+    else:
+        print("Warning: no checkpoint loaded")
 
     model = model.to(device)
     model.eval()
-
-    # define hugging face models for getting word vectors
-    tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-    bert_model = BertModel.from_pretrained('bert-base-uncased')
+    
+    tokenizer = dataset.dataset.tokenizer # dataset is a subset object
 
     for i in range(len(dataset)):
         sample = dataset[i]
@@ -115,33 +129,42 @@ def inference(config, dataset, device="cuda"):
         segments = []
         emotions = []
         if config["data"]["use_start_end"]:
-            pass
+            raise NotImplementedError("Need to implement inference when predicting middle token")
         else:
             pred_classes = torch.argmax(outputs, dim=1)
-            seg = [tokens[0]]
+            seg = [tokens[0].cpu().item()]
             emt = IDX_2_EMOTION[pred_classes[0].cpu().item()]
-            for j in range(1, lengths[0]):
+            for j in range(1, lengths):
                 if pred_classes[j] == pred_classes[j - 1]:
-                    seg.append(tokens[j])
+                    seg.append(tokens[j].cpu().item())
                 else:
                     segments.append(seg)
                     emotions.append(emt)
-                    seg = [tokens[j]]
+                    seg = [tokens[j].cpu().item()]
                     emt = IDX_2_EMOTION[pred_classes[j].cpu().item()]
+            segments.append(seg)
+            emotions.append(emt)
         
-        # decode tokens
-        words = tokenizer.convert_ids_to_tokens(segments)
+            # decode tokens
+            words = []
+            ft_emotions = []
+            for seg, emt in zip(segments, emotions):
+                filtered_seg = [x for x in seg if x not in BERT_IGNORE_TOKENS]
+                if len(filtered_seg) == 0:
+                    continue
+                decoded_seg = tokenizer.convert_ids_to_tokens(filtered_seg)
+                words.append(" ".join(decoded_seg))
+                ft_emotions.append(emt)
 
-        data[str(i)] = {
-            "num_segments": len(segments),
-            "segments": [
-                {"Segment": words[s], "Emotion": emotions[s]} for s in range(len(segments))
-            ]
-        }
+            data[str(i)] = {
+                "num_segments": len(segments),
+                "segments": [
+                    {"Segment": words[s], "Emotion": ft_emotions[s]} for s in range(len(words))
+                ]
+            }
 
-        with open(config["inference"]["output_file"]) as f:
-            json.dump(data, f)
-
+    with open(config["inference"]["output_file"]) as f:
+        json.dump(data, f)
 
 
             
