@@ -43,8 +43,9 @@ def parse_text(text):
             annotated_concat_sentence = ''.join(item[1] for item in sentence_emotion_dict[cur_sentence])
             if cur_sentence != annotated_concat_sentence:
                 print("REMOVE BATCH")
-                raw_text.pop(-1)
-                continue
+                return None, None
+                # raw_text.pop(-1)
+                # continue
             raw_text.append(line)
 
                 # if segments dont add up to the exact sentence then continue and trash the batch
@@ -138,10 +139,11 @@ for batch_num in range(10):
         fout.close()
 
     try:
-
         sentence_emotion_dict, raw_text = parse_text(text)
-
     except:
+        continue
+
+    if sentence_emotion_dict == None:
         continue
 
     if len(raw_text) != 0:
