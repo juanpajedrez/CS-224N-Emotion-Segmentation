@@ -46,12 +46,15 @@ def process_data_json(input_path, output_path):
 
             cur_segment = concat_segments + seg["Segment"]
             if cur_segment != sentence[:len(cur_segment)]:
-                pattern = r'(?<=START).*?(?=END)'
-                match = re.findall(pattern, text)
-                seg['segment'] = sentence[len(concat_segments):]
+                pattern = r'(?<=concat_segments).*?(?=seg["Segment"])'
+                try:
+                    breakpoint()
+                    match = re.findall(pattern, sentence)[0]
+                except:
+                    continue
+                seg['segment'] = match + seg["Segment"]
 
             concat_segments += seg["Segment"]
-
 
         if concat_segments != sentence:
             keep_sample = False
@@ -62,7 +65,3 @@ def process_data_json(input_path, output_path):
 
     with open(output_path, 'w') as f:
         json.dump(proc_data, f, indent=4)
-
-
-# if __name__=="__main__":
-#     process_data_json("./data/0229_formatted.json", "./data/0229_formatted_proc.json")
