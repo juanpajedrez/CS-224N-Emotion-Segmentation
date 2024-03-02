@@ -196,7 +196,7 @@ def run_validation(val_loader, model, loss_fn, device='cuda'):
         loss = loss_fn(preds.permute(0, 2, 1), labels)
         loss = torch.sum(loss_mask * loss)
 
-        running_loss += torch.sum(loss_mask * loss).cpu().item()
+        running_loss += loss.cpu().item()
         num_items += torch.sum(loss_mask).cpu().item()
 
     avg_loss = running_loss / num_items
