@@ -13,13 +13,14 @@ for key, entry in data.items():
     if entry["num_segments"] == 0:
         continue
     if sentence not in [e for e in unique_entries.values()]:
-        entry['full sentence'] = re.sub(r'[^\w\s]', '', sentence)
         # Expand contractions using the contractions library
         entry['full sentence'] = contractions.fix(entry['full sentence'], slang=False)
+        # remove punctuation after contraction
+        entry['full sentence'] = re.sub(r'[^\w\s]', '', entry['full sentence'])
         unique_entries[key] = entry
         for example in entry['segments']:
-            example['Segment'] = re.sub(r'[^\w\s]', '', example['Segment'])
             example['Segment'] = contractions.fix(example['Segment'], slang=False)
+            example['Segment'] = re.sub(r'[^\w\s]', '', example['Segment'])
 
 
 # Write the unique entries back to a new JSON file with updated indices
