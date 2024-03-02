@@ -23,7 +23,6 @@ class EmotionDataset(Dataset):
     def __len__(self):
         return len(self.data)
 
-
     def __getitem__(self, idx):
 
         file_metadata = self.data[str(idx)]
@@ -61,7 +60,7 @@ class collate_fn:
     def __init__(self, pack_seq=False, batch_first=True):
         self.pack_seq = pack_seq
         self.batch_first = batch_first
-    
+
     def __call__(self, batch):
         length_list = []
         emb_list = []
@@ -86,11 +85,9 @@ class collate_fn:
 
         return proc_batch
 
-
-
-# if __name__ == "__main__":    
-#     data_path = os.path.join("./data", "dummy.json")
-
-#     params_test = {"dataset": {"train_filepath": data_path, "use_start_end": True}}
-#     emotion_dataset = EmotionDataset(params=params_test) 
-#     breakpoint()
+#if __name__ == "__main__":    
+#    data_path = os.path.join("./data", "dummy.json")
+#
+#    params_test = {"data": {"train_filepath": data_path, "use_start_end": True}}
+#    emotion_dataset = EmotionDataset(params=params_test) 
+#    breakpoint()
