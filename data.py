@@ -8,6 +8,7 @@ from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence
 
 # define class indices for task here
 EMOTION_IDX = {"ANGRY": 0, "SURPRISED": 1, "DISGUSTED": 2, "HAPPY": 3, "FEARFUL": 4, "SAD": 5, "NEUTRAL": 6}
+IDX_2_EMOTION = {0: "ANGRY", 1: "SURPRISED", 2: "DISGUSTED", 3: "HAPPY", 4: "FEARFUL", 5: "SAD", 6: "NEUTRAL"}
 
 class EmotionDataset(Dataset):
 
