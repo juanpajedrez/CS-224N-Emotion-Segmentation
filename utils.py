@@ -9,6 +9,7 @@ from models import regression
 from transformers import BertTokenizer, BertModel
 
 BERT_IGNORE_TOKENS = [101, 102] # 101 is [CLS] and 102 is [SEP] for BERT
+BERT_APOSTROPHE_TOKEN = 112
 
 def create_dataloader(args, split, pack_seq=False, batch_first=True, device="cuda"):
     # pack_seq: to pack sequence in collate function, batch_first by default
@@ -146,25 +147,28 @@ def inference(config, dataset, device="cuda"):
             emotions.append(emt)
         
             # decode tokens
+            # WARNING: decoding doesn't preserve original sentence
             words = []
             ft_emotions = []
             for seg, emt in zip(segments, emotions):
                 filtered_seg = [x for x in seg if x not in BERT_IGNORE_TOKENS]
                 if len(filtered_seg) == 0:
                     continue
-                decoded_seg = tokenizer.convert_ids_to_tokens(filtered_seg)
-                words.append(" ".join(decoded_seg))
+                # decoded_seg = tokenizer.convert_ids_to_tokens(filtered_seg)
+                # words.append(" ".join(decoded_seg))
+                decoded_seg = tokenizer.decode(filtered_seg)
+                words.append(decoded_seg)
                 ft_emotions.append(emt)
 
             data[str(i)] = {
-                "num_segments": len(segments),
+                "num_segments": len(words),
                 "segments": [
                     {"Segment": words[s], "Emotion": ft_emotions[s]} for s in range(len(words))
                 ]
             }
 
-    with open(config["inference"]["output_file"]) as f:
-        json.dump(data, f)
+    with open(config["inference"]["output_file"], 'w') as f:
+        json.dump(data, f, indent=4)
 
 
             
