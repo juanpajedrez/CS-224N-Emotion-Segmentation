@@ -79,7 +79,8 @@ def train(config):
             preds = model(embs)
 
             loss_mask = (labels < 0).float()
-            loss = loss_fn(preds, labels)
+            labels[labels < 0] = 0
+            loss = loss_fn(preds.permute(0, 2, 1), labels)
             loss = torch.sum(loss_mask * loss) / torch.sum(loss_mask)
 
             optimizer.zero_grad()
@@ -87,20 +88,20 @@ def train(config):
             optimizer.step()
 
             num_iters += 1
-            if num_iters % config["log_freq"] == 0:
+            if num_iters % config["logging"]["log_freq"] == 0:
                 writer.add_scalar("Loss/train", loss.item(), num_iters)
                 print("Iteration %d, loss %.3f" % (num_iters, loss.item()))
 
             
-            # if num_iters % config["val_freq"] == 0:
+            # if num_iters % config["logging"]["val_freq"] == 0:
             #     # TODO: run validation code
             #     pass
 
-            if num_iters % config["save_freq"] == 0:
+            if num_iters % config["logging"]["save_freq"] == 0:
                 utils.save_state(config, model, optimizer, run_name, num_iters)
 
     # save at end of training
-    if num_iters % config["save_freq"] == 0:
+    if num_iters % config["logging"]["save_freq"] == 0:
         utils.save_state(config, model, optimizer, run_name, num_iters)
 
 
