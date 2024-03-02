@@ -7,6 +7,7 @@ import json
 import re
 from models import regression
 from transformers import BertTokenizer, BertModel
+from tqdm import tqdm
 
 BERT_IGNORE_TOKENS = [101, 102] # 101 is [CLS] and 102 is [SEP] for BERT
 BERT_APOSTROPHE_TOKEN = 112
@@ -38,9 +39,9 @@ def save_state(args, model, optimizer, run_name, num_iters):
     save_dict['optim_state_dict'] = optimizer.state_dict()
     save_dict['model_state_dict'] = model.state_dict()
     save_dict['run_name'] = run_name
-    save_path = os.path.join(args["logging"]["ckpt_dir"], args["model_name"], run_name, 'iter%d.pt' % (num_iters))
+    save_path = os.path.join(args["logging"]["ckpt_dir"], args["model_name"], run_name)
     os.makedirs(save_path, exist_ok=True)
-    torch.save(save_dict, save_path)
+    torch.save(save_dict, os.path.join(save_path, 'iter%d.pt' % (num_iters)))
 
 
 def process_data_json(input_path, output_path):
@@ -172,5 +173,30 @@ def inference(config, dataset, device="cuda"):
 
 
 @torch.no_grad()          
-def run_validation(dataset, model):
-    pass
+def run_validation(val_loader, model, loss_fn, device='cuda'):
+    running_loss = 0.0
+    num_items = 0.0
+    for i, batch in tqdm(enumerate(val_loader)):
+        # get data from batch (dictionary)
+        embs = batch["embeddings"].float()
+        lengths = batch["num_tokens"].to(torch.long)
+        labels = batch["labels"].to(torch.long)
+
+        # move to device
+        embs = embs.to(device)
+        lengths = lengths.to(device)
+        labels = labels.to(device)
+
+        # model predictions
+        preds = model(embs)
+
+        loss_mask = (labels > 0).float()
+        labels[labels < 0] = 0
+        loss = loss_fn(preds.permute(0, 2, 1), labels)
+        loss = torch.sum(loss_mask * loss)
+
+        running_loss += torch.sum(loss_mask * loss).cpu().item()
+        num_items += torch.sum(loss_mask).cpu().item()
+
+    avg_loss = running_loss / num_items
+    return avg_loss

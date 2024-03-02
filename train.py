@@ -23,7 +23,7 @@ def train(config):
                 pack_seq=config["data"]["pack_seq"], batch_first=config["data"]["batch_first"], \
                 device=device)
     
-    val_dataset, _ = utils.create_dataloader(config, split="val", \
+    _, val_loader = utils.create_dataloader(config, split="val", \
                 pack_seq=config["data"]["pack_seq"], batch_first=config["data"]["batch_first"], \
                 device=device)
     
@@ -99,8 +99,8 @@ def train(config):
 
             
             if num_iters % config["logging"]["val_freq"] == 0:
-                # TODO: run validation code
-                pass
+                val_loss = utils.run_validation(val_loader, model, loss_fn, device=device)
+                writer.add_scalar("Loss/val", val_loss, num_iters)
 
             if num_iters % config["logging"]["save_freq"] == 0:
                 utils.save_state(config, model, optimizer, run_name, num_iters)
