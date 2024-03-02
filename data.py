@@ -8,6 +8,7 @@ from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence
 
 # define class indices for task here
 EMOTION_IDX = {"ANGRY": 0, "SURPRISED": 1, "DISGUSTED": 2, "HAPPY": 3, "FEARFUL": 4, "SAD": 5, "NEUTRAL": 6}
+IDX_2_EMOTION = {0: "ANGRY", 1: "SURPRISED", 2: "DISGUSTED", 3: "HAPPY", 4: "FEARFUL", 5: "SAD", 6: "NEUTRAL"}
 
 class EmotionDataset(Dataset):
 
@@ -19,6 +20,7 @@ class EmotionDataset(Dataset):
 
         self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
         self.model = BertModel.from_pretrained('bert-base-uncased')
+        self.model.to("cuda")
 
     def __len__(self):
         return len(self.data)
@@ -33,7 +35,9 @@ class EmotionDataset(Dataset):
 
         for  seg in segments:
             tokenized_seg = self.tokenizer(seg["Segment"], return_tensors = "pt")
-            segments_tokenized.append(np.array(tokenized_seg["input_ids"]).reshape((-1,)))
+            np_tokenized_seg = np.array(tokenized_seg["input_ids"])
+            segments_tokenized.append(np_tokenized_seg.reshape((-1,)))
+            tokenized_seg.to("cuda")
             outputs = self.model(**tokenized_seg)
             embeddings = outputs.last_hidden_state[0]
             segments_embedded.append(embeddings)

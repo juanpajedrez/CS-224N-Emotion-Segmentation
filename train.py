@@ -78,7 +78,7 @@ def train(config):
             # model predictions
             preds = model(embs)
 
-            loss_mask = (labels < 0).float()
+            loss_mask = (labels > 0).float()
             labels[labels < 0] = 0
             loss = loss_fn(preds.permute(0, 2, 1), labels)
             loss = torch.sum(loss_mask * loss) / torch.sum(loss_mask)
