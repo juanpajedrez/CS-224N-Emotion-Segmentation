@@ -56,7 +56,7 @@ def train(config):
     writer = SummaryWriter()
 
     if config["training"]["restore_ckpt"] is not None:
-        ckpt = torch.load(config["restore_ckpt"])
+        ckpt = torch.load(config["training"]["restore_ckpt"], map_location=device)
         num_iters = ckpt['num_iters']
         model.load_state_dict(ckpt['model_state_dict'])
         optimizer.load_state_dict(ckpt['optim_state_dict'])
