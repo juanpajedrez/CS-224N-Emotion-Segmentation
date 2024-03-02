@@ -21,3 +21,4 @@ data:
   bert_dim: 768 # dimension of encoding from bert
 inference:
   output_file: "predictions.json"
+  checkpoint: "" # name of checkpoint to load for model

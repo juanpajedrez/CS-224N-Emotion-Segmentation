@@ -25,6 +25,7 @@ def save_state(args, model, optimizer, run_name, num_iters):
     save_dict['model_state_dict'] = model.state_dict()
     save_dict['run_name'] = run_name
     save_path = os.path.join(args["logging"]["ckpt_dir"], args["model_name"], run_name, 'iter%d.pt' % (num_iters))
+    os.makedirs(save_path, exist_ok=True)
     torch.save(save_dict, save_path)
 
 
@@ -83,6 +84,9 @@ def inference(config, dataset, device="cuda"):
     elif config["model_name"] == "lstm":
         raise NotImplementedError("Implementation not complete yet")
         model = lstm.LSTM(config)
+    
+    ckpt = torch.load(config["inference"]["checkpoint"])
+    model.load_state_dict(ckpt["model_state_dict"])
 
     model = model.to(device)
     model.eval()
