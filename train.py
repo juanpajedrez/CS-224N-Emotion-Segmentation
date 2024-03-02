@@ -41,6 +41,7 @@ def train(config):
         model = lstm.LSTM(config)
 
     model = model.to(device)
+    model.train()
 
     # define loss function
     if config["training"]["loss_fn"] == "crossentropy":
@@ -97,9 +98,10 @@ def train(config):
                 writer.add_scalar("Loss/train", loss.item(), num_iters)
                 print("Iteration %d, loss %.3f" % (num_iters, loss.item()))
 
-            
             if num_iters % config["logging"]["val_freq"] == 0:
+                print("running validation...")
                 val_loss = utils.run_validation(val_loader, model, loss_fn, device=device)
+                print("Validation loss at iter %d: %.3f" % (num_iters, val_loss))
                 writer.add_scalar("Loss/val", val_loss, num_iters)
 
             if num_iters % config["logging"]["save_freq"] == 0:

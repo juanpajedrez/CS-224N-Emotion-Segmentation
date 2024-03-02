@@ -174,6 +174,7 @@ def inference(config, dataset, device="cuda"):
 
 @torch.no_grad()          
 def run_validation(val_loader, model, loss_fn, device='cuda'):
+    model.eval()
     running_loss = 0.0
     num_items = 0.0
     for i, batch in tqdm(enumerate(val_loader)):
@@ -199,4 +200,5 @@ def run_validation(val_loader, model, loss_fn, device='cuda'):
         num_items += torch.sum(loss_mask).cpu().item()
 
     avg_loss = running_loss / num_items
+    model.train()
     return avg_loss
