@@ -23,4 +23,5 @@ data:
   bert_dim: 768 # dimension of encoding from bert
 inference:
   output_file: "predictions_0302_regression_lr=1e-2_sgd.json"
-  checkpoint: null # name of checkpoint to load for model
+  gt_json: "test_gt.json" # name of gt json file
+  checkpoint: "./ckpts/regression/0302_regression_lr=1e-2_sgd/iter5000.pt"

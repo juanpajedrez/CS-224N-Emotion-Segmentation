@@ -1,6 +1,7 @@
 import os
 import json
 import numpy as np
+import pprint
 
 class EvaluationCode:
     """
@@ -44,6 +45,7 @@ class EvaluationCode:
         iou_list_matched = []
         num_correct_emotions_in_matched = 0
         num_pred_segments = 0
+        iou_emotions_total = []
         for file in self.ref_json:
             
             #Obtain the metadata of ref and pred json files
@@ -61,6 +63,13 @@ class EvaluationCode:
             ref_segments = ref_segment_metadata["segments"]
             pred_segments = pred_segment_metadata["segments"]
 
+            #Obtain all emotions from ref_segments
+            emotions_ref_segments =  [x["Emotion"].upper() for x in ref_segments]
+            emotions_pred_segments = [x["Emotion"] for x in pred_segments]
+
+            #Calculate the Iou between emotions_ref_segments and emotions_pred_segments
+            iou_emotions_total.append(self._calculate_iou(np.array(emotions_ref_segments), np.array(emotions_pred_segments)))
+            
             #Iterate through ref and pred segments
             ref_idx_start = 0
             used_preds = set()
@@ -115,15 +124,15 @@ class EvaluationCode:
                     iou_list_total.append(tmp_ious_compare[max_iou_index])
                     iou_list_matched.append(tmp_ious_compare[max_iou_index])
 
-                if ref_seg["Emotion"] == pred_segments[max_iou_index]["Emotion"]:
+                if ref_seg["Emotion"].upper() == pred_segments[max_iou_index]["Emotion"]:
                     num_correct_emotions_in_matched += 1
-        
         #Create two distionaries of data, reference and matched
         eval_metrics_total = {
             "num_gt_segments": num_gt_segments,
             "IoU_total": np.mean(np.array(iou_list_total)),
             "IoU_matched": np.mean(np.array(iou_list_matched)),
-            "emotion_accuracy": num_correct_emotions_in_matched / num_gt_segments,
+            "IoU_total_emotions": np.mean(np.array(iou_emotions_total)),
+            "emotion_accuracy_matched": num_correct_emotions_in_matched / num_gt_segments,
             "segmentation_recall": num_matched_segments / num_gt_segments,
             "segmentation_precision": num_matched_segments / num_pred_segments
         }
@@ -167,3 +176,15 @@ class EvaluationCode:
         iou = len(intersection) / len(union)
         
         return iou
+
+if __name__ == "__main__":
+
+    #Create the data path to the files
+    predicted_path = os.path.join(os.path.dirname(__file__), "predictions_0302_regression_lr=1e-2_sgd.json")
+    ground_truth_path = os.path.join(os.path.dirname(__file__), "test_gt.json")
+
+    #Create eval compiler
+    eval_compiler = EvaluationCode(pred_path=predicted_path, ref_path=ground_truth_path)
+    eval_metrics = eval_compiler.execute()
+
+    pprint.pprint(eval_metrics)
