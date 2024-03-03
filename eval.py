@@ -115,7 +115,7 @@ class EvaluationCode:
 
                 if len(tmp_ious_compare) == 0 or tmp_ious_compare[max_iou_index] < 0.5:
                     no_match = True
-                    iou_list_total.append(0)
+                    iou_list_total.append(tmp_ious_compare[max_iou_index])
                     continue
                 else:
                     no_match = False
@@ -180,7 +180,7 @@ class EvaluationCode:
 if __name__ == "__main__":
 
     #Create the data path to the files
-    predicted_path = os.path.join(os.path.dirname(__file__), "predictions_0302_regression_lr=1e-2_sgd.json")
+    predicted_path = os.path.join(os.path.dirname(__file__), "predictions_0302_regression_lr=1e-3_adam.json")
     ground_truth_path = os.path.join(os.path.dirname(__file__), "test_gt.json")
 
     #Create eval compiler
