@@ -166,6 +166,9 @@ def inference(config, dataset, device="cuda"):
                 decoded_seg = tokenizer.decode(filtered_seg)
                 words.append(decoded_seg)
                 ft_emotions.append(emt)
+                # if len(words) > 1 and len(words[-1]) >= 2 and words[-1][:2] != "##":
+                #     words[-1] = " " + words[-1]
+                words[-1] = words[-1].replace("##", "")
 
             data[str(i)] = {
                 "num_segments": len(words),
