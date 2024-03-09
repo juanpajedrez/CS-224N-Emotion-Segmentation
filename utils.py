@@ -8,6 +8,8 @@ import re
 from models import  lstm, regression
 from transformers import BertTokenizer, BertModel
 from tqdm import tqdm
+from torch.nn.utils.rnn import PackedSequence, pad_packed_sequence
+
 
 BERT_IGNORE_TOKENS = [101, 102] # 101 is [CLS] and 102 is [SEP] for BERT
 BERT_APOSTROPHE_TOKEN = 112
@@ -180,7 +182,7 @@ def inference(config, dataset, device="cuda"):
             json.dump(gt_data, f, indent=4)
 
 @torch.no_grad()          
-def run_validation(val_loader, model, loss_fn, device='cuda'):
+def run_validation(val_loader, model, loss_fn, config, device='cuda'):
     model.eval()
     running_loss = 0.0
     num_items = 0.0
@@ -197,6 +199,14 @@ def run_validation(val_loader, model, loss_fn, device='cuda'):
 
         # model predictions
         preds = model(embs)
+
+        #Check if tehy are packed sequences, return just data
+        if isinstance(embs, PackedSequence):
+            embs, __ = pad_packed_sequence(embs, batch_first=config["data"]["batch_first"])
+        if isinstance(lengths, PackedSequence):
+            lengths, __ = pad_packed_sequence(lengths, batch_first=config["data"]["batch_first"])
+        if isinstance(labels, PackedSequence):
+            labels, ___ = pad_packed_sequence(labels, batch_first=config["data"]["batch_first"])
 
         loss_mask = (labels > 0).float()
         labels[labels < 0] = 0

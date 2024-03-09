@@ -120,7 +120,7 @@ def train(config):
 
             if num_iters % config["logging"]["val_freq"] == 0:
                 print("running validation...")
-                val_loss = utils.run_validation(val_loader, model, loss_fn, device=device)
+                val_loss = utils.run_validation(val_loader, model, loss_fn, config=config, device=device)
                 print("Validation loss at iter %d: %.3f" % (num_iters, val_loss))
                 writer.add_scalar("Loss/val", val_loss, num_iters)
 
