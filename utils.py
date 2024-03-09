@@ -5,7 +5,7 @@ import os
 from data import EmotionDataset, collate_fn, EMOTION_IDX, IDX_2_EMOTION
 import json
 import re
-from models import regression
+from models import  lstm, regression
 from transformers import BertTokenizer, BertModel
 from tqdm import tqdm
 
@@ -98,8 +98,7 @@ def inference(config, dataset, device="cuda"):
     if config["model_name"] == "regression":
         model = regression.Regression(input_dims=config["data"]["bert_dim"], n_classes=n_classes)
     elif config["model_name"] == "lstm":
-        raise NotImplementedError("Implementation not complete yet")
-        model = lstm.LSTM(config)
+        model =lstm.LSTMNetwork(input_dims=config["data"]["bert_dim"], n_classes=n_classes, device=device, batch_first=config["data"]["batch_first"])
     
     if config["inference"]["checkpoint"] is not None:
         ckpt = torch.load(config["inference"]["checkpoint"])

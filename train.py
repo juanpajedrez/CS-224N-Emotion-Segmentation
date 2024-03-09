@@ -10,6 +10,7 @@ from torch.utils.tensorboard import SummaryWriter
 from datetime import datetime
 import yaml
 from data import EMOTION_IDX, EmotionDataset
+from torch.nn.utils.rnn import PackedSequence, pad_packed_sequence
 
 
 if torch.cuda.is_available():
@@ -37,7 +38,7 @@ def train(config):
     if config["model_name"] == "regression":
         model = regression.Regression(input_dims=config["data"]["bert_dim"], n_classes=n_classes)
     elif config["model_name"] == "lstm":
-        model = lstm.LSTMNetwork(input_dims=config["data"]["bert_dim"], n_classes=n_classes, device=device)
+        model = lstm.LSTMNetwork(input_dims=config["data"]["bert_dim"], n_classes=n_classes, device=device, batch_first=config["data"]["batch_first"])
 
     model = model.to(device)
     model.train()
@@ -94,6 +95,14 @@ def train(config):
             # model predictions
             preds = model(embs)
 
+            #Check if tehy are packed sequences, return just data
+            if isinstance(embs, PackedSequence):
+                embs, __ = pad_packed_sequence(embs, batch_first=config["data"]["batch_first"])
+            if isinstance(lengths, PackedSequence):
+                lengths, __ = pad_packed_sequence(lengths, batch_first=config["data"]["batch_first"])
+            if isinstance(labels, PackedSequence):
+                labels, ___ = pad_packed_sequence(labels, batch_first=config["data"]["batch_first"])
+
             loss_mask = (labels > 0).float()
             labels[labels < 0] = 0
             loss = loss_fn(preds.permute(0, 2, 1), labels)
@@ -130,11 +139,11 @@ if __name__=="__main__":
     args = parser.parse_args()
 
     with open(args.config_file, 'r') as f:
-        config = yaml.safe_load(f)
+       config = yaml.safe_load(f)
     if args.train:
-        train(config)
+       train(config)
     elif args.test:
-        dataset, _ = utils.create_dataloader(config, split="test", \
-                    pack_seq=config["data"]["pack_seq"], batch_first=config["data"]["batch_first"], \
-                    device=device)
-        utils.inference(config, dataset, device=device)
+       dataset, _ = utils.create_dataloader(config, split="test", \
+                   pack_seq=config["data"]["pack_seq"], batch_first=config["data"]["batch_first"], \
+                   device=device)
+       utils.inference(config, dataset, device=device)

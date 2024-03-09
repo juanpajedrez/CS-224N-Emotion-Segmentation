@@ -77,9 +77,13 @@ class collate_fn:
         lengths = torch.stack(length_list)
         padded_embs = pad_sequence(emb_list, batch_first=self.batch_first, padding_value=0)
         padded_labels = pad_sequence(label_list, batch_first=self.batch_first, padding_value=-1)
+        
         if self.pack_seq:
-            padded_embs = pack_padded_sequence(padded_embs, lengths, batch_first=self.batch_first, enforce_sorted=False)
-            padded_labels = pack_padded_sequence(padded_labels, lengths, batch_first=self.batch_first, enforce_sorted=False)
+            lengths, sorted_indices = lengths.sort(descending=True)
+            padded_embs = padded_embs[sorted_indices]
+            padded_labels = padded_labels[sorted_indices]
+            padded_embs = pack_padded_sequence(padded_embs, lengths, batch_first=self.batch_first, enforce_sorted=True)
+            padded_labels = pack_padded_sequence(padded_labels, lengths, batch_first=self.batch_first, enforce_sorted=True)
 
         proc_batch = {
             "embeddings": padded_embs,
