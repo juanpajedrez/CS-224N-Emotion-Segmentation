@@ -1,6 +1,6 @@
 # !pip install together
 # !python -m pip install requests
-
+import os
 from ast import Continue
 import re
 import json
@@ -84,7 +84,7 @@ def dict_to_json(sentence_emotion_dict, data_file, to_save=False):
       data_file[len(data_file.keys())] = entry_data
 
       if to_save:
-        with open("data/data_new.json", "w") as json_file:
+        with open("data/3.8.24/data_new.json", "w") as json_file:
             json.dump(data_file, json_file, indent=4)
               # json_file.write('\n')  # Add a newline after each entry
 
@@ -98,7 +98,6 @@ Some examples:
 
 Sentence: Today was a bad day but at least I saw a llama.
 Emotions: <Sad-Start>Today was a bad day<Sad-End><Happy-Start>but at least I saw a llama.<Happy-End>
-
 
 Sentence: My teacher called on my friend in class to present and my friend *freaking* volunteered me instead.
 Emotions: <Neutral-Start>My teacher called on my friend in class to presents<Neutral-End><Angry-Start>and my friend *freaking* volunteered me instead.<Angry-End>
@@ -115,13 +114,14 @@ Emotions: <Surprised-Start> I can't believe I found a cockroach in the shower.<S
 
 ONLY output exactly ten additional unique examples using this format and using EXACTLY two or three different emotion tags of <Angry>, <Surprised>, <Disgusted>, <Happy>, <Fearful>, <Sad> per sentence. DO NOT explicitly state an emotion in the sentence generated. Don't say "I feel <emotion>" or "it made me <emotion>" ). The annotated emotions must correctly reflect the order and use of words in the sentence given.   [/INST]"
 '''
+
 endpoint = 'https://api.together.xyz/v1/chat/completions'
 
 data_file = {}
 num_iters = 0
 
 raw_data = []
-total_generated_examples = 5000  # we expect 100 total examples
+total_generated_examples = 100000  # we expect 100 total examples
 sentences_per_batch = 10
 
 range_total = total_generated_examples // sentences_per_batch
@@ -154,18 +154,20 @@ for batch_num in range(range_total):
         data = res.json()
         # Extract text from the choices
         text = data["choices"][0]["message"]["content"]
-
-        with open("data/raw_data_new.txt", "a") as fout:
-            fout.write(text)
-            fout.write('\n')
-            fout.close()
-
-            sentence_emotion_dict, raw_text = parse_text(text)
     except:
         print("Something went wrong with API end... plz wait a few")
         print("Here was the request: ", new_prompt)
         time.sleep(30)
         continue
+    try:
+        with open("data/3.8.24/raw_data.txt", "a") as fout:
+            fout.write(text)
+            fout.write('\n')
+            fout.close()
+        sentence_emotion_dict, raw_text = parse_text(text)
+    except:
+        print("SAD")
+        print(os.path.exists("data/3.8.24/raw_data.txt"))
 
     if sentence_emotion_dict == None:
         continue
@@ -193,7 +195,7 @@ for batch_num in range(range_total):
     time.sleep(2)
 
 
-with open("data/data_new.json", "w") as json_file:
+with open("data/3.8.24/data_new.json", "w") as json_file:
     json.dump(data_file, json_file, indent=4)
 
 

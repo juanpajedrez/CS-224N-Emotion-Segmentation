@@ -2,7 +2,7 @@ import json
 import re
 import contractions
 
-with open('data/3.2.24/before_post_processing/data_new.json', 'r') as file:
+with open('merged_data.json', 'r') as file:
     data = json.load(file)
 
 unique_entries = {}
@@ -17,14 +17,28 @@ for key, entry in data.items():
         entry['full sentence'] = contractions.fix(entry['full sentence'], slang=False)
         # remove punctuation after contraction
         entry['full sentence'] = re.sub(r'[^\w\s]', '', entry['full sentence'])
-        unique_entries[key] = entry
+        entry['full sentence'] = entry['full sentence'].lower().strip()
+
+
+        # print("true sentence: ", cur_sentence)
+        # print("annotated version: ", annotated_concat_sentence)
+
         for example in entry['segments']:
             example['Segment'] = contractions.fix(example['Segment'], slang=False)
             example['Segment'] = re.sub(r'[^\w\s]', '', example['Segment'])
+            example['Segment'] = example['Segment'].lower().strip() # for some reason the strip, turns string into lists of strings for each stripped word between whitespace
+
+        annotated_sentence = ''.join(segment["Segment"] for segment in entry['segments'])
+
+        if entry['full sentence'] == annotated_sentence:
+            unique_entries[key] = entry
 
 
 # Write the unique entries back to a new JSON file with updated indices
 unique_entries_with_indices = {str(index): entry for index, entry in enumerate(unique_entries.values())}
 
-with open('data/3.2.24/no_duplicates_data.json', 'w') as file:
+# .strip()
+# remove duplicates (make sure key and annotate dsentence is same)
+# make everything lowercase
+with open('post_processed_FINAL.json', 'w') as file:
     json.dump(unique_entries_with_indices, file, indent=4)
