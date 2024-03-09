@@ -38,7 +38,8 @@ def train(config):
     if config["model_name"] == "regression":
         model = regression.Regression(input_dims=config["data"]["bert_dim"], n_classes=n_classes)
     elif config["model_name"] == "lstm":
-        model = lstm.LSTMNetwork(input_dims=config["data"]["bert_dim"], n_classes=n_classes, device=device, batch_first=config["data"]["batch_first"])
+        model = lstm.LSTMNetwork(input_dims=config["data"]["bert_dim"],\
+            n_classes=n_classes, device=device, config=config)
 
     model = model.to(device)
     model.train()

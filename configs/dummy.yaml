@@ -1,4 +1,5 @@
 model_name: regression
+run_name: "regression_lr=1e-3_adam"
 # add options as needed for dataset
 training:
   lr: 0.001
@@ -6,6 +7,7 @@ training:
   num_epochs: 10
   loss_fn: "crossentropy"
   batch_size: 16
+  optimizer: "adam"
 test:
   ckpt: null
 logging: # frequency in number of iterations
@@ -21,4 +23,9 @@ data:
   bert_dim: 768 # dimension of encoding from bert
 inference:
   output_file: "predictions.json"
+  gt_json: null # name of gt json file
   checkpoint: null # name of checkpoint to load for model
+model: #Any model parameters
+  hidden_dim: 128
+  num_layers: 2
+  bidirectional: True

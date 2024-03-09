@@ -25,3 +25,7 @@ inference:
   output_file: "predictions_0302_regression_lr=1e-3_adam.json"
   gt_json: "test_gt.json" # name of gt json file
   checkpoint:  "./ckpts/regression/0302_regression_lr=1e-3_adam/iter5000.pt" # name of checkpoint to load for model
+model: #Any model parameters
+  hidden_dim: 256
+  num_layers: 2
+  bidirectional: False
