@@ -58,7 +58,6 @@ class EmotionDataset(Dataset):
 
         return {"tokens": tokens, "labels": labels, "embeddings": embeddings, "num_tokens": num_tokens}
 
-
 # collate function to collate samples into a batch and pad (pack if specified) as needed
 class collate_fn:
 
@@ -79,8 +78,8 @@ class collate_fn:
         padded_embs = pad_sequence(emb_list, batch_first=self.batch_first, padding_value=0)
         padded_labels = pad_sequence(label_list, batch_first=self.batch_first, padding_value=-1)
         if self.pack_seq:
-            padded_embs = pack_padded_sequence(padded_embs, lengths, batch_first=self.batch_first)
-            padded_labels = pack_padded_sequence(padded_labels, lengths, batch_first=self.batch_first)
+            padded_embs = pack_padded_sequence(padded_embs, lengths, batch_first=self.batch_first, enforce_sorted=False)
+            padded_labels = pack_padded_sequence(padded_labels, lengths, batch_first=self.batch_first, enforce_sorted=False)
 
         proc_batch = {
             "embeddings": padded_embs,
