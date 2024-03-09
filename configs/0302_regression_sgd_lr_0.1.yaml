@@ -25,3 +25,4 @@ inference:
   output_file: "predictions_0302_regression_lr=1e-1_sgd.json"
   gt_json: "test_gt.json" # name of gt json file
   checkpoint: null # name of checkpoint to load for model
+  ngram: null

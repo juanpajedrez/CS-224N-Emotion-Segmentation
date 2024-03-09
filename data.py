@@ -34,9 +34,9 @@ class EmotionDataset(Dataset):
         # compute embedding for each emotion
         emt_embs = []
         for i in range (len(IDX_2_EMOTION)):
-            tokenized_emt = self.tokenizer([IDX_2_EMOTION[str(i)]], return_tensors = "pt").to(self.device)
+            tokenized_emt = self.tokenizer([IDX_2_EMOTION[i]], return_tensors = "pt").to(self.device)
             outputs = self.model(**tokenized_emt)
-            mean_emb = torch.mean(outputs.last_hidden_state[0], dim=0, keepdim=True)
+            mean_emb = torch.mean(outputs.last_hidden_state[0][1:-1, :], dim=0, keepdim=True)
             emt_embs.append(mean_emb)
         emt_embs = torch.cat(emt_embs, dim=0) # num_emotions x emb_dim
         self.emt_embs = emt_embs

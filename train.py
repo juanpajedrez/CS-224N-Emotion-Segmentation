@@ -36,7 +36,7 @@ def train(config):
     # define model
     if config["model_name"] == "regression":
         model = regression.Regression(input_dims=config["data"]["bert_dim"], n_classes=n_classes)
-    if config["model_name"] == "mlp":
+    elif config["model_name"] == "mlp":
         model = mlp.MLP(input_dims=config["data"]["bert_dim"], n_classes=n_classes)
     elif config["model_name"] == "lstm":
         raise NotImplementedError("Implementation not complete yet")

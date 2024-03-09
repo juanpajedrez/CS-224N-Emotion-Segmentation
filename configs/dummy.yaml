@@ -1,4 +1,4 @@
-model_name: regression
+model_name: regression # regression, mlp, ngram or lstm
 # add options as needed for dataset
 training:
   lr: 0.001
@@ -22,4 +22,5 @@ data:
 inference:
   output_file: "predictions.json"
   checkpoint: null # name of checkpoint to load for model
-  ngram: null
+  ngram: null # 1, 2 or 3
+  gt_json: null
