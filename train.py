@@ -55,6 +55,8 @@ def train(config):
     # define optimizer
     if config["training"]["optimizer"] == "adam":
         optimizer = torch.optim.Adam(model.parameters(), lr=config["training"]["lr"])
+    elif config["training"]["optimizer"] == "adamw":
+        optimizer = torch.optim.AdamW(model.parameters(), lr=config["training"]["lr"])
     elif config["training"]["optimizer"] == "sgd":
         optimizer = torch.optim.SGD(model.parameters(), lr=config["training"]["lr"], momentum=0.9)
     else:
