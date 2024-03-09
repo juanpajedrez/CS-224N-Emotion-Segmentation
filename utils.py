@@ -185,8 +185,6 @@ def inference(config, dataset, device="cuda"):
             # decoded_seg = tokenizer.convert_ids_to_tokens(filtered_seg)
             # words.append(" ".join(decoded_seg))
             decoded_seg = tokenizer.decode(filtered_seg)
-            # replace ## in decoded seg
-            decoded_seg = decoded_seg.replace("##", "")
             words.append(decoded_seg)
             ft_emotions.append(emt)
 
