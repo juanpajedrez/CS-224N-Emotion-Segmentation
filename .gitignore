@@ -3,3 +3,7 @@
 /runs
 /ckpts
 /__pycache__
+/.idea
+/.vscode
+/models/__pycache__
+*__pycache__
