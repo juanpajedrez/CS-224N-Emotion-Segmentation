@@ -5,7 +5,7 @@ import sys
 import argparse
 import utils
 from tqdm import tqdm
-from models import lstm, regression
+from models import lstm, regression, mlp
 from torch.utils.tensorboard import SummaryWriter
 from datetime import datetime
 import yaml
@@ -37,6 +37,8 @@ def train(config):
     # define model
     if config["model_name"] == "regression":
         model = regression.Regression(input_dims=config["data"]["bert_dim"], n_classes=n_classes)
+    elif config["model_name"] == "mlp":
+        model = mlp.MLP(input_dims=config["data"]["bert_dim"], n_classes=n_classes)
     elif config["model_name"] == "lstm":
         model = lstm.LSTMNetwork(input_dims=config["data"]["bert_dim"],\
             n_classes=n_classes, device=device, config=config)
@@ -54,6 +56,8 @@ def train(config):
     # define optimizer
     if config["training"]["optimizer"] == "adam":
         optimizer = torch.optim.Adam(model.parameters(), lr=config["training"]["lr"])
+    elif config["training"]["optimizer"] == "adamw":
+        optimizer = torch.optim.AdamW(model.parameters(), lr=config["training"]["lr"])
     elif config["training"]["optimizer"] == "sgd":
         optimizer = torch.optim.SGD(model.parameters(), lr=config["training"]["lr"], momentum=0.9)
     else:

@@ -25,3 +25,4 @@ inference:
   output_file: "predictions_0302_regression_lr=1e-2_sgd.json"
   gt_json: "test_gt.json" # name of gt json file
   checkpoint: "./ckpts/regression/0302_regression_lr=1e-2_sgd/iter5000.pt"
+  ngram: null
