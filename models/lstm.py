@@ -1,7 +1,7 @@
 import torch
 from torch import nn
 import numpy as np
-from torch.nn.utils.rnn import pad_packed_sequence
+from torch.nn.utils.rnn import pad_packed_sequence, PackedSequence
 import torch.nn.functional as F
 
 
@@ -33,6 +33,8 @@ class LSTMNetwork(nn.Module):
     
     def forward(self, X_batch):
         output, (hidden, carry) = self.lstm(X_batch)
+        
         #unpack output
-        output, __ = pad_packed_sequence(output, batch_first=self.batch_first)
+        if isinstance(output, PackedSequence):
+            output, __ = pad_packed_sequence(output, batch_first=self.batch_first)
         return self.fc(F.relu(output))
