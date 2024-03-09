@@ -22,9 +22,25 @@ class EmotionDataset(Dataset):
         self.model = BertModel.from_pretrained('bert-base-uncased')
         self.model.to(device)
         self.device = device
+        self.emt_embs = None
 
     def __len__(self):
         return len(self.data)
+    
+    def compute_emotion_embs(self):
+        if self.emt_embs is not None:
+            return self.emt_embs
+
+        # compute embedding for each emotion
+        emt_embs = []
+        for i in range (len(IDX_2_EMOTION)):
+            tokenized_emt = self.tokenizer([IDX_2_EMOTION[str(i)]], return_tensors = "pt").to(self.device)
+            outputs = self.model(**tokenized_emt)
+            mean_emb = torch.mean(outputs.last_hidden_state[0], dim=0, keepdim=True)
+            emt_embs.append(mean_emb)
+        emt_embs = torch.cat(emt_embs, dim=0) # num_emotions x emb_dim
+        self.emt_embs = emt_embs
+        return emt_embs
 
     def __getitem__(self, idx):
 
