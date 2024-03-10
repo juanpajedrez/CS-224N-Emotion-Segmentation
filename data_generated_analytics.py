@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 
 # Open the JSON file
-with open('equal_distr_data.json') as f:
+with open('test_data_3.json') as f:
     data = json.load(f)
 
 # Initialize a list to store all values of the "emotion" key
@@ -37,7 +37,7 @@ for key, entry in data.items():
 
 print(emotion_dict) # must have 1428 of each emotion token
 print(unique_emotions_per_segment)
-'''
+
 # Print all values of the "emotion" key
 plt.rcParams.update({'font.size': 14})  # You can adjust the size as needed
 plt.bar(emotion_dict.keys(), emotion_dict.values())
@@ -49,18 +49,13 @@ plt.yticks(fontsize=12)  # Increase font size of y-axis ticks
 
 
 
-emotion_counts = {
-    'ANGRY': 15.72,  # These values are placeholders and should be replaced with your actual counts
-    'SURPRISED': 6.49,
-    'DISGUSTED': 1.72,
-    'HAPPY': 30.57,
-    'FEARFUL': 10.80,
-    'SAD': 19.15,
-    'NEUTRAL': 15.55
-}
+denom = sum([x for x in emotion_dict.values()])
+emotion_counts = {key: emotion_dict[key] / denom * 100.0 for key in emotion_dict.keys() }
+
+
 
 for emotion, value in emotion_dict.items():
-    plt.text(emotion, value, f'{emotion_counts[emotion]}%', ha='center', va='bottom', fontsize=12)
+    plt.text(emotion, value, f'{emotion_counts[emotion]:.2f}%', ha='center', va='bottom', fontsize=12)
 
 
 total_values = sum(unique_emotions_per_segment.values())
@@ -88,15 +83,13 @@ plt.title('Histogram', fontsize=18)  # Adjusting font size
 
 
 
-emotion_counts = {
-    '1': 17.41,  # These values are placeholders and should be replaced with your actual counts
-    '2': 79.69,
-    '3': 2.91,
+denom_seg = sum([x for x in num_segments_per_sentence.values()])
+emotion_counts = {key: num_segments_per_sentence[key] / denom_seg * 100.0 for key in num_segments_per_sentence.keys()}
 
-}
+
 
 for emotion, value in emotion_counts.items():
-    plt.text(emotion, value, f'{emotion_counts[emotion]}%', ha='center', va='bottom', fontsize=12)
+    plt.text(emotion, value, f'{emotion_counts[emotion]:.2f}%', ha='center', va='bottom', fontsize=12)
 
 plt.tight_layout()
 plt.show()
@@ -110,4 +103,4 @@ plt.title('Histogram')
 plt.tight_layout()
 plt.show()
 
-'''
+
