@@ -28,7 +28,7 @@ for key, entry in data.items():
             example['Segment'] = re.sub(r'[^\w\s]', '', example['Segment'])
             example['Segment'] = example['Segment'].lower().strip() # for some reason the strip, turns string into lists of strings for each stripped word between whitespace
 
-        annotated_sentence = ''.join(segment["Segment"] for segment in entry['segments'])
+        annotated_sentence = ' '.join(segment["Segment"] for segment in entry['segments'])
 
         if entry['full sentence'] == annotated_sentence:
             unique_entries[key] = entry
