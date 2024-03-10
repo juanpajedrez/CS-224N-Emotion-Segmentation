@@ -1,0 +1,988 @@
+{
+    "0": {
+        "full sentence": "My brother ate the last piece of cake without asking.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother ate the last piece of cake",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " without asking.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "1": {
+        "full sentence": "I'm so excited for my upcoming vacation, but I'm worried about the weather.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for my upcoming vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm worried about the weather.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "2": {
+        "full sentence": "My cat just knocked over my coffee and now my notes are ruined.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just knocked over my coffee",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and now my notes are ruined.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "3": {
+        "full sentence": "I can't believe I finally got accepted into my dream college.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I can't believe I finally got accepted into my dream college.",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " I'm so surprised!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "4": {
+        "full sentence": "My teacher gave me a lot of homework over the weekend, and now I have to stay up late to finish it.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a lot of homework over the weekend",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and now I have to stay up late to finish it.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "5": {
+        "full sentence": "I'm so excited for my upcoming birthday party, but I'm worried that not many people will show up.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for my upcoming birthday party",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm worried that not many people will show up.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "6": {
+        "full sentence": "My friend just told me that she's moving away, and I'm feeling really sad about it.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend just told me that she's moving away",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and I'm feeling really sad about it.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "7": {
+        "full sentence": "I saw a spider crawling on my desk and it freaked me out.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I saw a spider crawling on my desk",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": " and it freaked me out.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "8": {
+        "full sentence": "My mom is making my favorite dinner tonight, and I can't wait to eat it.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom is making my favorite dinner tonight",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " and I can't wait to eat it.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "9": {
+        "full sentence": "My phone died and I don't have a charger with me, which is really frustrating.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "My phone died",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and I don't have a charger with me",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", which is really frustrating.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "10": {
+        "full sentence": "My favorite restaurant is closed for renovations, and now I don't know where to eat.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My favorite restaurant is closed for renovations",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I don't know where to eat.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "11": {
+        "full sentence": "I just saw a amazing movie, but the ending was so sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a amazing movie",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the ending was so sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "12": {
+        "full sentence": "My boss yelled at me in front of my coworkers, and now I'm feeling humiliated.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My boss yelled at me in front of my coworkers",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling humiliated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "13": {
+        "full sentence": "I can't believe I won the lottery!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I can't believe I won the lottery!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "14": {
+        "full sentence": "My cat just woke me up by jumping on my face, and now I'm feeling annoyed.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just woke me up by jumping on my face",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling annoyed.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "15": {
+        "full sentence": "I just saw a horrible car accident, and now I'm feeling shaken.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a horrible car accident",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling shaken.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "16": {
+        "full sentence": "My friend stood me up for our plans, and now I'm feeling hurt.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend stood me up for our plans",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling hurt.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "17": {
+        "full sentence": "I just got a surprise visit from my favorite relative, and now I'm feeling delighted.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I just got a surprise visit from my favorite relative",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "18": {
+        "full sentence": "I just found out that my dog ran away, and now I'm feeling devastated.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just found out that my dog ran away",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling devastated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "19": {
+        "full sentence": "My teacher gave me a surprise gift, and now I'm feeling touched.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a surprise gift",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "20": {
+        "full sentence": "My roommate left the dishes for me to clean up, and now I'm feeling annoyed.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My roommate left the dishes for me to clean up",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling annoyed.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "21": {
+        "full sentence": "I just saw a amazing concert, but the sound system was terrible.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a amazing concert",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the sound system was terrible.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "22": {
+        "full sentence": "My teacher gave me a lot of homework, and now I'm feeling overwhelmed.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a lot of homework",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling overwhelmed.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "23": {
+        "full sentence": "I just saw a beautiful sunset, and it made me feel at peace.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a beautiful sunset",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me feel at peace.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "24": {
+        "full sentence": "My brother borrowed my car without asking, and now I'm feeling angry.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother borrowed my car without asking",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", and now I'm feeling angry.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "25": {
+        "full sentence": "I just found out that my favorite band is breaking up, and now I'm feeling sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just found out that my favorite band is breaking up",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling sad.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "26": {
+        "full sentence": "My boss gave me a promotion, but the new job is a lot harder than I expected.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My boss gave me a promotion",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the new job is a lot harder than I expected.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "27": {
+        "full sentence": "I just saw a funny comedy show, and it made me laugh so hard.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a funny comedy show",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me laugh so hard.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "28": {
+        "full sentence": "My friend told me a secret, but now I feel like I can't trust them.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend told me a secret",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", but now I feel like I can't trust them.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "29": {
+        "full sentence": "I just saw a scary movie, and now I'm feeling terrified.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a scary movie",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling terrified.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "30": {
+        "full sentence": "My cat just died, and I'm feeling devastated.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just died",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and I'm feeling devastated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "31": {
+        "full sentence": "I just saw a amazing magic trick, and I can't believe it.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a amazing magic trick",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", and I can't believe it.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "32": {
+        "full sentence": "My teacher gave me a surprise pop quiz, and now I'm feeling anxious.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a surprise pop quiz",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", and now I'm feeling anxious.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "33": {
+        "full sentence": "My friend stood me up, and now I'm feeling hurt.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend stood me up",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling hurt.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "34": {
+        "full sentence": "I just saw a beautiful sunrise, and it made me feel hopeful.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a beautiful sunrise",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me feel hopeful.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "35": {
+        "full sentence": "My boss yelled at me in front of my coworkers, and now I'm feeling humiliated.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My boss yelled at me in front of my coworkers",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling humiliated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "36": {
+        "full sentence": "I just saw a hilarious meme, and it made me laugh so hard.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a hilarious meme",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me laugh so hard.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "37": {
+        "full sentence": "My brother lied to me, and now I'm feeling betrayed.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother lied to me",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling betrayed.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "38": {
+        "full sentence": "I just saw a heartwarming video, and it made me feel grateful.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a heartwarming video",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me feel grateful.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "39": {
+        "full sentence": "My friend's dog bit me, and now I'm feeling scared.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend's dog bit me",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", and now I'm feeling scared.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "40": {
+        "full sentence": "My favorite restaurant just closed down, and I'm feeling devastated.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My favorite restaurant just closed down",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and I'm feeling devastated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "41": {
+        "full sentence": "I just saw a amazing concert, and it was incredible.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a amazing concert",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it was incredible.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "42": {
+        "full sentence": "My teacher gave me a unexpected compliment, and now I'm feeling proud.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a unexpected compliment",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and now I'm feeling proud.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "43": {
+        "full sentence": "My cat just did something hilarious, and it made me laugh.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just did something hilarious",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me laugh.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "44": {
+        "full sentence": "My friend told me a secret, and now I'm feeling guilty.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend told me a secret",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling guilty.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "45": {
+        "full sentence": "I just saw a beautiful sunset, and it made me feel peaceful.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a beautiful sunset",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me feel peaceful.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "46": {
+        "full sentence": "My boss gave me a promotion, and now I'm feeling excited.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My boss gave me a promotion",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and now I'm feeling excited.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "47": {
+        "full sentence": "My brother surprised me with a gift, and it made me feel happy.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother surprised me with a gift",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me feel happy.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "48": {
+        "full sentence": "I just saw a disturbing video, and now I'm feeling disgusted.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a disturbing video",
+                "Emotion": "Disgusted"
+            },
+            {
+                "Segment": ", and now I'm feeling disgusted.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "49": {
+        "full sentence": "My friend's baby laughed at me, and it made me feel joyful.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend's baby laughed at me",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me feel joyful.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "50": {
+        "full sentence": "My flight got delayed, and now I'm feeling frustrated.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My flight got delayed",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", and now I'm feeling frustrated.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "51": {
+        "full sentence": "My dog just died, and I'm feeling devastated.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My dog just died",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and I'm feeling devastated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "52": {
+        "full sentence": "I just saw a amazing magic trick, and it surprised me.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a amazing magic trick",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", and it surprised me.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "53": {
+        "full sentence": "My teacher gave me a bad grade, and now I'm feeling angry.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a bad grade",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", and now I'm feeling angry.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "54": {
+        "full sentence": "My friend told me a funny joke, and it made me laugh.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend told me a funny joke",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me laugh.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "55": {
+        "full sentence": "I just saw a beautiful sunrise, and it made me feel peaceful.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a beautiful sunrise",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me feel peaceful.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "56": {
+        "full sentence": "My boss gave me a raise, and now I'm feeling happy.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My boss gave me a raise",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and now I'm feeling happy.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "57": {
+        "full sentence": "My cat scratched me, and it made me feel angry.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat scratched me",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", and it made me feel angry.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "58": {
+        "full sentence": "I just saw a scary movie, and it made me feel fearful.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a scary movie",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", and it made me feel fearful.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "59": {
+        "full sentence": "My friend's dog bit me, and now I'm feeling scared.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend's dog bit me",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", and now I'm feeling scared.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "60": {
+        "full sentence": "My flight got cancelled, and now I'm feeling frustrated.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My flight got cancelled",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", and now I'm feeling frustrated.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "61": {
+        "full sentence": "My mom made my favorite meal for dinner, and it made me feel happy.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom made my favorite meal for dinner",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me feel happy.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "62": {
+        "full sentence": "My teacher gave me a surprise pop quiz, and it made me feel scared.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a surprise pop quiz",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", and it made me feel scared.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "63": {
+        "full sentence": "My best friend moved away, and now I'm feeling sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My best friend moved away",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I'm feeling sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "64": {
+        "full sentence": "I saw a funny meme on Instagram, and it made me laugh.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I saw a funny meme on Instagram",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me laugh.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "65": {
+        "full sentence": "My little brother threw a tantrum, and it made me feel annoyed.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My little brother threw a tantrum",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", and it made me feel annoyed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "66": {
+        "full sentence": "My boss gave me a compliment, and it made me feel happy.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My boss gave me a compliment",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me feel happy.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "67": {
+        "full sentence": "I saw a disappointing movie, and it made me feel sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I saw a disappointing movie",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and it made me feel sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "68": {
+        "full sentence": "My cat cuddled with me, and it made me feel happy.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat cuddled with me",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it made me feel happy.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "69": {
+        "full sentence": "My friend told me a secret, and it made me feel surprised.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend told me a secret",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", and it made me feel surprised.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "70": {
+        "full sentence": "My flight was delayed, and now I'm feeling frustrated.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My flight was delayed",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", and now I'm feeling frustrated.",
+                "Emotion": "Fearful"
+            }
+        ]
+    }
+}

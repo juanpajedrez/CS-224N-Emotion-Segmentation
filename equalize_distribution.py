@@ -34,6 +34,6 @@ for key, entry in dict_emotions.items():
         final_dataset[str(num_samples)] = data[idx]
         num_samples += 1
 
-with open('hopefully_bless_us_with_data.json', 'w') as f:
+with open('equal_distr_data.json', 'w') as f:
     json.dump(final_dataset, f, indent=6)
     
