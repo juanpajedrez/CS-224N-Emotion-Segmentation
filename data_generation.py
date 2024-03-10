@@ -10,6 +10,10 @@ import time
 from data import EMOTION_IDX
 
 
+#File names
+file_dir_name = "3.8.24"
+
+
 def parse_text(text):
     #print("Parsing...")
     num_bad = 0
@@ -84,7 +88,7 @@ def dict_to_json(sentence_emotion_dict, data_file, to_save=False):
       data_file[len(data_file.keys())] = entry_data
 
       if to_save:
-        with open("data/3.8.24/data_new.json", "w") as json_file:
+        with open("data/" + file_dir_name + "/data_new.json", "w") as json_file:
             json.dump(data_file, json_file, indent=4)
               # json_file.write('\n')  # Add a newline after each entry
 
@@ -160,14 +164,14 @@ for batch_num in range(range_total):
         time.sleep(30)
         continue
     try:
-        with open("data/3.8.24/raw_data.txt", "a") as fout:
+        with open("data/" + file_dir_name + "/raw_data.txt", "a") as fout:
             fout.write(text)
             fout.write('\n')
             fout.close()
         sentence_emotion_dict, raw_text = parse_text(text)
     except:
         print("SAD")
-        print(os.path.exists("data/3.8.24/raw_data.txt"))
+        print(os.path.exists("data/" + file_dir_name + "/raw_data.txt"))
 
     if sentence_emotion_dict == None:
         continue
@@ -195,7 +199,7 @@ for batch_num in range(range_total):
     time.sleep(2)
 
 
-with open("data/3.8.24/data_new.json", "w") as json_file:
+with open("data/" + file_dir_name+ "/data_new.json", "w") as json_file:
     json.dump(data_file, json_file, indent=4)
 
 
