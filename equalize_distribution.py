@@ -9,13 +9,13 @@ import numpy as np
 # how do you plan on balancing it
 # (num_segments: int in (1 2 3), emotion: str): []
 
-with open('post_processed_FINAL.json', 'r') as file:
+with open('post_processed_NO_DISGUSTED.json', 'r') as file:
     data = json.load(file)
 
 quantiles = {
-    1: 0.25,
-    2: 0.25,
-    3: 0.5
+    1: 0.05,
+    2: 0.025,
+    3: 0.4
 }
 
 for num_segs in [1, 2, 3]:
