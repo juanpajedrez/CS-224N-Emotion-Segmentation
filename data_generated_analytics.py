@@ -14,8 +14,6 @@ emotion_labels = list(EMOTION_IDX.keys())
 
 emotion_dict = {key: 0 for key in emotion_labels}
 
-
-
 # data on emotions across segments and frequency of these emotions per segment
 
 unique_emotions_per_segment = defaultdict(int)
