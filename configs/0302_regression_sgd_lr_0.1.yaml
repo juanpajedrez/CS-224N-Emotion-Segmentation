@@ -1,13 +1,13 @@
 model_name: regression
-run_name: "0302_regression_lr=1e-3_adam"
+run_name: "0302_regression_lr=1e-1_sgd"
 # add options as needed for dataset
 training:
-  lr: 0.001
+  lr: 0.1
   restore_ckpt: null
   num_epochs: 30
   loss_fn: "crossentropy"
   batch_size: 16
-  optimizer: "adam"
+  optimizer: "sgd"
 test:
   ckpt: null
 logging: # frequency in number of iterations
@@ -22,7 +22,6 @@ data:
   pack_seq: False # only pack for rnn/lstm
   bert_dim: 768 # dimension of encoding from bert
 inference:
-  output_file: "predictions_0302_regression_lr=1e-3_adam.json"
+  output_file: "predictions_0302_regression_lr=1e-1_sgd.json"
   gt_json: "test_gt.json" # name of gt json file
-  checkpoint:  "./ckpts/regression/0302_regression_lr=1e-3_adam/iter5000.pt" # name of checkpoint to load for model
-  ngram: null
+  checkpoint: null # name of checkpoint to load for model

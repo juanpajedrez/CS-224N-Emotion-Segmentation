@@ -5,12 +5,11 @@ import sys
 import argparse
 import utils
 from tqdm import tqdm
-from models import lstm, regression, mlp
+from models import lstm, regression
 from torch.utils.tensorboard import SummaryWriter
 from datetime import datetime
 import yaml
 from data import EMOTION_IDX, EmotionDataset
-from torch.nn.utils.rnn import PackedSequence, pad_packed_sequence
 
 
 if torch.cuda.is_available():
@@ -37,11 +36,9 @@ def train(config):
     # define model
     if config["model_name"] == "regression":
         model = regression.Regression(input_dims=config["data"]["bert_dim"], n_classes=n_classes)
-    elif config["model_name"] == "mlp":
-        model = mlp.MLP(input_dims=config["data"]["bert_dim"], n_classes=n_classes)
     elif config["model_name"] == "lstm":
-        model = lstm.LSTMNetwork(input_dims=config["data"]["bert_dim"],\
-            n_classes=n_classes, device=device, config=config)
+        raise NotImplementedError("Implementation not complete yet")
+        model = lstm.LSTM(config)
 
     model = model.to(device)
     model.train()
@@ -56,8 +53,6 @@ def train(config):
     # define optimizer
     if config["training"]["optimizer"] == "adam":
         optimizer = torch.optim.Adam(model.parameters(), lr=config["training"]["lr"])
-    elif config["training"]["optimizer"] == "adamw":
-        optimizer = torch.optim.AdamW(model.parameters(), lr=config["training"]["lr"])
     elif config["training"]["optimizer"] == "sgd":
         optimizer = torch.optim.SGD(model.parameters(), lr=config["training"]["lr"], momentum=0.9)
     else:
@@ -100,14 +95,6 @@ def train(config):
             # model predictions
             preds = model(embs)
 
-            #Check if tehy are packed sequences, return just data
-            if isinstance(embs, PackedSequence):
-                embs, __ = pad_packed_sequence(embs, batch_first=config["data"]["batch_first"])
-            if isinstance(lengths, PackedSequence):
-                lengths, __ = pad_packed_sequence(lengths, batch_first=config["data"]["batch_first"])
-            if isinstance(labels, PackedSequence):
-                labels, ___ = pad_packed_sequence(labels, batch_first=config["data"]["batch_first"])
-
             loss_mask = (labels > 0).float()
             labels[labels < 0] = 0
             loss = loss_fn(preds.permute(0, 2, 1), labels)
@@ -124,7 +111,7 @@ def train(config):
 
             if num_iters % config["logging"]["val_freq"] == 0:
                 print("running validation...")
-                val_loss = utils.run_validation(val_loader, model, loss_fn, config=config, device=device)
+                val_loss = utils.run_validation(val_loader, model, loss_fn, device=device)
                 print("Validation loss at iter %d: %.3f" % (num_iters, val_loss))
                 writer.add_scalar("Loss/val", val_loss, num_iters)
 
@@ -144,11 +131,14 @@ if __name__=="__main__":
     args = parser.parse_args()
 
     with open(args.config_file, 'r') as f:
-       config = yaml.safe_load(f)
+        config = yaml.safe_load(f)
     if args.train:
-       train(config)
+        train(config)
     elif args.test:
-       dataset, _ = utils.create_dataloader(config, split="test", \
-                   pack_seq=config["data"]["pack_seq"], batch_first=config["data"]["batch_first"], \
-                   device=device)
-       utils.inference(config, dataset, device=device)
+        dataset, _ = utils.create_dataloader(config, split="test", \
+                    pack_seq=config["data"]["pack_seq"], batch_first=config["data"]["batch_first"], \
+                    device=device)
+        utils.inference(config, dataset, device=device)
+
+    
+
