@@ -1,13 +1,11 @@
-model_name: regression # regression, mlp, ngram or lstm
+model_name: ngram
 # add options as needed for dataset
-run_name: null
 training:
   lr: 0.001
   restore_ckpt: null
   num_epochs: 10
   loss_fn: "crossentropy"
   batch_size: 16
-  optimizer: "adam"
 test:
   ckpt: null
 logging: # frequency in number of iterations
@@ -17,16 +15,12 @@ logging: # frequency in number of iterations
   ckpt_dir: "./ckpts"
 data:
   use_start_end: False # to encode start, middle and end for each emotion (i.e. segmentation)
-  train_filepath: "./data/dummy.json" # data file for training
+  train_filepath: "./data/3.2.24/no_duplicates_data.json" # data file for training
   batch_first: True # batch first is default
   pack_seq: False # only pack for rnn/lstm
   bert_dim: 768 # dimension of encoding from bert
 inference:
   output_file: "predictions.json"
-  gt_json: null # name of gt json file
   checkpoint: null # name of checkpoint to load for model
-  ngram: null # 1, 2 or 3
-model: # Any model parameters
-  hidden_dim: 128
-  num_layers: 2
-  bidirectional: True
+  gt_json: "gt_0308.json"
+  ngram: 3
