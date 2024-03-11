@@ -26,13 +26,20 @@ for key, entry in data.items():
         # print("annotated version: ", annotated_concat_sentence)
 
         skip_example = False
+        emt_set = set()
         for example in entry['segments']:
+
+            emt_set.add(example['Emotion'].lower())
+
             if example['Emotion'].lower() == 'disgusted':
                 skip_example = True
                 break
             example['Segment'] = contractions.fix(example['Segment'], slang=False)
             example['Segment'] = re.sub(r'[^\w\s]', '', example['Segment'])
             example['Segment'] = example['Segment'].lower().strip() # for some reason the strip, turns string into lists of strings for each stripped word between whitespace
+
+        if len(emt_set) != entry["num_segments"]:
+            skip_example = True
 
         if skip_example:
             continue
