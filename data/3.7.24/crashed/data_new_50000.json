@@ -1,0 +1,3754 @@
+{
+    "0": {
+        "full sentence": "My mom was being super annoying, but she bought me ice cream, so it's all good now.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom was being super annoying",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but she bought me ice cream, so it's all good now.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "1": {
+        "full sentence": "I love going to the beach, but the sunburn I got was not fun.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I love going to the beach",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the sunburn I got was not fun.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "2": {
+        "full sentence": "My cat jumped onto my lap and started purring it was so cute!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat jumped onto my lap and started purring",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " it was so cute!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "3": {
+        "full sentence": "I hate it when people chew with their mouth open it's so disgusting.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when people chew with their mouth open",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " it's so disgusting.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "4": {
+        "full sentence": "My brother was acting silly, making faces and voices, and it cracked me up.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother was acting silly, making faces and voices",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and it cracked me up.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "5": {
+        "full sentence": "The roller coaster was terrifying, but the adrenaline rush was exhilarating.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was terrifying",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but the adrenaline rush was exhilarating.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "6": {
+        "full sentence": "I was so excited for my birthday party, but when I opened my presents, I was disappointed.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so excited for my birthday party",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but when I opened my presents, I was disappointed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "7": {
+        "full sentence": "The haunted house was scary, but the actors were hilarious.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The haunted house was scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but the actors were hilarious.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "8": {
+        "full sentence": "My favorite book made me cry, but it was such a beautiful story.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My favorite book made me cry",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", but it was such a beautiful story.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "9": {
+        "full sentence": "My dog ran away and it made me so sad, but then he came back and it made me so happy.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My dog ran away and it made me so sad",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", but then he came back and it made me so happy.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "10": {
+        "full sentence": "I woke up late for work and now I'm stuck in traffic.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I woke up late for work",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and now I'm stuck in traffic.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "11": {
+        "full sentence": "My cat just jumped onto my lap and started purring.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just jumped onto my lap",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " and started purring.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "12": {
+        "full sentence": "My friend invited me to a party, but I don't have anything to wear.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend invited me to a party",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I don't have anything to wear.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "13": {
+        "full sentence": "I just finished watching a sad movie and now I feel depressed.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just finished watching a sad movie",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and now I feel depressed.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "14": {
+        "full sentence": "My boss just gave me a promotion, but I'm not sure if I'm ready for the responsibility.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My boss just gave me a promotion",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm not sure if I'm ready for the responsibility.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "15": {
+        "full sentence": "I saw a spider crawling on my ceiling and it freaked me out.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I saw a spider crawling on my ceiling",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": " and it freaked me out.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "16": {
+        "full sentence": "My mom surprised me with my favorite meal for dinner.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom surprised me with my favorite meal for dinner.",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and it made me very happy.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "17": {
+        "full sentence": "I just found out that my flight has been delayed for three hours.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just found out that my flight has been delayed for three hours.",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " and now I have to wait for three hours.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "18": {
+        "full sentence": "My friend told me a joke and it made me laugh so hard.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend told me a joke",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " and it made me laugh so hard.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "19": {
+        "full sentence": "I saw a video of a puppy being rescued and it made me tear up.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I saw a video of a puppy being rescued",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", and it made me tear up.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "20": {
+        "full sentence": "I woke up late and now I'm running late for work.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I woke up late",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " and now I'm running late for work.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "21": {
+        "full sentence": "My cat just knocked over a vase and now there's water everywhere.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just knocked over a vase",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and now there's water everywhere.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "22": {
+        "full sentence": "I finally finished that project after weeks of work.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I finally finished that project",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " after weeks of work.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "23": {
+        "full sentence": "My boss just gave me a huge project that's due tomorrow.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My boss just gave me a huge project",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " that's due tomorrow.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "24": {
+        "full sentence": "My friend just told me that they're moving away.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend just told me that they're moving away",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and I'm really going to miss them.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "25": {
+        "full sentence": "I just saw a spider crawling on my desk.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a spider crawling on my desk",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and now I can't concentrate.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "26": {
+        "full sentence": "I'm so excited for my upcoming vacation.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for my upcoming vacation",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " and I can't wait to relax on the beach.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "27": {
+        "full sentence": "My computer just crashed and I lost all my work.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My computer just crashed",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and I lost all my work.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "28": {
+        "full sentence": "My dog just ran away and I'm really worried.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My dog just ran away",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and I'm really worried.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "29": {
+        "full sentence": "I just saw a great movie and now I want to watch it again.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a great movie",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " and now I want to watch it again.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "30": {
+        "full sentence": "My cat just knocked over a vase and now there's water everywhere.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just knocked over a vase",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and now there's water everywhere.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "31": {
+        "full sentence": "I can't believe I finally got tickets to see my favorite band!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I can't believe I finally got tickets to see my favorite band!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "32": {
+        "full sentence": "The cake was amazing, but now I feel so sick.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The cake was amazing",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but now I feel so sick.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "33": {
+        "full sentence": "My brother took my favorite video game and now he won't give it back.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother took my favorite video game",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " and now he won't give it back.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "34": {
+        "full sentence": "I'm so excited for my upcoming vacation, but I'm also a little nervous.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for my upcoming vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm also a little nervous.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "35": {
+        "full sentence": "The roller coaster was so much fun, but then I saw the height restriction.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was so much fun",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but then I saw the height restriction.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "36": {
+        "full sentence": "My mom is making me go to bed early, but I'm not tired at all.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom is making me go to bed early",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but I'm not tired at all.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "37": {
+        "full sentence": "The book was really good, but the ending was so sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The book was really good",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the ending was so sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "38": {
+        "full sentence": "My friends surprised me with a birthday party, but then they played a prank on me.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friends surprised me with a birthday party",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but then they played a prank on me.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "39": {
+        "full sentence": "The hike was beautiful, but the mosquitoes were relentless.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The hike was beautiful",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the mosquitoes were relentless.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "40": {
+        "full sentence": "My cat wakes me up every morning by jumping on my face, but at least he's cute.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat wakes me up every morning by jumping on my face",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": ", but at least he's cute.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "41": {
+        "full sentence": "I hate it when people chew with their mouth open it's so disgusting.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when people chew with their mouth open",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " it's so disgusting.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "42": {
+        "full sentence": "OMG, I just saw the cutest puppy in the park!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "OMG, I just saw the cutest puppy in the park!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "43": {
+        "full sentence": "I'm so sad that my favorite TV show has ended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm so sad that my favorite TV show has ended.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "44": {
+        "full sentence": "My brother always takes forever to get ready it's so frustrating.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother always takes forever to get ready",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " it's so frustrating.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "45": {
+        "full sentence": "I'm so excited for my upcoming vacation I've been planning it for months!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for my upcoming vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " I've been planning it for months!",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "46": {
+        "full sentence": "I can't believe I forgot my phone at home what am I going to do?",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I can't believe I forgot my phone at home",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " what am I going to do?",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "47": {
+        "full sentence": "My mom is always telling me what to do it's so annoying.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom is always telling me what to do",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " it's so annoying.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "48": {
+        "full sentence": "I'm so happy that I got the job offer I've been waiting for!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so happy that I got the job offer",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " I've been waiting for!",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "49": {
+        "full sentence": "I hate it when it rains it's so depressing.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when it rains",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " it's so depressing.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "50": {
+        "full sentence": "My mom is making me go to bed early, but at least I get to read a book before I fall asleep.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom is making me go to bed early",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but at least I get to read a book before I fall asleep.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "51": {
+        "full sentence": "I just saw a snake on the trail!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I just saw a snake on the trail!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "52": {
+        "full sentence": "My friend told me that they're moving away, and it made me really sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend told me that they're moving away",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " and it made me really sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "53": {
+        "full sentence": "The roller coaster was so scary, but also really fun.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was so scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but also really fun.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "54": {
+        "full sentence": "I hate it when my brother borrows my clothes without asking.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I hate it when my brother borrows my clothes without asking",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "55": {
+        "full sentence": "The cake was so delicious, it was almost like a dream come true.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The cake was so delicious",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", it was almost like a dream come true.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "56": {
+        "full sentence": "I'm so excited for vacation, but I'm also a little nervous because I've never been on a plane before.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm also a little nervous because I've never been on a plane before.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "57": {
+        "full sentence": "My teacher gave me a surprise pop quiz, and it totally caught me off guard.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a surprise pop quiz",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", and it totally caught me off guard.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "58": {
+        "full sentence": "My cat just knocked over my water glass and now my homework is ruined.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just knocked over my water glass",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", and now my homework is ruined.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "59": {
+        "full sentence": "I was so happy when I saw that I got an A on my test, but then I realized that I left it at school.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so happy when I saw that I got an A on my test",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but then I realized that I left it at school.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "60": {
+        "full sentence": "My brother got a new dog, but it ate my favorite pair of shoes.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother got a new dog",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but it ate my favorite pair of shoes.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "61": {
+        "full sentence": "I got a 100 on the test, but I'm still worried that I didn't do enough to pass the class.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I got a 100 on the test",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm still worried that I didn't do enough to pass the class.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "62": {
+        "full sentence": "The concert was amazing, but it started raining right after the headliner came on stage.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The concert was amazing",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but it started raining right after the headliner came on stage.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "63": {
+        "full sentence": "My mom is making my favorite meal for dinner, but she accidentally put in extra hot sauce.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom is making my favorite meal for dinner",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but she accidentally put in extra hot sauce.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "64": {
+        "full sentence": "My friend surprised me with a birthday party, but I had to leave early because I wasn't feeling well.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend surprised me with a birthday party",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", but I had to leave early because I wasn't feeling well.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "65": {
+        "full sentence": "The movie was really good, but the ending was so sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The movie was really good",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the ending was so sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "66": {
+        "full sentence": "I finally got my driver's license, but I'm nervous about driving on the highway.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I finally got my driver's license",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm nervous about driving on the highway.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "67": {
+        "full sentence": "My teacher gave me a lot of extra credit work, but I'm confident that I can finish it on time.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a lot of extra credit work",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but I'm confident that I can finish it on time.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "68": {
+        "full sentence": "I saw a snake in the park and it startled me, but then I realized it was just a harmless garter snake.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I saw a snake in the park and it startled me",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "69": {
+        "full sentence": "My friend and I had a disagreement, but we were able to work it out and now we're even closer.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "My friend and I had a disagreement",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but we were able to work it out",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", and now we're even closer.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "70": {
+        "full sentence": "My cat loves to sit on my lap while I'm driving.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat loves to sit on my lap",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " while I'm driving.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "71": {
+        "full sentence": "I hate it when my mom grounds me for no reason.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when my mom grounds me",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " for no reason.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "72": {
+        "full sentence": "The roller coaster was so intense that I screamed the whole time.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was so intense",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": " that I screamed the whole time.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "73": {
+        "full sentence": "My best friend just got a new puppy and it's so cute!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My best friend just got a new puppy",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " and it's so cute!",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "74": {
+        "full sentence": "I can't believe I forgot my phone at home.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I can't believe I forgot my phone",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " at home.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "75": {
+        "full sentence": "The movie was so good that I watched it twice.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The movie was so good",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " that I watched it twice.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "76": {
+        "full sentence": "My little brother always cries when he loses a game.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My little brother always cries",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " when he loses a game.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "77": {
+        "full sentence": "I love it when my dad makes pancakes for breakfast.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I love it when my dad makes pancakes",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " for breakfast.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "78": {
+        "full sentence": "The haunted house was really scary, but also kind of fun.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The haunted house was really scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but also kind of fun.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "79": {
+        "full sentence": "My teacher gave me a detention for talking too much in class.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a detention",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " for talking too much in class.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "80": {
+        "full sentence": "My mom told me I could go to the concert, but only if I clean my room first.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom told me I could go to the concert",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": ", but only if I clean my room first.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "81": {
+        "full sentence": "I just saw a snake in the grass!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a snake in the grass!",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", oh no!",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "82": {
+        "full sentence": "My friend told me that the test was easy, but it was actually really hard.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend told me that the test was easy",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": ", but it was actually really hard.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "83": {
+        "full sentence": "The cake was so good, it made my day.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The cake was so good",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", it made my day.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "84": {
+        "full sentence": "I hate it when my brother borrows my clothes without asking.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when my brother borrows my clothes without asking",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", it's so disrespectful.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "85": {
+        "full sentence": "I'm so excited for vacation, I've been counting down the days.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", I've been counting down the days.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "86": {
+        "full sentence": "The movie was really scary, but also kind of funny.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The movie was really scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but also kind of funny.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "87": {
+        "full sentence": "My cat just knocked over my water glass, what a pain!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just knocked over my water glass",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": ", what a pain!",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "88": {
+        "full sentence": "I can't believe I finally got accepted into my dream college!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I can't believe I finally got accepted into my dream college!",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", I'm so relieved.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "89": {
+        "full sentence": "The traffic was terrible, it took me two hours to get home.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The traffic was terrible",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": ", it took me two hours to get home.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "90": {
+        "full sentence": "My mom told me I could go to the concert, but only if I clean my room first.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom told me I could go to the concert",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but only if I clean my room first.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "91": {
+        "full sentence": "I was so excited for the party, but when I got there, no one was even there.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "I was so excited for the party",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but when I got there",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", no one was even there.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "92": {
+        "full sentence": "The roller coaster was so much fun, but then it suddenly stopped and we were stuck at the top.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "The roller coaster was so much fun",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but then it suddenly stopped",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": " and we were stuck at the top.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "93": {
+        "full sentence": "My cat died, but at least I have my dog.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat died",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", but at least I have my dog.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "94": {
+        "full sentence": "I hate it when my brother borrows my clothes without asking, but I guess it's not the end of the world.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when my brother borrows my clothes without asking",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but I guess it's not the end of the world.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "95": {
+        "full sentence": "I was so surprised when I saw a shooting star, but then I realized it was just a plane.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so surprised when I saw a shooting star",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", but then I realized it was just a plane.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "96": {
+        "full sentence": "My teacher gave me a detention, but at least it was only for talking.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a detention",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but at least it was only for talking.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "97": {
+        "full sentence": "I was so excited to go to the beach, but then it started raining.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so excited to go to the beach",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but then it started raining.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "98": {
+        "full sentence": "My mom was so mad at me for breaking the vase, but I didn't mean to.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom was so mad at me for breaking the vase",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but I didn't mean to.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "99": {
+        "full sentence": "The pizza delivery guy took forever, but when he finally arrived, he was really cute.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "The pizza delivery guy took forever",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but when he finally arrived",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", he was really cute.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "100": {
+        "full sentence": "I think I left my phone in the Uber we took last night.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I think I left my phone in the Uber we took last night.",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", what if they try to hack all my stuff?",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "101": {
+        "full sentence": "My mom is so cool, she took me to a concert and let me drink soda.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom is so cool, she took me to a concert",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " and let me drink soda.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "102": {
+        "full sentence": "I hate it when my brother borrows my stuff and breaks it.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when my brother borrows my stuff",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " and breaks it.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "103": {
+        "full sentence": "The roller coaster was so fun, but it made me throw up.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was so fun",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but it made me throw up.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "104": {
+        "full sentence": "I'm so excited for my upcoming vacation, but I'm also a little nervous.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for my upcoming vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm also a little nervous.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "105": {
+        "full sentence": "My cat just died, and it's really upsetting me.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just died",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and it's really upsetting me.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "106": {
+        "full sentence": "I was expecting a promotion, but my boss gave it to someone else.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was expecting a promotion",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but my boss gave it to someone else.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "107": {
+        "full sentence": "I love it when my friends surprise me with a fun activity.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I love it when my friends surprise me with a fun activity.",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", it's so fun to do something spontaneous!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "108": {
+        "full sentence": "I hate it when my dad yells at me for no reason.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when my dad yells at me",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " for no reason.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "109": {
+        "full sentence": "I'm so relieved that the test was easier than I thought it would be.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so relieved that the test was easier than I thought it would be.",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", that was a close call!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "110": {
+        "full sentence": "My mom was so mad that she threw a shoe at me.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "My mom was",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " so mad",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " that she threw a shoe at me.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "111": {
+        "full sentence": "I love swimming in the ocean because it makes me feel so free.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "I love swimming in the ocean",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " because it makes me feel",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " so free.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "112": {
+        "full sentence": "My brother ate my last piece of cake and now I'm upset.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "My brother ate",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " my last piece of cake",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and now I'm upset.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "113": {
+        "full sentence": "I was so surprised when I saw a deer running down the street.",
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "I was",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " so surprised",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " when I saw",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " a deer running down the street.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "114": {
+        "full sentence": "I hate it when my dad yells at me it makes me feel so sad.",
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "I hate it when",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " my dad yells at me",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " it makes me feel",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " so sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "115": {
+        "full sentence": "The roller coaster was so scary but also really fun.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "The roller coaster was",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": " so scary",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " but also really fun.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "116": {
+        "full sentence": "I'm so excited for my upcoming vacation I can't wait.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "I'm so excited",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " for my upcoming vacation",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " I can't wait.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "117": {
+        "full sentence": "My cat died and it made me really sad.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "My cat died",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " and it made me",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " really sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "118": {
+        "full sentence": "I was so disgusted by the dirty bathroom that I had to leave.",
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "I was",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " so disgusted",
+                "Emotion": "Disgusted"
+            },
+            {
+                "Segment": " by the dirty bathroom",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": " that I had to leave.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "119": {
+        "full sentence": "My teacher gave me a surprise pop quiz and it totally stressed me out.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "My teacher gave me",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " a surprise pop quiz",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and it totally stressed me out.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "120": {
+        "full sentence": "My cat loves to cuddle, but sometimes he gets a little too aggressive.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat loves to cuddle",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but sometimes he gets a little too aggressive.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "121": {
+        "full sentence": "I was so excited to go to the concert, but when I got there, I realized I had left my tickets at home.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so excited to go to the concert",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but when I got there, I realized I had left my tickets at home.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "122": {
+        "full sentence": "The roller coaster was so much fun, but the line was incredibly long.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was so much fun",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the line was incredibly long.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "123": {
+        "full sentence": "My brother always gets on my nerves, but I love him anyway.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother always gets on my nerves",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but I love him anyway.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "124": {
+        "full sentence": "I can't believe I won the lottery! I'm so happy I could cry.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I can't believe I won the lottery!",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", I'm so happy I could cry.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "125": {
+        "full sentence": "The haunted house was really scary, but it was also kind of funny.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The haunted house was really scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but it was also kind of funny.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "126": {
+        "full sentence": "My mom was so mad at me for breaking the vase, but I didn't mean to.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom was so mad at me for breaking the vase",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but I didn't mean to.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "127": {
+        "full sentence": "The movie was really sad, but it had a great message.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The movie was really sad",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", but it had a great message.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "128": {
+        "full sentence": "My friend's joke was really funny, but it was also kind of offensive.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend's joke was really funny",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but it was also kind of offensive.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "129": {
+        "full sentence": "I was so excited to go on vacation, but the flight was delayed.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so excited to go on vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the flight was delayed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "130": {
+        "full sentence": "My cat woke me up at 4 am and wanted to play.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat woke me up at 4 am",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and wanted to play.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "131": {
+        "full sentence": "I got a new job but I'm worried about the commute.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I got a new job",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " but I'm worried about the commute.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "132": {
+        "full sentence": "My favorite show was cancelled after one season.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My favorite show",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " was cancelled after one season.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "133": {
+        "full sentence": "I saw a snake in the park and screamed.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I saw a snake in the park",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and screamed.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "134": {
+        "full sentence": "My friend stood me up for lunch and I was left waiting for an hour.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend stood me up for lunch",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and I was left waiting for an hour.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "135": {
+        "full sentence": "I won a prize in a contest and I'm so excited.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I won a prize in a contest",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " and I'm so excited.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "136": {
+        "full sentence": "The roller coaster was terrifying but fun.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was terrifying",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": " but fun.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "137": {
+        "full sentence": "My mom is making my favorite meal for dinner.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My mom is making my favorite meal for dinner.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "138": {
+        "full sentence": "I got a bad grade on my test and I'm really upset.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I got a bad grade on my test",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and I'm really upset.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "139": {
+        "full sentence": "My friend told me a secret and I'm not sure if I should tell.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend told me a secret",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " and I'm not sure if I should tell.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "140": {
+        "full sentence": "I hate it when my mom does that.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " when my mom does that.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "141": {
+        "full sentence": "My cat just died.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My cat just died.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "142": {
+        "full sentence": "I just saw a snake in the grass!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I just saw a snake in the grass!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "143": {
+        "full sentence": "My favorite food is pizza.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My favorite food is pizza.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "144": {
+        "full sentence": "I can't believe I won the lottery!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I can't believe I won the lottery!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "145": {
+        "full sentence": "My teacher gave me a detention.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a detention.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "146": {
+        "full sentence": "I love going to the beach.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I love going to the beach.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "147": {
+        "full sentence": "I'm so nervous for my test tomorrow.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm so nervous for my test tomorrow.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "148": {
+        "full sentence": "My brother is so annoying.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My brother is so annoying.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "149": {
+        "full sentence": "I saw a rainbow today!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I saw a rainbow today!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "150": {
+        "full sentence": "My cat woke me up at 5am this morning and I'm so tired.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat woke me up at 5am this morning",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and I'm so tired.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "151": {
+        "full sentence": "I love you, mom!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I love you, mom!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "152": {
+        "full sentence": "My favorite food is pizza, but it's really unhealthy.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My favorite food is pizza",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but it's really unhealthy.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "153": {
+        "full sentence": "I hate it when people chew with their mouth open.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I hate it when people chew with their mouth open.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "154": {
+        "full sentence": "I was so excited for my birthday party, but it ended up being a huge disappointment.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so excited for my birthday party",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but it ended up being a huge disappointment.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "155": {
+        "full sentence": "The movie was really scary, but also really good.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The movie was really scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but also really good.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "156": {
+        "full sentence": "My dog ran away and I'm really worried.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My dog ran away",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and I'm really worried.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "157": {
+        "full sentence": "I'm so grateful for my friends, they're always there for me.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so grateful for my friends",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", they're always there for me.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "158": {
+        "full sentence": "I can't believe I won the lottery!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I can't believe I won the lottery!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "159": {
+        "full sentence": "The cake was delicious, but I ate too much and now I feel sick.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "The cake was delicious",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I ate too much",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and now I feel sick.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "160": {
+        "full sentence": "My brother took my favorite video game, and now I have to wait until he's done playing it.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother took my favorite video game",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and now I have to wait until he's done playing it.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "161": {
+        "full sentence": "I just saw a snake in the grass! I didn't expect it, and it scared me.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "I just saw a snake in the grass!",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " I didn't expect it",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": " and it scared me.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "162": {
+        "full sentence": "My teacher gave me a lot of homework, but at least it's not due until next week.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a lot of homework",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but at least it's not due until next week.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "163": {
+        "full sentence": "The roller coaster was really fun, but the line was really long.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was really fun",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the line was really long.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "164": {
+        "full sentence": "My mom made my favorite meal for dinner, but then I found out she accidentally added peppers.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom made my favorite meal for dinner",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but then I found out she accidentally added peppers.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "165": {
+        "full sentence": "I finally got my report card, and I'm so happy that I got all A's!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I finally got my report card",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": ", and I'm so happy that I got all A's!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "166": {
+        "full sentence": "My friend invited me to a party, but then I found out it was a prank.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend invited me to a party",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but then I found out it was a prank.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "167": {
+        "full sentence": "The book was really good, but the ending was sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The book was really good",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the ending was sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "168": {
+        "full sentence": "My cat accidentally knocked over a vase, and now there's water everywhere.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat accidentally knocked over a vase",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", and now there's water everywhere.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "169": {
+        "full sentence": "I'm so excited for my upcoming vacation, but I'm also a little scared because I've never been on a plane before.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for my upcoming vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm also a little scared because I've never been on a plane before.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "170": {
+        "full sentence": "My cat loves to wake me up at 3 am to feed her.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat loves to wake me up at 3 am",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " to feed her.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "171": {
+        "full sentence": "I'm so excited that I finally got tickets to see my favorite band!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm so excited that I finally got tickets to see my favorite band!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "172": {
+        "full sentence": "The roller coaster was amazing, but the line was incredibly long.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was amazing",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the line was incredibly long.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "173": {
+        "full sentence": "I can't believe I won the lottery!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I can't believe I won the lottery!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "174": {
+        "full sentence": "My brother took my favorite video game and broke it.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother took my favorite video game",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and broke it.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "175": {
+        "full sentence": "The beach was beautiful, but the sunburn I got was brutal.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The beach was beautiful",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the sunburn I got was brutal.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "176": {
+        "full sentence": "I'm so nervous about this presentation, but I know I've prepared well.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so nervous about this presentation",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but I know I've prepared well.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "177": {
+        "full sentence": "The pizza delivery guy took forever and when he finally arrived, he was rude.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The pizza delivery guy took forever",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and when he finally arrived, he was rude.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "178": {
+        "full sentence": "I'm so excited to go on vacation, but I'm also sad to leave my pet behind.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited to go on vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm also sad to leave my pet behind.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "179": {
+        "full sentence": "The horror movie was really scary, but also kind of funny.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The horror movie was really scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but also kind of funny.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "180": {
+        "full sentence": "My brother took my favorite video game, and now he won't give it back!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother took my favorite video game",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", and now he won't give it back!",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "181": {
+        "full sentence": "I just saw a snake in the grass!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I just saw a snake in the grass!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "182": {
+        "full sentence": "My mom is making my favorite meal for dinner tonight.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My mom is making my favorite meal for dinner tonight.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "183": {
+        "full sentence": "I studied for three hours and did not do well on the test.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I studied for three hours",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and did not do well on the test.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "184": {
+        "full sentence": "The haunted house was really scary, but also kind of fun.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The haunted house was really scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but also kind of fun.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "185": {
+        "full sentence": "My cat just knocked over my water glass.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My cat just knocked over my water glass.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "186": {
+        "full sentence": "I'm so excited for vacation, but I'm also a little nervous.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm also a little nervous.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "187": {
+        "full sentence": "My friend just told me a secret, and now I feel like I can't tell anyone.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend just told me a secret",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", and now I feel like I can't tell anyone.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "188": {
+        "full sentence": "The book was really good, but the ending was sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The book was really good",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the ending was sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "189": {
+        "full sentence": "My teacher gave me a lot of homework, and now I don't have time to hang out with my friends.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a lot of homework",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", and now I don't have time to hang out with my friends.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "190": {
+        "full sentence": "My brother borrowed my car and returned it with a dented fender.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother borrowed my car",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and returned it with a dented fender.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "191": {
+        "full sentence": "I was expecting a promotion but my boss gave it to someone else.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was expecting a promotion",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " but my boss gave it to someone else.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "192": {
+        "full sentence": "The roller coaster was so scary that I couldn't even ride it.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was so scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": " that I couldn't even ride it.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "193": {
+        "full sentence": "My cat just died and I'm really upset.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just died",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and I'm really upset.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "194": {
+        "full sentence": "I finally got tickets to see my favorite band after months of trying.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I finally got tickets to see my favorite band",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "195": {
+        "full sentence": "My teacher gave me a surprise pop quiz and I was not prepared.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a surprise pop quiz",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and I was not prepared.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "196": {
+        "full sentence": "I saw a spider crawling on my desk and it freaked me out.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I saw a spider crawling on my desk",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and it freaked me out.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "197": {
+        "full sentence": "My friend cancelled plans at the last minute and it really annoyed me.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend cancelled plans at the last minute",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " and it really annoyed me.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "198": {
+        "full sentence": "I saw a beautiful sunset on the beach and it made me feel peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I saw a beautiful sunset on the beach",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "199": {
+        "full sentence": "My computer crashed and I lost all my files.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My computer crashed",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " and I lost all my files.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "200": {
+        "full sentence": "I woke up late and had to run to class, but I made it on time and the professor didn't even notice.",
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "I woke up late",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and had to run to class",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": ", but I made it on time",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " and the professor didn't even notice.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "201": {
+        "full sentence": "My cat just knocked over my water and now my notes are ruined!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just knocked over my water",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and now my notes are ruined!",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "202": {
+        "full sentence": "I'm so excited for the party tonight, but I have to finish this project first.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for the party tonight",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I have to finish this project first.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "203": {
+        "full sentence": "The roller coaster was terrifying, but the view from the top was amazing.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was terrifying",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but the view from the top was amazing.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "204": {
+        "full sentence": "I can't believe I forgot my phone at home, what if someone tries to reach me?",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I can't believe I forgot my phone at home",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "205": {
+        "full sentence": "The test was difficult, but I think I did well.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The test was difficult",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", but I think I did well.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "206": {
+        "full sentence": "My friend just told me a secret and now I feel like I can't trust anyone.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend just told me a secret",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and now I feel like I can't trust anyone.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "207": {
+        "full sentence": "The movie was really good, but the ending was so sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The movie was really good",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the ending was so sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "208": {
+        "full sentence": "I hate it when people chew with their mouth open, it's so disgusting.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when people chew with their mouth open",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", it's so disgusting.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "209": {
+        "full sentence": "I'm so excited for my vacation, but I have to finish all this work before I can leave.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for my vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I have to finish all this work before I can leave.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "210": {
+        "full sentence": "My mom is so annoying, she won't let me get a tattoo.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom is so annoying",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", she won't let me get a tattoo.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "211": {
+        "full sentence": "I saw a puppy on the street, and it was so cute!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I saw a puppy on the street",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": ", and it was so cute!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "212": {
+        "full sentence": "I can't believe I forgot my phone at home.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": " I can't believe I forgot my phone at home.",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " It's so frustrating!",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "213": {
+        "full sentence": "My teacher gave me a surprise pop quiz.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a surprise pop quiz.",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " I wasn't prepared at all!",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "214": {
+        "full sentence": "I saw a spider crawling on my desk, and it freaked me out.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I saw a spider crawling on my desk",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", and it freaked me out.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "215": {
+        "full sentence": "My best friend is moving away, and it's making me so sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My best friend is moving away",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and it's making me so sad.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "216": {
+        "full sentence": "I finally finished my project, and it feels amazing!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I finally finished my project",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": ", and it feels amazing!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "217": {
+        "full sentence": "I saw a video of a cat playing the piano, and it made me laugh so hard.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I saw a video of a cat playing the piano",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": ", and it made me laugh so hard.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "218": {
+        "full sentence": "I can't believe I lost my favorite book.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I can't believe I lost my favorite book.",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " It's like losing a part of myself.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "219": {
+        "full sentence": "My little brother drew on my wall, and it made me so angry.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My little brother drew on my wall",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", and it made me so angry.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "220": {
+        "full sentence": "I hate it when my mom grounds me, but at least I have my computer to keep me company.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when my mom grounds me",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but at least I have my computer to keep me company.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "221": {
+        "full sentence": "I was so startled by the loud noise that I jumped out of my seat.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so startled by the loud noise",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " that I jumped out of my seat.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "222": {
+        "full sentence": "I love spending time with my friends, but it's always bittersweet because we have to say goodbye.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I love spending time with my friends",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but it's always bittersweet because we have to say goodbye.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "223": {
+        "full sentence": "I'm so frustrated with this project, but I'm determined to see it through.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so frustrated with this project",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but I'm determined to see it through.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "224": {
+        "full sentence": "The movie was amazing, but the ending was so sad that I cried.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The movie was amazing",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the ending was so sad that I cried.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "225": {
+        "full sentence": "I'm so excited for my upcoming vacation, but I'm also a little nervous about the flight.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for my upcoming vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm also a little nervous about the flight.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "226": {
+        "full sentence": "I hate it when people chew with their mouth open, it's so disgusting.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when people chew with their mouth open",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", it's so disgusting.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "227": {
+        "full sentence": "I was so happy when I got the job offer, but then I realized the salary was really low.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so happy when I got the job offer",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but then I realized the salary was really low.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "228": {
+        "full sentence": "I love going to the beach, but I always get sunburned.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I love going to the beach",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I always get sunburned.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "229": {
+        "full sentence": "I'm so scared of heights, but I want to try skydiving someday.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so scared of heights",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but I want to try skydiving someday.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "230": {
+        "full sentence": "I hate it when my mom grounds me, but at least she let me play video games today.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when my mom grounds me",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but at least she let me play video games today.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "231": {
+        "full sentence": "My cat died, and it made me so sad, but I'm happy that I got to spend so much time with him.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat died",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", and it made me so sad",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "232": {
+        "full sentence": "I was so surprised when I saw a deer in the parking lot, but it was pretty cool.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so surprised when I saw a deer in the parking lot",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", but it was pretty cool.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "233": {
+        "full sentence": "I hate it when my brother borrows my clothes without asking, but at least he looks good in them.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when my brother borrows my clothes without asking",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but at least he looks good in them.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "234": {
+        "full sentence": "The roller coaster was really scary, but I'm glad I went on it.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was really scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but I'm glad I went on it.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "235": {
+        "full sentence": "I was so disgusted by the dirty dishes left in the sink, but I'm happy that I got to relax and watch TV after cleaning them.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so disgusted by the dirty dishes left in the sink",
+                "Emotion": "Disgusted"
+            },
+            {
+                "Segment": ", but I'm happy that I got to relax and watch TV after cleaning them.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "236": {
+        "full sentence": "My favorite book made me so sad when I finished it, but I'm happy that I got to read it.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My favorite book made me so sad when I finished it",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", but I'm happy that I got to read it.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "237": {
+        "full sentence": "My teacher gave me a detention, but at least I got to spend some time reading during it.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a detention",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but at least I got to spend some time reading during it.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "238": {
+        "full sentence": "I was so surprised when my dog learned how to do tricks, but it was really cute.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so surprised when my dog learned how to do tricks",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": ", but it was really cute.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "239": {
+        "full sentence": "I'm so done with this project, it's taking forever, but I'm happy that it's almost done.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so done with this project, it's taking forever",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but I'm happy that it's almost done.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "240": {
+        "full sentence": "My cat woke me up at 3 am and demanded to be fed.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat woke me up at 3 am",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and demanded to be fed.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "241": {
+        "full sentence": "I was really looking forward to going to the beach today, but it's raining.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was really looking forward to going to the beach today",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but it's raining.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "242": {
+        "full sentence": "My little brother broke my favorite toy and didn't even apologize.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My little brother broke my favorite toy",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " and didn't even apologize.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "243": {
+        "full sentence": "I finally finished my project after weeks of work, and it looks amazing!",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I finally finished my project after weeks of work",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", and it looks amazing!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "244": {
+        "full sentence": "The roller coaster was so scary, but also kind of fun.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was so scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but also kind of fun.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "245": {
+        "full sentence": "My mom is making my favorite dinner tonight, but I'm not hungry.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My mom is making my favorite dinner tonight",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm not hungry.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "246": {
+        "full sentence": "I can't believe I won the lottery!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I can't believe I won the lottery!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "247": {
+        "full sentence": "My friend cancelled our plans at the last minute, and it really hurt my feelings.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend cancelled our plans at the last minute",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": ", and it really hurt my feelings.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "248": {
+        "full sentence": "The movie was really good, but the ending was sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The movie was really good",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the ending was sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "249": {
+        "full sentence": "I hate it when people chew with their mouth open, it's so disgusting.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I hate it when people chew with their mouth open",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", it's so disgusting.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "250": {
+        "full sentence": "My cat is so fluffy and cute, but she always knocks over my stuff.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat is so fluffy and cute",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but she always knocks over my stuff.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "251": {
+        "full sentence": "I was so excited to go to the concert, but when I got there, I realized I had left my ticket at home.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so excited to go to the concert",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but when I got there, I realized I had left my ticket at home.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "252": {
+        "full sentence": "The roller coaster was so much fun, but the line was incredibly long.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was so much fun",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the line was incredibly long.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "253": {
+        "full sentence": "My brother always gets on my nerves, but I love him anyway.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother always gets on my nerves",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": ", but I love him anyway.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "254": {
+        "full sentence": "The movie was really good, but the ending was so sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The movie was really good",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the ending was so sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "255": {
+        "full sentence": "I was so surprised when I saw a deer running down the street.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I was so surprised when I saw a deer running down the street.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "256": {
+        "full sentence": "My favorite food is pizza, but it's so greasy.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My favorite food is pizza",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but it's so greasy.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "257": {
+        "full sentence": "The haunted house was really scary, but it was also kind of fun.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The haunted house was really scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but it was also kind of fun.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "258": {
+        "full sentence": "My teacher gave me a lot of homework, but I'm confident I can finish it.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My teacher gave me a lot of homework",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", but I'm confident I can finish it.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "259": {
+        "full sentence": "I was so excited to go on vacation, but the flight was delayed.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I was so excited to go on vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the flight was delayed.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "260": {
+        "full sentence": "My cat just jumped onto my lap and started purring.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My cat just jumped onto my lap",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": " and started purring.",
+                "Emotion": "Neutral"
+            }
+        ]
+    },
+    "261": {
+        "full sentence": "I can't believe I forgot to study for the test and now I'm freaking out.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I can't believe I forgot to study for the test",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " and now I'm freaking out.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "262": {
+        "full sentence": "The roller coaster was so scary, but also really fun.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The roller coaster was so scary",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": ", but also really fun.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "263": {
+        "full sentence": "My friend just told me that she's moving away and it's making me sad.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend just told me that she's moving away",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " and it's making me sad.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "264": {
+        "full sentence": "I'm so excited for my upcoming vacation, I've been planning it for months.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for my upcoming vacation",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": ", I've been planning it for months.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "265": {
+        "full sentence": "The movie was really good, but the ending was kind of disappointing.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The movie was really good",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but the ending was kind of disappointing.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "266": {
+        "full sentence": "My boss just yelled at me in front of everyone and now I'm feeling humiliated.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My boss just yelled at me in front of everyone",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " and now I'm feeling humiliated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "267": {
+        "full sentence": "I just saw a snake in the grass and it startled me.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I just saw a snake in the grass",
+                "Emotion": "Surprised"
+            },
+            {
+                "Segment": " and it startled me.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "268": {
+        "full sentence": "My brother just told me that he's getting married and I'm feeling shocked.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My brother just told me that he's getting married",
+                "Emotion": "Neutral"
+            },
+            {
+                "Segment": " and I'm feeling shocked.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "269": {
+        "full sentence": "The cake was delicious, but it was also really rich and now I'm feeling sick.",
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "The cake was delicious",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but it was also really rich",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and now I'm feeling sick.",
+                "Emotion": "Fearful"
+            }
+        ]
+    }
+}

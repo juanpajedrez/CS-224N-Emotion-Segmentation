@@ -1,0 +1,4849 @@
+{
+    "0": {
+        "full sentence": "My cat just died and I'm really sad about it.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My cat just died",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "1": {
+        "full sentence": "I got an A on my test, but I'm still upset because I missed one question.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I got an A on my test",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm still upset because I missed one question.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "2": {
+        "full sentence": "I love spending time with my family during the holidays, but it can also be really stressful.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I love spending time with my family during the holidays",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but it can also be really stressful.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "3": {
+        "full sentence": "I can't believe I won the lottery!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I can't believe I won the lottery!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "4": {
+        "full sentence": "My friend told me that I'm not invited to her party and it really hurt my feelings.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "My friend told me that I'm not invited to her party",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and it really hurt my feelings.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "5": {
+        "full sentence": "I'm so excited for my upcoming vacation, but I'm also a little nervous because I've never been to this country before.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so excited for my upcoming vacation",
+                "Emotion": "Happy"
+            },
+            {
+                "Segment": ", but I'm also a little nervous because I've never been to this country before.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "6": {
+        "full sentence": "I hate it when people don't listen to me and it makes me really angry.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I hate it when people don't listen to me",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "7": {
+        "full sentence": "I'm so relieved that the project is finally finished and I can take a break.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm so relieved that the project is finally finished",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "8": {
+        "full sentence": "I'm really disappointed that I didn't get the job, but I'm also grateful for the experience.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm really disappointed that I didn't get the job",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": ", but I'm also grateful for the experience.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "9": {
+        "full sentence": "My cat just died, and I'm really upset about it.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My cat just died",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "10": {
+        "full sentence": "I can't believe I finally met my celebrity crush!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I can't believe I finally met my celebrity crush!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "11": {
+        "full sentence": "I'm so angry that my flight was delayed and now I'll miss my connection.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm so angry that my flight was delayed",
+                "Emotion": "Angry"
+            },
+            {
+                "Segment": " and now I'll miss my connection.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "12": {
+        "full sentence": "I'm really disgusted by the way that person behaved at the restaurant.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm really disgusted by the way that person behaved at the restaurant.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "13": {
+        "full sentence": "I'm so excited to start my new job on Monday!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm so excited to start my new job on Monday!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "14": {
+        "full sentence": "I'm really scared to go skydiving, but I want to face my fear.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "I'm really scared to go skydiving",
+                "Emotion": "Fearful"
+            },
+            {
+                "Segment": " but I want to face my fear.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "15": {
+        "full sentence": "I'm really sad that my favorite TV show has come to an end.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm really sad that my favorite TV show has come to an end.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "16": {
+        "full sentence": "I'm so surprised that I won the contest!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm so surprised that I won the contest!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "17": {
+        "full sentence": "I'm really angry that my neighbor keeps playing their music so loudly.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm really angry that my neighbor keeps playing their music so loudly.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "18": {
+        "full sentence": "I'm so happy that I finally found my lost dog!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm so happy that I finally found my lost dog!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "19": {
+        "full sentence": "I can't believe he would say something like that!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I can't believe he would say something like that!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "20": {
+        "full sentence": "I'm so excited to go on this adventure!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm so excited to go on this adventure!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "21": {
+        "full sentence": "The news made me feel so sad and fearful.",
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "The news made me feel so sad",
+                "Emotion": "Sad"
+            },
+            {
+                "Segment": " and fearful.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "22": {
+        "full sentence": "The smell of freshly baked cookies makes me feel happy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The smell of freshly baked cookies makes me feel happy.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "23": {
+        "full sentence": "The scary movie kept me up all night, fearful of my dreams.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary movie kept me up all night",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "24": {
+        "full sentence": "I'm so angry that I lost my phone!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm so angry that I lost my phone!",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "25": {
+        "full sentence": "The comedy show had me laughing so hard I was surprised I didn't get kicked out!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The comedy show had me laughing so hard",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "26": {
+        "full sentence": "I'm really disgusted by the state of the public restroom.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm really disgusted by the state of the public restroom.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "27": {
+        "full sentence": "I'm so happy that I finally found a job!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm so happy that I finally found a job!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "28": {
+        "full sentence": "The rollercoaster was so intense it left me fearful but exhilarated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rollercoaster was so intense",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "29": {
+        "full sentence": "She was so surprised to see him at the party!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "She was so surprised to see him at the party!",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "30": {
+        "full sentence": "The children were so happy to go to the amusement park!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The children were so happy to go to the amusement park!",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "31": {
+        "full sentence": "The thought of eating another spoonful of that disgusting medicine made her feel nauseous.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The thought of eating another spoonful of that disgusting medicine made her feel nauseous.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "32": {
+        "full sentence": "The fearful look on his face made me feel uneasy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The fearful look on his face made me feel uneasy.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "33": {
+        "full sentence": "I'm so angry that I forgot my wallet at home!",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm so angry that I forgot my wallet at home!",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "34": {
+        "full sentence": "The sad news made me feel tearful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad news made me feel tearful.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "35": {
+        "full sentence": "The smell of freshly cut grass makes me feel happy and relaxed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The smell of freshly cut grass makes me feel happy and relaxed.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "36": {
+        "full sentence": "The children were so excited to open their presents on Christmas morning!",
+        "num_segments": 0,
+        "segments": []
+    },
+    "37": {
+        "full sentence": "I'm so disgusted by the way he treated her.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "I'm so disgusted by the way he treated her.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "38": {
+        "full sentence": "The thought of going on a hot air balloon ride made her feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The thought of going on a hot air balloon ride made her feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "39": {
+        "full sentence": "The politician's angry response to the question caught everyone off guard.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The politician's angry response to the question caught everyone off guard.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "40": {
+        "full sentence": "The announcement of the surprise party made everyone feel happy and excited.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The announcement of the surprise party made everyone feel happy and excited.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "41": {
+        "full sentence": "The smell of the dirty bathroom made me feel disgusted and uneasy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The smell of the dirty bathroom made me feel disgusted and uneasy.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "42": {
+        "full sentence": "The thought of having to give a presentation in front of a large crowd made him feel fearful and nervous.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The thought of having to give a presentation in front of a large crowd made him feel fearful and nervous.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "43": {
+        "full sentence": "The sad movie made me feel emotional and teary-eyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad movie made me feel emotional and teary-eyed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "44": {
+        "full sentence": "Her angry outburst at the customer service representative was unjustified.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "Her angry outburst at the customer service representative was unjustified.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "45": {
+        "full sentence": "The unexpected gift made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "46": {
+        "full sentence": "The thought of having to eat another piece of his terrible cooking made her feel disgusted and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The thought of having to eat another piece of his terrible cooking made her feel disgusted and annoyed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "47": {
+        "full sentence": "The fear of heights made him feel anxious and uneasy when standing near a ledge.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The fear of heights made him feel anxious and uneasy when standing near a ledge.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "48": {
+        "full sentence": "The happy news made me feel joyful and relieved.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The happy news made me feel joyful and relieved.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "49": {
+        "full sentence": "The rude comment made me feel angry and hurt.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and hurt.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "50": {
+        "full sentence": "The unexpected party invitation made me feel surprised and excited.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected party invitation made me feel surprised and excited.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "51": {
+        "full sentence": "The dirty conditions of the hotel room made me feel disgusted and uncomfortable.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The dirty conditions of the hotel room made me feel disgusted and uncomfortable.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "52": {
+        "full sentence": "The thought of having to speak in public made me feel fearful and nervous.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The thought of having to speak in public made me feel fearful and nervous.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "53": {
+        "full sentence": "The sad story made me feel emotional and teary.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad story made me feel emotional and teary.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "54": {
+        "full sentence": "Her angry reaction to the situation was uncalled for.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "Her angry reaction to the situation was uncalled for.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "55": {
+        "full sentence": "The lovely gift made me feel happy and appreciative.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The lovely gift made me feel happy and appreciative.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "56": {
+        "full sentence": "The thought of having to eat another meal made me feel disgusted and irritated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The thought of having to eat another meal made me feel disgusted and irritated.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "57": {
+        "full sentence": "The fear of failure made him feel anxious and uncertain.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The fear of failure made him feel anxious and uncertain.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "58": {
+        "full sentence": "The happy moment made me feel joyful and content.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The happy moment made me feel joyful and content.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "59": {
+        "full sentence": "Her rude behavior towards me made me feel angry and disrespected.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "Her rude behavior towards me made me feel angry and disrespected.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "60": {
+        "full sentence": "The unexpected compliment made me feel surprised and happy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected compliment made me feel surprised and happy.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "61": {
+        "full sentence": "The dirty dishes left in the sink made me feel disgusted and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The dirty dishes left in the sink made me feel disgusted and annoyed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "62": {
+        "full sentence": "The thought of losing my phone made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The thought of losing my phone made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "63": {
+        "full sentence": "The sad goodbye made me feel emotional and heartbroken.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad goodbye made me feel emotional and heartbroken.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "64": {
+        "full sentence": "His angry outburst was unjustified and made me feel uncomfortable.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "His angry outburst was unjustified and made me feel uncomfortable.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "65": {
+        "full sentence": "The beautiful sunset made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "66": {
+        "full sentence": "The thought of speaking to a large crowd made me feel fearful and intimidated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The thought of speaking to a large crowd made me feel fearful and intimidated.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "67": {
+        "full sentence": "The smell of freshly baked cookies made me feel happy and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The smell of freshly baked cookies made me feel happy and nostalgic.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "68": {
+        "full sentence": "The disappointing news made me feel sad and let down.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing news made me feel sad and let down.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "69": {
+        "full sentence": "Her lie made me feel angry and betrayed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "Her lie made me feel angry and betrayed.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "70": {
+        "full sentence": "The comedian's jokes made me feel surprised and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The comedian's jokes made me feel surprised and amused.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "71": {
+        "full sentence": "The dirty streets made me feel disgusted and disappointed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The dirty streets made me feel disgusted and disappointed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "72": {
+        "full sentence": "The thought of losing my family made me feel fearful and devastated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The thought of losing my family made me feel fearful and devastated.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "73": {
+        "full sentence": "The sad movie made me feel emotional and depressed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad movie made me feel emotional and depressed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "74": {
+        "full sentence": "His rude comment made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "His rude comment made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "75": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "76": {
+        "full sentence": "The thought of failing the exam made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The thought of failing the exam made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "77": {
+        "full sentence": "The delicious meal made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The delicious meal made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "78": {
+        "full sentence": "The unexpected gift made me feel surprised and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel surprised and grateful.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "79": {
+        "full sentence": "The rude customer made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude customer made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "80": {
+        "full sentence": "The unexpected party invitation made me feel surprised and excited.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected party invitation made me feel surprised and excited.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "81": {
+        "full sentence": "The dirty bathroom made me feel disgusted and uncomfortable.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The dirty bathroom made me feel disgusted and uncomfortable.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "82": {
+        "full sentence": "The scary movie made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary movie made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "83": {
+        "full sentence": "The loss of my favorite pet made me feel sad and empty.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The loss of my favorite pet made me feel sad and empty.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "84": {
+        "full sentence": "The traffic jam made me feel angry and stressed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The traffic jam made me feel angry and stressed.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "85": {
+        "full sentence": "The beautiful sunset made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "86": {
+        "full sentence": "The disappointing book made me feel sad and underwhelmed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing book made me feel sad and underwhelmed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "87": {
+        "full sentence": "The kind stranger made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The kind stranger made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "88": {
+        "full sentence": "The difficult challenge made me feel fearful and determined.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult challenge made me feel fearful and determined.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "89": {
+        "full sentence": "The loud noise startled me and made me feel surprised and frightened.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The loud noise startled me and made me feel surprised and frightened.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "90": {
+        "full sentence": "The rude comment made me feel angry and hurt.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and hurt.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "91": {
+        "full sentence": "The delicious meal made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The delicious meal made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "92": {
+        "full sentence": "The long wait made me feel frustrated and annoyed.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "93": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "94": {
+        "full sentence": "The sad news made me feel sad and hopeless.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad news made me feel sad and hopeless.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "95": {
+        "full sentence": "The difficult conversation made me feel fearful and nervous.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult conversation made me feel fearful and nervous.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "96": {
+        "full sentence": "The funny joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "97": {
+        "full sentence": "The disappointing result made me feel sad and disappointed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing result made me feel sad and disappointed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "98": {
+        "full sentence": "The kind gesture made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The kind gesture made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "99": {
+        "full sentence": "The scary situation made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary situation made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "100": {
+        "full sentence": "The unexpected gift made me feel surprised and delighted.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel surprised and delighted.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "101": {
+        "full sentence": "The beautiful sunrise made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunrise made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "102": {
+        "full sentence": "The rude comment made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "103": {
+        "full sentence": "The sad memory made me feel sad and melancholic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad memory made me feel sad and melancholic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "104": {
+        "full sentence": "The exciting adventure made me feel happy and thrilled.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting adventure made me feel happy and thrilled.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "105": {
+        "full sentence": "The difficult decision made me feel fearful and uncertain.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult decision made me feel fearful and uncertain.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "106": {
+        "full sentence": "The kind words made me feel happy and appreciated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The kind words made me feel happy and appreciated.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "107": {
+        "full sentence": "The disappointing experience made me feel sad and regretful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing experience made me feel sad and regretful.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "108": {
+        "full sentence": "The beautiful music made me feel happy and relaxed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful music made me feel happy and relaxed.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "109": {
+        "full sentence": "The smelly trash made me feel disgusted and unhappy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The smelly trash made me feel disgusted and unhappy.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "110": {
+        "full sentence": "The long wait made me feel fearful and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long wait made me feel fearful and frustrated.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "111": {
+        "full sentence": "The sweet cake made me feel happy and eager.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sweet cake made me feel happy and eager.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "112": {
+        "full sentence": "The annoying noise made me feel angry and irritated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The annoying noise made me feel angry and irritated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "113": {
+        "full sentence": "The beautiful flower made me feel happy and curious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful flower made me feel happy and curious.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "114": {
+        "full sentence": "The scary dog made me feel fearful and avoidant.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary dog made me feel fearful and avoidant.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "115": {
+        "full sentence": "The good news made me feel happy and relieved.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good news made me feel happy and relieved.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "116": {
+        "full sentence": "The rude stranger made me feel angry and defensive.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude stranger made me feel angry and defensive.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "117": {
+        "full sentence": "The interesting book made me feel happy and engaged.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The interesting book made me feel happy and engaged.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "118": {
+        "full sentence": "The hot weather made me feel unhappy and uncomfortable.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "119": {
+        "full sentence": "The difficult challenge made me feel fearful and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult challenge made me feel fearful and frustrated.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "120": {
+        "full sentence": "The yummy breakfast made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The yummy breakfast made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "121": {
+        "full sentence": "The bad grade made me feel sad and disappointed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The bad grade made me feel sad and disappointed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "122": {
+        "full sentence": "The surprising twist made me feel surprised and intrigued.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The surprising twist made me feel surprised and intrigued.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "123": {
+        "full sentence": "The rude comment made me feel angry and hurt.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and hurt.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "124": {
+        "full sentence": "The beautiful sunset made me feel happy and calm.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and calm.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "125": {
+        "full sentence": "The long day made me feel tired and relieved.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "126": {
+        "full sentence": "The funny joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "127": {
+        "full sentence": "The sad news made me feel sad and empathetic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad news made me feel sad and empathetic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "128": {
+        "full sentence": "The exciting adventure made me feel happy and thrilled.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting adventure made me feel happy and thrilled.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "129": {
+        "full sentence": "The difficult boss made me feel fearful and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult boss made me feel fearful and frustrated.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "130": {
+        "full sentence": "The long wait made me feel sad and disappointed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long wait made me feel sad and disappointed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "131": {
+        "full sentence": "The unexpected gift made me feel happy and surprised.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel happy and surprised.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "132": {
+        "full sentence": "The annoying noise made me feel angry and irritated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The annoying noise made me feel angry and irritated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "133": {
+        "full sentence": "The beautiful flower made me feel happy and delighted.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful flower made me feel happy and delighted.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "134": {
+        "full sentence": "The interesting book made me feel happy and engaged.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The interesting book made me feel happy and engaged.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "135": {
+        "full sentence": "The mean comment made me feel sad and hurt.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The mean comment made me feel sad and hurt.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "136": {
+        "full sentence": "The funny video made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny video made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "137": {
+        "full sentence": "The scary movie made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary movie made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "138": {
+        "full sentence": "The good news made me feel happy and relieved.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good news made me feel happy and relieved.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "139": {
+        "full sentence": "The delicious food made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The delicious food made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "140": {
+        "full sentence": "The difficult decision made me feel fearful and uncertain.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult decision made me feel fearful and uncertain.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "141": {
+        "full sentence": "The beautiful sunrise made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunrise made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "142": {
+        "full sentence": "The rude driver made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude driver made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "143": {
+        "full sentence": "The interesting conversation made me feel happy and engaged.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The interesting conversation made me feel happy and engaged.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "144": {
+        "full sentence": "The sad memory made me feel sad and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad memory made me feel sad and nostalgic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "145": {
+        "full sentence": "The exciting trip made me feel happy and excited.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting trip made me feel happy and excited.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "146": {
+        "full sentence": "The boring meeting made me feel sad and uninterested.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The boring meeting made me feel sad and uninterested.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "147": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "148": {
+        "full sentence": "The mean criticism made me feel sad and defensive.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The mean criticism made me feel sad and defensive.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "149": {
+        "full sentence": "The cold shower made me feel fearful and shocked.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The cold shower made me feel fearful and shocked.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "150": {
+        "full sentence": "The unexpected promotion made me feel happy and proud.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected promotion made me feel happy and proud.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "151": {
+        "full sentence": "The terrible smell made me feel disgusted and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The terrible smell made me feel disgusted and annoyed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "152": {
+        "full sentence": "The long reunion made me feel happy and content.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long reunion made me feel happy and content.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "153": {
+        "full sentence": "The disappointing movie made me feel sad and let down.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing movie made me feel sad and let down.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "154": {
+        "full sentence": "The challenging obstacle made me feel fearful and determined.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The challenging obstacle made me feel fearful and determined.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "155": {
+        "full sentence": "The funny joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "156": {
+        "full sentence": "The frustrating technical issue made me feel angry and helpless.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The frustrating technical issue made me feel angry and helpless.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "157": {
+        "full sentence": "The beautiful sunset made me feel happy and calm.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and calm.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "158": {
+        "full sentence": "The sad goodbye made me feel sad and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad goodbye made me feel sad and nostalgic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "159": {
+        "full sentence": "The rude comment made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "160": {
+        "full sentence": "The unexpected gift made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "161": {
+        "full sentence": "The spicy food made me feel disgusted and uncomfortable.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The spicy food made me feel disgusted and uncomfortable.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "162": {
+        "full sentence": "The long-awaited vacation made me feel happy and relaxed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long-awaited vacation made me feel happy and relaxed.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "163": {
+        "full sentence": "The disappointing news made me feel sad and hopeless.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing news made me feel sad and hopeless.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "164": {
+        "full sentence": "The challenging conversation made me feel fearful and nervous.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The challenging conversation made me feel fearful and nervous.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "165": {
+        "full sentence": "The funny meme made me feel happy and entertained.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny meme made me feel happy and entertained.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "166": {
+        "full sentence": "The frustrating traffic made me feel angry and aggravated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The frustrating traffic made me feel angry and aggravated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "167": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "168": {
+        "full sentence": "The scary movie made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary movie made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "169": {
+        "full sentence": "The rude driver made me feel angry and aggressive.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude driver made me feel angry and aggressive.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "170": {
+        "full sentence": "The unexpected compliment made me feel happy and flattered.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected compliment made me feel happy and flattered.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "171": {
+        "full sentence": "The bad smell in the elevator made me feel disgusted and uncomfortable.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The bad smell in the elevator made me feel disgusted and uncomfortable.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "172": {
+        "full sentence": "The good news made me feel happy and relieved.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good news made me feel happy and relieved.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "173": {
+        "full sentence": "The long line at the store made me feel frustrated and annoyed.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "174": {
+        "full sentence": "The beautiful sunset made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "175": {
+        "full sentence": "The scary roller coaster made me feel fearful and thrilled.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary roller coaster made me feel fearful and thrilled.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "176": {
+        "full sentence": "The interesting book made me feel happy and engaged.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The interesting book made me feel happy and engaged.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "177": {
+        "full sentence": "The disappointing conversation made me feel sad and hopeless.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing conversation made me feel sad and hopeless.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "178": {
+        "full sentence": "The funny joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "179": {
+        "full sentence": "The rude comment made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "180": {
+        "full sentence": "The surprising party made me feel surprised and delighted.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The surprising party made me feel surprised and delighted.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "181": {
+        "full sentence": "The smelly garbage made me feel disgusted and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The smelly garbage made me feel disgusted and annoyed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "182": {
+        "full sentence": "The good review made me feel happy and proud.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good review made me feel happy and proud.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "183": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "184": {
+        "full sentence": "The scary situation made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary situation made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "185": {
+        "full sentence": "The interesting conversation made me feel engaged and intrigued.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "186": {
+        "full sentence": "The disappointing result made me feel sad and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing result made me feel sad and frustrated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "187": {
+        "full sentence": "The funny video made me feel happy and entertained.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny video made me feel happy and entertained.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "188": {
+        "full sentence": "The rude behavior made me feel angry and uncomfortable.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude behavior made me feel angry and uncomfortable.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "189": {
+        "full sentence": "The long wait made me feel disgusted and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long wait made me feel disgusted and annoyed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "190": {
+        "full sentence": "The unexpected gift made me feel surprised and happy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel surprised and happy.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "191": {
+        "full sentence": "The mean comment made me feel angry and hurt.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The mean comment made me feel angry and hurt.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "192": {
+        "full sentence": "The beautiful sunset made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "193": {
+        "full sentence": "The scary movie made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary movie made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "194": {
+        "full sentence": "The good conversation made me feel happy and connected.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good conversation made me feel happy and connected.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "195": {
+        "full sentence": "The bad news made me feel sad and worried.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The bad news made me feel sad and worried.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "196": {
+        "full sentence": "The funny joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "197": {
+        "full sentence": "The difficult challenge made me feel fearful and uncertain.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult challenge made me feel fearful and uncertain.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "198": {
+        "full sentence": "The kind gesture made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The kind gesture made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "199": {
+        "full sentence": "The frustrating experience made me feel angry and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The frustrating experience made me feel angry and annoyed.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "200": {
+        "full sentence": "The unexpected promotion made me feel surprised and happy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected promotion made me feel surprised and happy.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "201": {
+        "full sentence": "The rude comment made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "202": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "203": {
+        "full sentence": "The scary situation made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary situation made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "204": {
+        "full sentence": "The good book made me feel happy and engaged.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good book made me feel happy and engaged.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "205": {
+        "full sentence": "The sad news made me feel sad and hopeless.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad news made me feel sad and hopeless.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "206": {
+        "full sentence": "The funny video made me feel happy and entertained.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny video made me feel happy and entertained.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "207": {
+        "full sentence": "The difficult conversation made me feel fearful and nervous.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult conversation made me feel fearful and nervous.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "208": {
+        "full sentence": "The generous gift made me feel happy and appreciative.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The generous gift made me feel happy and appreciative.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "209": {
+        "full sentence": "The long wait made me feel frustrated and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long wait made me feel frustrated and annoyed.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "210": {
+        "full sentence": "The unexpected compliment made me feel surprised and happy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected compliment made me feel surprised and happy.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "211": {
+        "full sentence": "The offensive joke made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The offensive joke made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "212": {
+        "full sentence": "The beautiful sunset made me feel happy and calm.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and calm.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "213": {
+        "full sentence": "The frightening experience made me feel fearful and terrified.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The frightening experience made me feel fearful and terrified.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "214": {
+        "full sentence": "The interesting conversation made me feel engaged and intrigued.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "215": {
+        "full sentence": "The disappointing news made me feel sad and let down.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing news made me feel sad and let down.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "216": {
+        "full sentence": "The funny joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "217": {
+        "full sentence": "The challenging task made me feel fearful and uncertain.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The challenging task made me feel fearful and uncertain.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "218": {
+        "full sentence": "The generous apology made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The generous apology made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "219": {
+        "full sentence": "The rude comment made me feel disgusted and angry.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel disgusted and angry.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "220": {
+        "full sentence": "The exciting adventure made me feel happy and thrilled.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting adventure made me feel happy and thrilled.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "221": {
+        "full sentence": "The unexpected promotion made me feel surprised and happy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected promotion made me feel surprised and happy.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "222": {
+        "full sentence": "The tragic news made me feel sad and devastated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The tragic news made me feel sad and devastated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "223": {
+        "full sentence": "The hilarious comedy show made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The hilarious comedy show made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "224": {
+        "full sentence": "The frustrating technical issue made me feel annoyed and frustrated.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "225": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "226": {
+        "full sentence": "The frightening storm made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The frightening storm made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "227": {
+        "full sentence": "The generous gift made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The generous gift made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "228": {
+        "full sentence": "The disappointing movie made me feel sad and let down.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing movie made me feel sad and let down.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "229": {
+        "full sentence": "The long-awaited reunion made me feel happy and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long-awaited reunion made me feel happy and nostalgic.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "230": {
+        "full sentence": "The rude customer made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude customer made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "231": {
+        "full sentence": "The unexpected compliment made me feel surprised and flattered.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected compliment made me feel surprised and flattered.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "232": {
+        "full sentence": "The tragic loss made me feel sad and heartbroken.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The tragic loss made me feel sad and heartbroken.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "233": {
+        "full sentence": "The exciting road trip made me feel happy and adventurous.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting road trip made me feel happy and adventurous.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "234": {
+        "full sentence": "The disappointing results made me feel sad and defeated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing results made me feel sad and defeated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "235": {
+        "full sentence": "The beautiful sunset made me feel calm and peaceful.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "236": {
+        "full sentence": "The frightening experience made me feel fearful and traumatized.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The frightening experience made me feel fearful and traumatized.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "237": {
+        "full sentence": "The generous apology made me feel happy and relieved.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The generous apology made me feel happy and relieved.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "238": {
+        "full sentence": "The unexpected surprise party made me feel surprised and delighted.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected surprise party made me feel surprised and delighted.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "239": {
+        "full sentence": "The beautiful sunset made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "240": {
+        "full sentence": "The rude comment made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "241": {
+        "full sentence": "The unexpected gift made me feel surprised and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel surprised and grateful.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "242": {
+        "full sentence": "The sad news made me feel sad and sympathetic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad news made me feel sad and sympathetic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "243": {
+        "full sentence": "The exciting concert made me feel happy and energetic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting concert made me feel happy and energetic.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "244": {
+        "full sentence": "The frustrating traffic made me feel angry and aggravated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The frustrating traffic made me feel angry and aggravated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "245": {
+        "full sentence": "The delicious meal made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The delicious meal made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "246": {
+        "full sentence": "The scary movie made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary movie made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "247": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "248": {
+        "full sentence": "The disappointing grade made me feel sad and discouraged.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing grade made me feel sad and discouraged.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "249": {
+        "full sentence": "The thoughtful gift made me feel happy and appreciative.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The thoughtful gift made me feel happy and appreciative.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "250": {
+        "full sentence": "The long wait made me feel frustrated and annoyed.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "251": {
+        "full sentence": "The amazing view made me feel happy and awestruck.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The amazing view made me feel happy and awestruck.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "252": {
+        "full sentence": "The rude stranger made me feel angry and taken aback.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude stranger made me feel angry and taken aback.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "253": {
+        "full sentence": "The good news made me feel happy and relieved.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good news made me feel happy and relieved.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "254": {
+        "full sentence": "The difficult challenge made me feel fearful and uncertain.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult challenge made me feel fearful and uncertain.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "255": {
+        "full sentence": "The tasty dessert made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The tasty dessert made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "256": {
+        "full sentence": "The disappointing conversation made me feel sad and disconnected.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing conversation made me feel sad and disconnected.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "257": {
+        "full sentence": "The exciting adventure made me feel happy and thrilled.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting adventure made me feel happy and thrilled.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "258": {
+        "full sentence": "The frustrating technical issue made me feel angry and helpless.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The frustrating technical issue made me feel angry and helpless.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "259": {
+        "full sentence": "The unexpected compliment made me feel happy and surprised.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected compliment made me feel happy and surprised.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "260": {
+        "full sentence": "The long wait made me feel frustrated and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long wait made me feel frustrated and annoyed.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "261": {
+        "full sentence": "The beautiful sunset made me feel happy and calm.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and calm.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "262": {
+        "full sentence": "The rude comment made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "263": {
+        "full sentence": "The good friend made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good friend made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "264": {
+        "full sentence": "The scary movie made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary movie made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "265": {
+        "full sentence": "The delicious meal made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The delicious meal made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "266": {
+        "full sentence": "The unexpected change made me feel surprised and uncertain.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected change made me feel surprised and uncertain.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "267": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "268": {
+        "full sentence": "The disappointing result made me feel sad and disappointed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing result made me feel sad and disappointed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "269": {
+        "full sentence": "The long conversation made me feel happy and engaged.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long conversation made me feel happy and engaged.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "270": {
+        "full sentence": "The rude driver made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude driver made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "271": {
+        "full sentence": "The unexpected gift made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "272": {
+        "full sentence": "The boring meeting made me feel disgusted and bored.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The boring meeting made me feel disgusted and bored.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "273": {
+        "full sentence": "The beautiful sunrise made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunrise made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "274": {
+        "full sentence": "The scary situation made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary situation made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "275": {
+        "full sentence": "The good news made me feel happy and relieved.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good news made me feel happy and relieved.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "276": {
+        "full sentence": "The difficult challenge made me feel anxious and uncertain.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "277": {
+        "full sentence": "The delicious dessert made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The delicious dessert made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "278": {
+        "full sentence": "The sad story made me feel sad and empathetic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad story made me feel sad and empathetic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "279": {
+        "full sentence": "The traffic jam made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The traffic jam made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "280": {
+        "full sentence": "The unexpected compliment made me feel happy and surprised.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected compliment made me feel happy and surprised.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "281": {
+        "full sentence": "The rude comment made me feel disgusted and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel disgusted and offended.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "282": {
+        "full sentence": "The beautiful sunset made me feel happy and calm.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and calm.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "283": {
+        "full sentence": "The scary movie made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary movie made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "284": {
+        "full sentence": "The goodbye hug made me feel sad and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The goodbye hug made me feel sad and nostalgic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "285": {
+        "full sentence": "The exciting news made me feel happy and eager.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting news made me feel happy and eager.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "286": {
+        "full sentence": "The annoying noise made me feel disgusted and irritated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The annoying noise made me feel disgusted and irritated.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "287": {
+        "full sentence": "The kind gesture made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The kind gesture made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "288": {
+        "full sentence": "The disappointing result made me feel sad and disappointed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing result made me feel sad and disappointed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "289": {
+        "full sentence": "The long-awaited reunion made me feel happy and excited.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long-awaited reunion made me feel happy and excited.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "290": {
+        "full sentence": "The rude awakening made me feel angry and startled.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude awakening made me feel angry and startled.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "291": {
+        "full sentence": "The unexpected gift made me feel surprised and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel surprised and grateful.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "292": {
+        "full sentence": "The beautiful melody made me feel happy and relaxed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful melody made me feel happy and relaxed.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "293": {
+        "full sentence": "The terrifying experience made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The terrifying experience made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "294": {
+        "full sentence": "The heartbreaking news made me feel sad and devastated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The heartbreaking news made me feel sad and devastated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "295": {
+        "full sentence": "The amusing joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The amusing joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "296": {
+        "full sentence": "The frustrating delay made me feel disgusted and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The frustrating delay made me feel disgusted and annoyed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "297": {
+        "full sentence": "The stunning view made me feel happy and awestruck.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The stunning view made me feel happy and awestruck.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "298": {
+        "full sentence": "The hurtful comment made me feel sad and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The hurtful comment made me feel sad and offended.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "299": {
+        "full sentence": "The long, hard day at work made me feel disgusted and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long, hard day at work made me feel disgusted and annoyed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "300": {
+        "full sentence": "The delicious dessert made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The delicious dessert made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "301": {
+        "full sentence": "The unexpected compliment made me feel happy and flattered.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected compliment made me feel happy and flattered.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "302": {
+        "full sentence": "The frustrating conversation made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The frustrating conversation made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "303": {
+        "full sentence": "The good news made me feel happy and relieved.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good news made me feel happy and relieved.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "304": {
+        "full sentence": "The scary movie made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary movie made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "305": {
+        "full sentence": "The beautiful sunset made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "306": {
+        "full sentence": "The rude comment made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "307": {
+        "full sentence": "The exciting adventure made me feel happy and thrilled.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting adventure made me feel happy and thrilled.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "308": {
+        "full sentence": "The disappointing outcome made me feel sad and let down.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing outcome made me feel sad and let down.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "309": {
+        "full sentence": "The difficult challenge made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult challenge made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "310": {
+        "full sentence": "The unexpected gift made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "311": {
+        "full sentence": "The annoying noise made me feel annoyed and frustrated.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "312": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "313": {
+        "full sentence": "The mean comment made me feel angry and hurt.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The mean comment made me feel angry and hurt.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "314": {
+        "full sentence": "The hilarious joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The hilarious joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "315": {
+        "full sentence": "The long wait made me feel frustrated and impatient.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "316": {
+        "full sentence": "The good friend made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good friend made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "317": {
+        "full sentence": "The scary situation made me feel fearful and nervous.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary situation made me feel fearful and nervous.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "318": {
+        "full sentence": "The big loss made me feel sad and disappointed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The big loss made me feel sad and disappointed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "319": {
+        "full sentence": "The rude driver made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude driver made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "320": {
+        "full sentence": "The long wait made me feel disgusted and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long wait made me feel disgusted and annoyed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "321": {
+        "full sentence": "The amazing view made me feel happy and awed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The amazing view made me feel happy and awed.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "322": {
+        "full sentence": "The difficult goodbye made me feel sad and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult goodbye made me feel sad and nostalgic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "323": {
+        "full sentence": "The unexpected promotion made me feel happy and proud.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected promotion made me feel happy and proud.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "324": {
+        "full sentence": "The scary storm made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary storm made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "325": {
+        "full sentence": "The interesting book made me feel happy and engaged.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The interesting book made me feel happy and engaged.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "326": {
+        "full sentence": "The rude comment made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "327": {
+        "full sentence": "The beautiful sunset made me feel happy and calm.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and calm.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "328": {
+        "full sentence": "The big surprise made me feel surprised and excited.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The big surprise made me feel surprised and excited.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "329": {
+        "full sentence": "The injustice made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The injustice made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "330": {
+        "full sentence": "The unexpected gift made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "331": {
+        "full sentence": "The bad news made me feel sad and concerned.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The bad news made me feel sad and concerned.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "332": {
+        "full sentence": "The long conversation made me feel engaged and tired.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "333": {
+        "full sentence": "The scary movie made me feel fearful and thrilled.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary movie made me feel fearful and thrilled.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "334": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "335": {
+        "full sentence": "The rude stranger made me feel angry and defensive.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude stranger made me feel angry and defensive.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "336": {
+        "full sentence": "The good advice made me feel grateful and relieved.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "337": {
+        "full sentence": "The difficult challenge made me feel fearful and determined.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult challenge made me feel fearful and determined.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "338": {
+        "full sentence": "The happy reunion made me feel happy and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The happy reunion made me feel happy and nostalgic.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "339": {
+        "full sentence": "The rude comment made me feel disgusted and angry.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel disgusted and angry.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "340": {
+        "full sentence": "The unexpected compliment made me feel happy and surprised.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected compliment made me feel happy and surprised.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "341": {
+        "full sentence": "The sad news made me feel sad and tearful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad news made me feel sad and tearful.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "342": {
+        "full sentence": "The scary situation made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary situation made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "343": {
+        "full sentence": "The beautiful sunset made me feel happy and calm.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and calm.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "344": {
+        "full sentence": "The difficult conversation made me feel anxious and frustrated.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "345": {
+        "full sentence": "The funny joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "346": {
+        "full sentence": "The disappointing result made me feel sad and disappointed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing result made me feel sad and disappointed.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "347": {
+        "full sentence": "The surprising twist made me feel surprised and intrigued.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The surprising twist made me feel surprised and intrigued.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "348": {
+        "full sentence": "The mean comment made me feel angry and hurt.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The mean comment made me feel angry and hurt.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "349": {
+        "full sentence": "The frustrating experience made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The frustrating experience made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "350": {
+        "full sentence": "The thrilling rollercoaster ride made me feel fearful and exhilarated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The thrilling rollercoaster ride made me feel fearful and exhilarated.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "351": {
+        "full sentence": "The heartwarming reunion made me feel happy and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The heartwarming reunion made me feel happy and nostalgic.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "352": {
+        "full sentence": "The disgusting meal made me feel disgusted and disappointed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disgusting meal made me feel disgusted and disappointed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "353": {
+        "full sentence": "The unexpected gift made me feel surprised and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel surprised and grateful.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "354": {
+        "full sentence": "The tragic event made me feel sad and empathetic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The tragic event made me feel sad and empathetic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "355": {
+        "full sentence": "The hilarious comedy show made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The hilarious comedy show made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "356": {
+        "full sentence": "The tense argument made me feel angry and defensive.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The tense argument made me feel angry and defensive.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "357": {
+        "full sentence": "The stunning sunrise made me feel happy and awestruck.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The stunning sunrise made me feel happy and awestruck.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "358": {
+        "full sentence": "The annoying noise made me feel annoyed and frustrated.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "359": {
+        "full sentence": "The beautiful sunset made me feel happy and calm.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and calm.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "360": {
+        "full sentence": "The long line at the store made me feel frustrated and annoyed.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "361": {
+        "full sentence": "The scary horror movie made me feel fearful and terrified.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary horror movie made me feel fearful and terrified.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "362": {
+        "full sentence": "The rude customer made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude customer made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "363": {
+        "full sentence": "The delightful dessert made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The delightful dessert made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "364": {
+        "full sentence": "The disappointing movie made me feel sad and let down.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing movie made me feel sad and let down.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "365": {
+        "full sentence": "The exciting news made me feel happy and eager.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting news made me feel happy and eager.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "366": {
+        "full sentence": "The difficult challenge made me feel fearful and uncertain.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult challenge made me feel fearful and uncertain.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "367": {
+        "full sentence": "The heartwarming reunion made me feel happy and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The heartwarming reunion made me feel happy and nostalgic.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "368": {
+        "full sentence": "The annoying noise made me feel frustrated and irritated.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "369": {
+        "full sentence": "The frustrating traffic made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The frustrating traffic made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "370": {
+        "full sentence": "The unexpected gift made me feel surprised and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel surprised and grateful.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "371": {
+        "full sentence": "The disgusting insect made me feel disgusted and uncomfortable.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disgusting insect made me feel disgusted and uncomfortable.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "372": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "373": {
+        "full sentence": "The scary roller coaster made me feel fearful and thrilled.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary roller coaster made me feel fearful and thrilled.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "374": {
+        "full sentence": "The sad news made me feel sad and sympathetic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad news made me feel sad and sympathetic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "375": {
+        "full sentence": "The hilarious comedy made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The hilarious comedy made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "376": {
+        "full sentence": "The challenging obstacle made me feel fearful and determined.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The challenging obstacle made me feel fearful and determined.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "377": {
+        "full sentence": "The heartbreaking story made me feel sad and empathetic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The heartbreaking story made me feel sad and empathetic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "378": {
+        "full sentence": "The exciting adventure made me feel happy and enthusiastic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting adventure made me feel happy and enthusiastic.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "379": {
+        "full sentence": "The rude comment made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "380": {
+        "full sentence": "The unexpected compliment made me feel surprised and flattered.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected compliment made me feel surprised and flattered.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "381": {
+        "full sentence": "The smelly garbage made me feel disgusted and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The smelly garbage made me feel disgusted and annoyed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "382": {
+        "full sentence": "The beautiful sunset made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "383": {
+        "full sentence": "The scary darkness made me feel fearful and uneasy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary darkness made me feel fearful and uneasy.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "384": {
+        "full sentence": "The tragic loss made me feel sad and devastated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The tragic loss made me feel sad and devastated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "385": {
+        "full sentence": "The funny joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "386": {
+        "full sentence": "The challenging exam made me feel fearful and motivated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The challenging exam made me feel fearful and motivated.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "387": {
+        "full sentence": "The heartwarming reunion made me feel happy and touched.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The heartwarming reunion made me feel happy and touched.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "388": {
+        "full sentence": "The exciting victory made me feel happy and proud.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting victory made me feel happy and proud.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "389": {
+        "full sentence": "The rude driver made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude driver made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "390": {
+        "full sentence": "The unexpected gift made me feel surprised and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel surprised and grateful.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "391": {
+        "full sentence": "The dirty bathroom made me feel disgusted and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The dirty bathroom made me feel disgusted and annoyed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "392": {
+        "full sentence": "The beautiful music made me feel happy and relaxed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful music made me feel happy and relaxed.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "393": {
+        "full sentence": "The scary thunderstorm made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary thunderstorm made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "394": {
+        "full sentence": "The sad news made me feel sad and sympathetic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad news made me feel sad and sympathetic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "395": {
+        "full sentence": "The funny video made me feel happy and entertained.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny video made me feel happy and entertained.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "396": {
+        "full sentence": "The challenging project made me feel fearful and determined.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The challenging project made me feel fearful and determined.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "397": {
+        "full sentence": "The heartwarming letter made me feel happy and touched.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The heartwarming letter made me feel happy and touched.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "398": {
+        "full sentence": "The exciting adventure made me feel happy and excited.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting adventure made me feel happy and excited.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "399": {
+        "full sentence": "My mean boss yelled at me in front of my coworkers, and it made me feel angry and humiliated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My mean boss yelled at me in front of my coworkers, and it made me feel angry and humiliated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "400": {
+        "full sentence": "The delicious cake made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The delicious cake made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "401": {
+        "full sentence": "The long line at the grocery store made me feel annoyed and frustrated.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "402": {
+        "full sentence": "The beautiful sunset made me feel calm and peaceful.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "403": {
+        "full sentence": "The spooky haunted house made me feel fearful and thrilled.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The spooky haunted house made me feel fearful and thrilled.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "404": {
+        "full sentence": "The good news made me feel happy and relieved.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good news made me feel happy and relieved.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "405": {
+        "full sentence": "The rude comment made me feel angry and hurt.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and hurt.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "406": {
+        "full sentence": "The difficult exam made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult exam made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "407": {
+        "full sentence": "The generous gift made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The generous gift made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "408": {
+        "full sentence": "The sad goodbye made me feel sad and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad goodbye made me feel sad and nostalgic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "409": {
+        "full sentence": "My favorite restaurant's long wait time made me feel disgusted and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My favorite restaurant's long wait time made me feel disgusted and annoyed.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "410": {
+        "full sentence": "The unexpected party surprise made me feel surprised and delighted.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected party surprise made me feel surprised and delighted.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "411": {
+        "full sentence": "The rude stranger's comment made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude stranger's comment made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "412": {
+        "full sentence": "The beautiful sunset made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "413": {
+        "full sentence": "The scary movie made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary movie made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "414": {
+        "full sentence": "The bad news made me feel sad and hopeless.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The bad news made me feel sad and hopeless.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "415": {
+        "full sentence": "The difficult breakup made me feel angry and hurt.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult breakup made me feel angry and hurt.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "416": {
+        "full sentence": "The nice compliment made me feel happy and confident.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The nice compliment made me feel happy and confident.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "417": {
+        "full sentence": "The long flight made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long flight made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "418": {
+        "full sentence": "The family reunion made me feel happy and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The family reunion made me feel happy and nostalgic.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "419": {
+        "full sentence": "My cat's adorable behavior made me feel happy and playful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "My cat's adorable behavior made me feel happy and playful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "420": {
+        "full sentence": "The difficult exam made me feel fearful and stressed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult exam made me feel fearful and stressed.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "421": {
+        "full sentence": "The kind gesture made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The kind gesture made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "422": {
+        "full sentence": "The bad review made me feel angry and defensive.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The bad review made me feel angry and defensive.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "423": {
+        "full sentence": "The unexpected gift made me feel surprised and delighted.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel surprised and delighted.",
+                "Emotion": "Surprised"
+            }
+        ]
+    },
+    "424": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "425": {
+        "full sentence": "The rude comment made me feel angry and hurt.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and hurt.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "426": {
+        "full sentence": "The exciting news made me feel happy and eager.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting news made me feel happy and eager.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "427": {
+        "full sentence": "The disappointing outcome made me feel sad and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing outcome made me feel sad and frustrated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "428": {
+        "full sentence": "The funny joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "429": {
+        "full sentence": "The traffic jam made me feel frustrated and angry.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The traffic jam made me feel frustrated and angry.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "430": {
+        "full sentence": "The beautiful sunset made me feel calm and happy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel calm and happy.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "431": {
+        "full sentence": "The rude driver made me feel angry and disgusted.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude driver made me feel angry and disgusted.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "432": {
+        "full sentence": "The good conversation made me feel happy and engaged.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good conversation made me feel happy and engaged.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "433": {
+        "full sentence": "The scary movie made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary movie made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "434": {
+        "full sentence": "The delicious food made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The delicious food made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "435": {
+        "full sentence": "The unexpected compliment made me feel happy and surprised.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected compliment made me feel happy and surprised.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "436": {
+        "full sentence": "The difficult goodbye made me feel sad and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult goodbye made me feel sad and nostalgic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "437": {
+        "full sentence": "The exciting adventure made me feel happy and thrilled.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting adventure made me feel happy and thrilled.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "438": {
+        "full sentence": "The disappointing friend made me feel sad and let down.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing friend made me feel sad and let down.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "439": {
+        "full sentence": "The long wait made me feel frustrated and angry.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long wait made me feel frustrated and angry.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "440": {
+        "full sentence": "The unexpected gift made me feel happy and surprised.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel happy and surprised.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "441": {
+        "full sentence": "The rude comment made me feel angry and disgusted.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and disgusted.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "442": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "443": {
+        "full sentence": "The scary situation made me feel fearful and anxious.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary situation made me feel fearful and anxious.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "444": {
+        "full sentence": "The tasty dessert made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The tasty dessert made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "445": {
+        "full sentence": "The good news made me feel happy and relieved.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The good news made me feel happy and relieved.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "446": {
+        "full sentence": "The difficult challenge made me feel fearful and unsure.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The difficult challenge made me feel fearful and unsure.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "447": {
+        "full sentence": "The funny joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "448": {
+        "full sentence": "The sad loss made me feel sad and empty.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad loss made me feel sad and empty.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "449": {
+        "full sentence": "The injustice made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The injustice made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "450": {
+        "full sentence": "The unexpected promotion made me feel happy and excited.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected promotion made me feel happy and excited.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "451": {
+        "full sentence": "The disgusting food made me feel disgusted and uncomfortable.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disgusting food made me feel disgusted and uncomfortable.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "452": {
+        "full sentence": "The beautiful sunset made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "453": {
+        "full sentence": "The scary storm made me feel fearful and nervous.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary storm made me feel fearful and nervous.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "454": {
+        "full sentence": "The goodbye hug made me feel sad and nostalgic.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The goodbye hug made me feel sad and nostalgic.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "455": {
+        "full sentence": "The surprising party made me feel happy and surprised.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The surprising party made me feel happy and surprised.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "456": {
+        "full sentence": "The difficult conversation made me feel anxious and uncomfortable.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "457": {
+        "full sentence": "The funny meme made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny meme made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "458": {
+        "full sentence": "The sad goodbye made me feel sad and emotional.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad goodbye made me feel sad and emotional.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "459": {
+        "full sentence": "The rude comment made me feel angry and offended.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude comment made me feel angry and offended.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "460": {
+        "full sentence": "The long-awaited reunion made me feel happy and excited.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The long-awaited reunion made me feel happy and excited.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "461": {
+        "full sentence": "The smelly bathroom made me feel disgusted and uncomfortable.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The smelly bathroom made me feel disgusted and uncomfortable.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "462": {
+        "full sentence": "The breathtaking view made me feel happy and awestruck.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The breathtaking view made me feel happy and awestruck.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "463": {
+        "full sentence": "The spine-tingling horror movie made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The spine-tingling horror movie made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "464": {
+        "full sentence": "The heartbreaking news made me feel sad and devastated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The heartbreaking news made me feel sad and devastated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "465": {
+        "full sentence": "The unexpected gift made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The unexpected gift made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "466": {
+        "full sentence": "The annoying noise made me feel disgusted and irritated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The annoying noise made me feel disgusted and irritated.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "467": {
+        "full sentence": "The hilarious joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The hilarious joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "468": {
+        "full sentence": "The disappointing result made me feel sad and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disappointing result made me feel sad and frustrated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "469": {
+        "full sentence": "The beautiful sunrise made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunrise made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "470": {
+        "full sentence": "The terrible customer service made me feel angry and annoyed.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The terrible customer service made me feel angry and annoyed.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "471": {
+        "full sentence": "The amazing concert made me feel happy and exhilarated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The amazing concert made me feel happy and exhilarated.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "472": {
+        "full sentence": "The terrifying roller coaster made me feel fearful and thrilled.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The terrifying roller coaster made me feel fearful and thrilled.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "473": {
+        "full sentence": "The sweet apology made me feel happy and relieved.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sweet apology made me feel happy and relieved.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "474": {
+        "full sentence": "The terrible loss made me feel sad and devastated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The terrible loss made me feel sad and devastated.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "475": {
+        "full sentence": "The surprising promotion made me feel happy and proud.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The surprising promotion made me feel happy and proud.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "476": {
+        "full sentence": "The disgusting bug made me feel disgusted and squeamish.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The disgusting bug made me feel disgusted and squeamish.",
+                "Emotion": "Disgusted"
+            }
+        ]
+    },
+    "477": {
+        "full sentence": "The hilarious meme made me feel happy and entertained.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The hilarious meme made me feel happy and entertained.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "478": {
+        "full sentence": "The scary darkness made me feel fearful and uneasy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary darkness made me feel fearful and uneasy.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "479": {
+        "full sentence": "The beautiful artwork made me feel happy and inspired.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful artwork made me feel happy and inspired.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "480": {
+        "full sentence": "The rude driver made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The rude driver made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "481": {
+        "full sentence": "The delicious cake made me feel happy and satisfied.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The delicious cake made me feel happy and satisfied.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "482": {
+        "full sentence": "The sad goodbye made me feel sad and emotional.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad goodbye made me feel sad and emotional.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "483": {
+        "full sentence": "The exciting adventure made me feel happy and excited.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The exciting adventure made me feel happy and excited.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "484": {
+        "full sentence": "The creepy atmosphere made me feel fearful and uneasy.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The creepy atmosphere made me feel fearful and uneasy.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "485": {
+        "full sentence": "The amazing view made me feel happy and awestruck.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The amazing view made me feel happy and awestruck.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "486": {
+        "full sentence": "The annoying delay made me feel frustrated and annoyed.",
+        "num_segments": 0,
+        "segments": []
+    },
+    "487": {
+        "full sentence": "The funny joke made me feel happy and amused.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The funny joke made me feel happy and amused.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "488": {
+        "full sentence": "The sad news made me feel sad and concerned.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sad news made me feel sad and concerned.",
+                "Emotion": "Sad"
+            }
+        ]
+    },
+    "489": {
+        "full sentence": "The beautiful sunset made me feel happy and peaceful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The beautiful sunset made me feel happy and peaceful.",
+                "Emotion": "Happy"
+            }
+        ]
+    },
+    "490": {
+        "full sentence": "The terrible traffic made me feel angry and frustrated.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The terrible traffic made me feel angry and frustrated.",
+                "Emotion": "Angry"
+            }
+        ]
+    },
+    "491": {
+        "full sentence": "The scary thriller made me feel fearful and tense.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The scary thriller made me feel fearful and tense.",
+                "Emotion": "Fearful"
+            }
+        ]
+    },
+    "492": {
+        "full sentence": "The sweet surprise made me feel happy and grateful.",
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "The sweet surprise made me feel happy and grateful.",
+                "Emotion": "Happy"
+            }
+        ]
+    }
+}
