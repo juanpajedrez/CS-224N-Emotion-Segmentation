@@ -1,32 +1,32 @@
-model_name: regression # regression, mlp, ngram or lstm
+model_name: ngram # regression, mlp, ngram or lstm
 # add options as needed for dataset
-run_name: null
+run_name: "ngram1"
 training:
   lr: 0.001
   restore_ckpt: null
-  num_epochs: 10
+  num_epochs: 15
   loss_fn: "crossentropy"
-  batch_size: 16
-  optimizer: "adam"
+  batch_size: 32
+  optimizer: "adamw"
 test:
   ckpt: null
 logging: # frequency in number of iterations
-  log_freq: 5
+  log_freq: 50
   val_freq: 2000
   save_freq: 2000
   ckpt_dir: "./ckpts"
 data:
   use_start_end: False # to encode start, middle and end for each emotion (i.e. segmentation)
-  train_filepath: "./data/dummy.json" # data file for training
+  train_filepath: "./data/final_data.json" # data file for training
   batch_first: True # batch first is default
   pack_seq: False # only pack for rnn/lstm
   bert_dim: 768 # dimension of encoding from bert
 inference:
-  output_file: "predictions.json"
-  gt_json: null # name of gt json file
+  output_file: "predictions_ngram1_final.json"
+  gt_json: "gt_test.json" # name of gt json file
   checkpoint: null # name of checkpoint to load for model
-  ngram: null # 1, 2 or 3
+  ngram: 1 # 1, 2 or 3
 model: # Any model parameters
-  hidden_dim: 128
-  num_layers: 2
-  bidirectional: True
+  hidden_dim: null
+  num_layers: null
+  bidirectional: null

@@ -1,19 +1,17 @@
-model_name: regression
-run_name: "0302_regression_lr=1e-2_sgd"
+model_name: ngram
 # add options as needed for dataset
 training:
-  lr: 0.01
+  lr: 0.001
   restore_ckpt: null
-  num_epochs: 30
+  num_epochs: 10
   loss_fn: "crossentropy"
   batch_size: 16
-  optimizer: "sgd"
 test:
   ckpt: null
 logging: # frequency in number of iterations
-  log_freq: 25
-  val_freq: 500
-  save_freq: 500
+  log_freq: 5
+  val_freq: 2000
+  save_freq: 2000
   ckpt_dir: "./ckpts"
 data:
   use_start_end: False # to encode start, middle and end for each emotion (i.e. segmentation)
@@ -22,6 +20,7 @@ data:
   pack_seq: False # only pack for rnn/lstm
   bert_dim: 768 # dimension of encoding from bert
 inference:
-  output_file: "predictions_0302_regression_lr=1e-2_sgd.json"
-  gt_json: "test_gt.json" # name of gt json file
-  checkpoint: "./ckpts/regression/0302_regression_lr=1e-2_sgd/iter5000.pt"
+  output_file: "predictions.json"
+  checkpoint: null # name of checkpoint to load for model
+  gt_json: "gt_0308.json"
+  ngram: 3

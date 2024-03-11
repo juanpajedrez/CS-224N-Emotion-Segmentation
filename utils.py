@@ -5,9 +5,11 @@ import os
 from data import EmotionDataset, collate_fn, EMOTION_IDX, IDX_2_EMOTION
 import json
 import re
-from models import regression
+from models import regression, mlp, ngram, lstm
 from transformers import BertTokenizer, BertModel
 from tqdm import tqdm
+from torch.nn.utils.rnn import PackedSequence, pad_packed_sequence
+
 
 BERT_IGNORE_TOKENS = [101, 102] # 101 is [CLS] and 102 is [SEP] for BERT
 BERT_APOSTROPHE_TOKEN = 112
@@ -97,9 +99,14 @@ def inference(config, dataset, device="cuda"):
     # define model
     if config["model_name"] == "regression":
         model = regression.Regression(input_dims=config["data"]["bert_dim"], n_classes=n_classes)
+    elif config["model_name"] == "mlp":
+        model = mlp.MLP(input_dims=config["data"]["bert_dim"], n_classes=n_classes)
+    elif config["model_name"] == "ngram":
+        emt_embs = dataset.dataset.compute_emotion_embs()
+        model = ngram.NGram(config, emt_embs, device=device)
     elif config["model_name"] == "lstm":
-        raise NotImplementedError("Implementation not complete yet")
-        model = lstm.LSTM(config)
+        model = lstm.LSTMNetwork(input_dims=config["data"]["bert_dim"],\
+            n_classes=n_classes, device=device, config=config)
     
     if config["inference"]["checkpoint"] is not None:
         ckpt = torch.load(config["inference"]["checkpoint"])
@@ -130,12 +137,29 @@ def inference(config, dataset, device="cuda"):
         labels = labels.to(device)
 
         # model predictions
-        outputs = model(embs)
+        if config["model_name"] == "ngram":
+            outputs = model(embs, lengths)[0]
+        else:
+            outputs = model(embs)
 
         segments = []
         emotions = []
         if config["data"]["use_start_end"]:
             raise NotImplementedError("Need to implement inference when predicting middle token")
+        elif config["model_name"] == "ngram":
+            idx_start = 0
+            num_segs = config["inference"]["ngram"]
+            step = lengths.cpu().item() // num_segs
+            idx_end = step
+            for j in range(num_segs):
+                segments.append([tokens[idx].cpu().item() for idx in range(idx_start, idx_end)])
+                emt = IDX_2_EMOTION[int(outputs[j].cpu().item())]
+                emotions.append(emt)
+                idx_start = idx_end
+                if j == num_segs - 2:
+                    idx_end = lengths.cpu().item()
+                else:
+                    idx_end = idx_end + step
         else:
             pred_classes = torch.argmax(outputs, dim=1)
             seg = [tokens[0].cpu().item()]
@@ -164,13 +188,16 @@ def inference(config, dataset, device="cuda"):
                 decoded_seg = tokenizer.decode(filtered_seg)
                 words.append(decoded_seg)
                 ft_emotions.append(emt)
+                # if len(words) > 1 and len(words[-1]) >= 2 and words[-1][:2] != "##":
+                #     words[-1] = " " + words[-1]
+                words[-1] = words[-1].replace("##", "")
 
-            data[str(i)] = {
-                "num_segments": len(words),
-                "segments": [
-                    {"Segment": words[s], "Emotion": ft_emotions[s]} for s in range(len(words))
-                ]
-            }
+        data[str(i)] = {
+            "num_segments": len(words),
+            "segments": [
+                {"Segment": words[s], "Emotion": ft_emotions[s]} for s in range(len(words))
+            ]
+        }
 
     with open(config["inference"]["output_file"], 'w') as f:
         json.dump(data, f, indent=4)
@@ -180,7 +207,7 @@ def inference(config, dataset, device="cuda"):
             json.dump(gt_data, f, indent=4)
 
 @torch.no_grad()          
-def run_validation(val_loader, model, loss_fn, device='cuda'):
+def run_validation(val_loader, model, loss_fn, config, device='cuda'):
     model.eval()
     running_loss = 0.0
     num_items = 0.0
@@ -197,6 +224,14 @@ def run_validation(val_loader, model, loss_fn, device='cuda'):
 
         # model predictions
         preds = model(embs)
+
+        #Check if tehy are packed sequences, return just data
+        if isinstance(embs, PackedSequence):
+            embs, __ = pad_packed_sequence(embs, batch_first=config["data"]["batch_first"])
+        if isinstance(lengths, PackedSequence):
+            lengths, __ = pad_packed_sequence(lengths, batch_first=config["data"]["batch_first"])
+        if isinstance(labels, PackedSequence):
+            labels, ___ = pad_packed_sequence(labels, batch_first=config["data"]["batch_first"])
 
         loss_mask = (labels > 0).float()
         labels[labels < 0] = 0

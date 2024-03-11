@@ -1,0 +1,28 @@
+model_name: regression
+run_name: "0302_regression_lr=1e-2_sgd"
+# add options as needed for dataset
+training:
+  lr: 0.01
+  restore_ckpt: null
+  num_epochs: 30
+  loss_fn: "crossentropy"
+  batch_size: 16
+  optimizer: "sgd"
+test:
+  ckpt: null
+logging: # frequency in number of iterations
+  log_freq: 25
+  val_freq: 500
+  save_freq: 500
+  ckpt_dir: "./ckpts"
+data:
+  use_start_end: False # to encode start, middle and end for each emotion (i.e. segmentation)
+  train_filepath: "./data/3.2.24/no_duplicates_data.json" # data file for training
+  batch_first: True # batch first is default
+  pack_seq: False # only pack for rnn/lstm
+  bert_dim: 768 # dimension of encoding from bert
+inference:
+  output_file: "predictions_0302_regression_lr=1e-2_sgd.json"
+  gt_json: "test_gt.json" # name of gt json file
+  checkpoint: "./ckpts/regression/0302_regression_lr=1e-2_sgd/iter5000.pt"
+  ngram: null
