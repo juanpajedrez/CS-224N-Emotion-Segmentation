@@ -17,7 +17,7 @@ logging: # frequency in number of iterations
   ckpt_dir: "./ckpts"
 data:
   use_start_end: False # to encode start, middle and end for each emotion (i.e. segmentation)
-  train_filepath: "./data/final_data.json" # data file for training
+  train_filepath: "./data/final/final_data.json" # data file for training
   batch_first: True # batch first is default
   pack_seq: False # only pack for rnn/lstm
   bert_dim: 768 # dimension of encoding from bert
