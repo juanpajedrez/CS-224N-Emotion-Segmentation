@@ -1,5 +1,5 @@
-model_name: lstm
-run_name: "lstm_lr=1e-3_adam"
+model_name: regression
+run_name: "0302_regression_lr=1e-3_adam"
 # add options as needed for dataset
 training:
   lr: 0.001
@@ -19,13 +19,9 @@ data:
   use_start_end: False # to encode start, middle and end for each emotion (i.e. segmentation)
   train_filepath: "./data/3.2.24/no_duplicates_data.json" # data file for training
   batch_first: True # batch first is default
-  pack_seq: True # only pack for rnn/lstm
+  pack_seq: False # only pack for rnn/lstm
   bert_dim: 768 # dimension of encoding from bert
 inference:
-  output_file: "lstm_lr=1e-3_adam.json"
+  output_file: "predictions_0302_regression_lr=1e-3_adam.json"
   gt_json: "test_gt.json" # name of gt json file
-  checkpoint:  "./ckpts/lstm/lstm_lr=1e-3_adam/iter1500.pt" # name of checkpoint to load for model
-model: #Any model parameters
-  hidden_dim: 256
-  num_layers: 2
-  bidirectional: False
+  checkpoint:  "./ckpts/regression/0302_regression_lr=1e-3_adam/iter5000.pt" # name of checkpoint to load for model

@@ -63,23 +63,9 @@ class EvaluationCode:
             ref_segments = ref_segment_metadata["segments"]
             pred_segments = pred_segment_metadata["segments"]
 
-            # remove spaces and make all characters lower case
-            ref_segments = [{"Emotion": x["Emotion"], "Segment": x["Segment"].replace(" ", "").lower()} for x in ref_segments]
-            pred_segments = [{"Emotion": x["Emotion"], "Segment": x["Segment"].replace(" ", "").lower()} for x in pred_segments]
-
-            # for debubbing purposes
-            # ref_sentence = ""
-            # pred_sentence = ""
-            # for seg in ref_segments:
-            #     ref_sentence += seg["Segment"]
-            # for seg in pred_segments:
-            #     pred_sentence += seg["Segment"]
-            # if ref_sentence != pred_sentence:
-            #     breakpoint()
-
             #Obtain all emotions from ref_segments
             emotions_ref_segments =  [x["Emotion"].upper() for x in ref_segments]
-            emotions_pred_segments = [x["Emotion"].upper() for x in pred_segments]
+            emotions_pred_segments = [x["Emotion"] for x in pred_segments]
 
             #Calculate the Iou between emotions_ref_segments and emotions_pred_segments
             iou_emotions_total.append(self._calculate_iou(np.array(emotions_ref_segments), np.array(emotions_pred_segments)))
@@ -140,7 +126,6 @@ class EvaluationCode:
 
                 if ref_seg["Emotion"].upper() == pred_segments[max_iou_index]["Emotion"]:
                     num_correct_emotions_in_matched += 1
-
         #Create two distionaries of data, reference and matched
         eval_metrics_total = {
             "num_gt_segments": num_gt_segments,
@@ -195,7 +180,7 @@ class EvaluationCode:
 if __name__ == "__main__":
 
     #Create the data path to the files
-    predicted_path = os.path.join(os.path.dirname(__file__), "lstm_lr=1e-3_adam.json")
+    predicted_path = os.path.join(os.path.dirname(__file__), "predictions_0302_regression_lr=1e-3_adam.json")
     ground_truth_path = os.path.join(os.path.dirname(__file__), "test_gt.json")
 
     #Create eval compiler
