@@ -141,14 +141,16 @@ if __name__=="__main__":
     parser.add_argument("--config-file", type=str, required=True)
     parser.add_argument("--train", action="store_true")
     parser.add_argument("--test", action="store_true")
+    parser.add_argument("--val", action = "store_true")
     args = parser.parse_args()
 
     with open(args.config_file, 'r') as f:
        config = yaml.safe_load(f)
     if args.train:
        train(config)
-    elif args.test:
-       dataset, _ = utils.create_dataloader(config, split="test", \
+    elif args.test or args.val:
+        split_arg = "test" if args.test else "val"
+        dataset, _ = utils.create_dataloader(config, split=split_arg, \
                    pack_seq=config["data"]["pack_seq"], batch_first=config["data"]["batch_first"], \
                    device=device)
-       utils.inference(config, dataset, device=device)
+        utils.inference(config, dataset, device=device)

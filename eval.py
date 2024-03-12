@@ -2,6 +2,7 @@ import os
 import json
 import numpy as np
 import pprint
+import argparse
 
 class EvaluationCode:
     """
@@ -17,7 +18,7 @@ class EvaluationCode:
         7. Create a json file that would output, per corresponding pair, the IOUs, and also the emotion precision
     """
 
-    def __init__(self, ref_path:str, pred_path:str):
+    def __init__(self, ref_path:str, pred_path:str, save_path: str):
         """
         Cosntructor that would set the path for the reference
         and predicted jsons.
@@ -25,6 +26,7 @@ class EvaluationCode:
         #Set the paths
         self.ref_json = self._json_file_read(ref_path)
         self.pred_json = self._json_file_read(pred_path)
+        self.save_path = save_path
 
     def execute(self):
         """
@@ -152,6 +154,10 @@ class EvaluationCode:
             "segmentation_precision": num_matched_segments / num_pred_segments
         }
 
+        os.makedirs(os.path.dirname(self.save_path), exist_ok = True)
+        with open(self.save_path, 'w') as f:
+            json.dump(eval_metrics_total, f, indent=6)
+
         return eval_metrics_total
             
     def _split_string(self, s: str):
@@ -194,12 +200,18 @@ class EvaluationCode:
 
 if __name__ == "__main__":
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--pred-path", type=str, required=True)
+    parser.add_argument("--gt-path", type=str, required=True)
+    parser.add_argument("--save-path", type=str, required=True)
+    args = parser.parse_args()
+
     #Create the data path to the files
-    predicted_path = os.path.join(os.path.dirname(__file__), "lstm_lr=1e-3_adam.json")
-    ground_truth_path = os.path.join(os.path.dirname(__file__), "test_gt.json")
+    # predicted_path = os.path.join(os.path.dirname(__file__), "lstm_lr=1e-3_adam.json")
+    # ground_truth_path = os.path.join(os.path.dirname(__file__), "test_gt.json")
 
     #Create eval compiler
-    eval_compiler = EvaluationCode(pred_path=predicted_path, ref_path=ground_truth_path)
+    eval_compiler = EvaluationCode(pred_path=args.pred_path, ref_path=args.gt_path, save_path=args.save_path)
     eval_metrics = eval_compiler.execute()
 
     pprint.pprint(eval_metrics)
