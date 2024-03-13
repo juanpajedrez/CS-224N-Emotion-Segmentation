@@ -5,7 +5,7 @@ results_dir="./test_results"
 mkdir "$results_dir"
 
 # generate results
-for filename in "./configs/models/"*.json; do
+for filename in "./configs/models/"*.yaml; do
     echo "generating test set results for $filename"
     python --config-file "$filename" --test
 done
