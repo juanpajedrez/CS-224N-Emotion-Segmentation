@@ -1,8 +1,16 @@
 #!/bin/sh
 
-test_filename="gt_val.json"
-results_dir="./val_results"
+test_filename="gt_test.json"
+results_dir="./test_results"
+mkdir "$results_dir"
 
+# generate results
+for filename in "./configs/models/"*.json; do
+    echo "generating test set results for $filename"
+    python --config-file "$filename" --test
+done
+
+# generating metrics
 mkdir "$results_dir/metrics"
 for filename in "$results_dir/"*.json; do
     if [ "$filename" == "$results_dir""$test_filename" ] ; then

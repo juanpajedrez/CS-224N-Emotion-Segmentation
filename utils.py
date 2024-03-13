@@ -175,22 +175,22 @@ def inference(config, dataset, device="cuda"):
             segments.append(seg)
             emotions.append(emt)
         
-            # decode tokens
-            # WARNING: decoding doesn't preserve original sentence
-            words = []
-            ft_emotions = []
-            for seg, emt in zip(segments, emotions):
-                filtered_seg = [x for x in seg if x not in BERT_IGNORE_TOKENS]
-                if len(filtered_seg) == 0:
-                    continue
-                # decoded_seg = tokenizer.convert_ids_to_tokens(filtered_seg)
-                # words.append(" ".join(decoded_seg))
-                decoded_seg = tokenizer.decode(filtered_seg)
-                words.append(decoded_seg)
-                ft_emotions.append(emt)
-                # if len(words) > 1 and len(words[-1]) >= 2 and words[-1][:2] != "##":
-                #     words[-1] = " " + words[-1]
-                words[-1] = words[-1].replace("##", "")
+        # decode tokens
+        # WARNING: decoding doesn't preserve original sentence
+        words = []
+        ft_emotions = []
+        for seg, emt in zip(segments, emotions):
+            filtered_seg = [x for x in seg if x not in BERT_IGNORE_TOKENS]
+            if len(filtered_seg) == 0:
+                continue
+            # decoded_seg = tokenizer.convert_ids_to_tokens(filtered_seg)
+            # words.append(" ".join(decoded_seg))
+            decoded_seg = tokenizer.decode(filtered_seg)
+            words.append(decoded_seg)
+            ft_emotions.append(emt)
+            # if len(words) > 1 and len(words[-1]) >= 2 and words[-1][:2] != "##":
+            #     words[-1] = " " + words[-1]
+            words[-1] = words[-1].replace("##", "")
 
         data[str(i)] = {
             "num_segments": len(words),

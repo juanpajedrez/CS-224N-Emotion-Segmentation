@@ -22,7 +22,7 @@ data:
   pack_seq: True # only pack for rnn/lstm
   bert_dim: 768 # dimension of encoding from bert
 inference:
-  output_file: "./val_results/predictions_lstm4_4000.json"
+  output_file: "./test_results/predictions_lstm4_4000.json"
   gt_json: null # name of gt json file
   checkpoint: "./ckpts/lstm/final_lstm4/iter4000.pt" # name of checkpoint to load for model
   ngram: null # 1, 2 or 3

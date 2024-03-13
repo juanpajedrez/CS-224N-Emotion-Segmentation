@@ -22,8 +22,8 @@ data:
   pack_seq: False # only pack for rnn/lstm
   bert_dim: 768 # dimension of encoding from bert
 inference:
-  output_file: "predictions_ngram3_final.json"
-  gt_json: "gt_test.json" # name of gt json file
+  output_file: "./test_results/predictions_ngram3_final.json"
+  gt_json: null
   checkpoint: null # name of checkpoint to load for model
   ngram: 3 # 1, 2 or 3
 model: # Any model parameters
