@@ -5,5 +5,5 @@
       "IoU_total_emotions": 0.5660550458715596,
       "emotion_accuracy_matched": 0.42201834862385323,
       "segmentation_recall": 0.7125382262996942,
-      "segmentation_precision": 0.025080731969860066
+      "segmentation_precision": 0.2968152866242038
 }

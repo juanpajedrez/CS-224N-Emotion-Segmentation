@@ -52,12 +52,13 @@ class EvaluationCode:
         iou_emotions_total = []
 
         for file in self.ref_json:
-            if self.num_segments is not None and ref_segment_metadata["num_segments"] != self.num_segments:
-                continue
             
             #Obtain the metadata of ref and pred json files
             ref_segment_metadata = self.ref_json[file]
             pred_segment_metadata = self.pred_json[file]
+
+            if self.num_segments is not None and ref_segment_metadata["num_segments"] != self.num_segments:
+                continue
 
             #Determine the number of segments
             ref_num_segments.append(ref_segment_metadata["num_segments"])
