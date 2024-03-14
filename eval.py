@@ -52,6 +52,8 @@ class EvaluationCode:
         iou_emotions_total = []
 
         for file in self.ref_json:
+            if self.num_segments is not None and ref_segment_metadata["num_segments"] != self.num_segments:
+                continue
             
             #Obtain the metadata of ref and pred json files
             ref_segment_metadata = self.ref_json[file]
@@ -64,8 +66,6 @@ class EvaluationCode:
             assert pred_segment_metadata["num_segments"] == len(pred_segment_metadata["segments"])
             assert ref_segment_metadata["num_segments"] == len(ref_segment_metadata["segments"])
 
-            if self.num_segments is not None and ref_segment_metadata["num_segments"] != self.num_segments:
-                continue
 
             #Obtain the user and reference segments
             ref_segments = ref_segment_metadata["segments"]
