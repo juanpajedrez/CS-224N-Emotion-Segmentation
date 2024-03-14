@@ -3,6 +3,7 @@ import json
 import numpy as np
 import pprint
 import argparse
+from collections import defaultdict
 
 class EvaluationCode:
     """
@@ -18,7 +19,7 @@ class EvaluationCode:
         7. Create a json file that would output, per corresponding pair, the IOUs, and also the emotion precision
     """
 
-    def __init__(self, ref_path:str, pred_path:str, save_path: str):
+    def __init__(self, ref_path:str, pred_path:str, save_path: str, num_segments=None):
         """
         Cosntructor that would set the path for the reference
         and predicted jsons.
@@ -27,6 +28,7 @@ class EvaluationCode:
         self.ref_json = self._json_file_read(ref_path)
         self.pred_json = self._json_file_read(pred_path)
         self.save_path = save_path
+        self.num_segments = num_segments
 
     def execute(self):
         """
@@ -48,6 +50,7 @@ class EvaluationCode:
         num_correct_emotions_in_matched = 0
         num_pred_segments = 0
         iou_emotions_total = []
+
         for file in self.ref_json:
             
             #Obtain the metadata of ref and pred json files
@@ -60,6 +63,9 @@ class EvaluationCode:
             num_pred_segments += pred_segment_metadata["num_segments"]
             assert pred_segment_metadata["num_segments"] == len(pred_segment_metadata["segments"])
             assert ref_segment_metadata["num_segments"] == len(ref_segment_metadata["segments"])
+
+            if self.num_segments is not None and ref_segment_metadata["num_segments"] != self.num_segments:
+                continue
 
             #Obtain the user and reference segments
             ref_segments = ref_segment_metadata["segments"]
@@ -204,6 +210,7 @@ if __name__ == "__main__":
     parser.add_argument("--pred-path", type=str, required=True)
     parser.add_argument("--gt-path", type=str, required=True)
     parser.add_argument("--save-path", type=str, required=True)
+    parser.add_argument("--num-segments", type=int, default=None)
     args = parser.parse_args()
 
     #Create the data path to the files
@@ -211,7 +218,8 @@ if __name__ == "__main__":
     # ground_truth_path = os.path.join(os.path.dirname(__file__), "test_gt.json")
 
     #Create eval compiler
-    eval_compiler = EvaluationCode(pred_path=args.pred_path, ref_path=args.gt_path, save_path=args.save_path)
+    eval_compiler = EvaluationCode(pred_path=args.pred_path, ref_path=args.gt_path, \
+        save_path=args.save_path, num_segments=args.num_segments)
     eval_metrics = eval_compiler.execute()
 
     pprint.pprint(eval_metrics)
