@@ -2,7 +2,7 @@ import json
 import re
 import contractions
 
-with open('merged_data.json', 'r') as file:
+with open('./data/final_intermediates/merged_data.json', 'r') as file:
     data = json.load(file)
 
 unique_entries = {}
@@ -10,7 +10,7 @@ unique_entries = {}
 # Iterate over entries and keep only unique ones
 for key, entry in data.items():
     sentence = entry['full sentence']
-    if entry["num_segments"] == 0:
+    if entry["num_segments"] == 0 or entry["num_segments"] > 3:
         continue
 
 
@@ -56,5 +56,5 @@ unique_entries_with_indices = {str(index): entry for index, entry in enumerate(u
 # .strip()
 # remove duplicates (make sure key and annotate dsentence is same)
 # make everything lowercase
-with open('post_processed_NO_DISGUSTED.json', 'w') as file:
+with open('./data/final_intermediates/post_processed_WITH_DISGUSTED.json', 'w') as file:
     json.dump(unique_entries_with_indices, file, indent=4)
