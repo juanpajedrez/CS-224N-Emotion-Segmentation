@@ -7,3 +7,4 @@
 /.vscode
 /models/__pycache__
 *__pycache__
+/archive

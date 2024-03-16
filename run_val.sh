@@ -7,10 +7,10 @@ results_dir="./test_results"
 mkdir -p "$results_dir"
 
 # generate results
-#for filename in "./configs/models/"*.yaml; do
-#    echo "generating test set results for $filename"
-#    python train.py --config-file "$filename" --test
-#done
+for filename in "./configs/models/"*.yaml; do
+    echo "generating test set results for $filename"
+    python train.py --config-file "$filename" --test
+done
 
 # generating metrics
 mkdir -p "$results_dir/metrics"

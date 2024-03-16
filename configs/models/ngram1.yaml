@@ -4,7 +4,7 @@ run_name: "ngram1"
 training:
   lr: 0.001
   restore_ckpt: null
-  num_epochs: 15
+  num_epochs: 100
   loss_fn: "crossentropy"
   batch_size: 32
   optimizer: "adamw"
@@ -12,8 +12,8 @@ test:
   ckpt: null
 logging: # frequency in number of iterations
   log_freq: 50
-  val_freq: 2000
-  save_freq: 2000
+  val_freq: 500
+  save_freq: 500
   ckpt_dir: "./ckpts"
 data:
   use_start_end: False # to encode start, middle and end for each emotion (i.e. segmentation)

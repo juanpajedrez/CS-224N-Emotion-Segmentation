@@ -132,7 +132,7 @@ def train(config):
                 utils.save_state(config, model, optimizer, run_name, num_iters)
 
     # save at end of training
-    if num_iters % config["logging"]["save_freq"] == 0:
+    if num_iters % config["logging"]["save_freq"] != 0:
         utils.save_state(config, model, optimizer, run_name, num_iters)
 
 
