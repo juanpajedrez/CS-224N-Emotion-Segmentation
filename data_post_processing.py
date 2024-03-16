@@ -6,6 +6,7 @@ with open('./data/final_intermediates/merged_data.json', 'r') as file:
     data = json.load(file)
 
 unique_entries = {}
+sentence_set = set()
 
 # Iterate over entries and keep only unique ones
 for key, entry in data.items():
@@ -13,13 +14,14 @@ for key, entry in data.items():
     if entry["num_segments"] == 0 or entry["num_segments"] > 3:
         continue
 
+    # Expand contractions using the contractions library
+    entry['full sentence'] = contractions.fix(entry['full sentence'], slang=False)
+    # remove punctuation after contraction
+    entry['full sentence'] = re.sub(r'[^\w\s]', '', entry['full sentence'])
+    entry['full sentence'] = entry['full sentence'].lower().strip()
 
-    if sentence not in [e for e in unique_entries.values()]:
-        # Expand contractions using the contractions library
-        entry['full sentence'] = contractions.fix(entry['full sentence'], slang=False)
-        # remove punctuation after contraction
-        entry['full sentence'] = re.sub(r'[^\w\s]', '', entry['full sentence'])
-        entry['full sentence'] = entry['full sentence'].lower().strip()
+    if entry['full sentence'] not in sentence_set:
+        sentence_set.add(entry['full sentence'])
 
 
         # print("true sentence: ", cur_sentence)
@@ -56,5 +58,5 @@ unique_entries_with_indices = {str(index): entry for index, entry in enumerate(u
 # .strip()
 # remove duplicates (make sure key and annotate dsentence is same)
 # make everything lowercase
-with open('./data/final_intermediates/post_processed_WITH_DISGUSTED.json', 'w') as file:
+with open('./data/new_final/post_processed_NO_DISGUSTED.json', 'w') as file:
     json.dump(unique_entries_with_indices, file, indent=4)

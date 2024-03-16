@@ -11,11 +11,11 @@ import numpy as np
 # how do you plan on balancing it
 # (num_segments: int in (1 2 3), emotion: str): []
 
-with open('post_processed_NO_DISGUSTED.json', 'r') as file:
+with open('./data/new_final/post_processed_NO_DISGUSTED.json', 'r') as file:
     data = json.load(file)
 
 quantiles = {
-    1: 0.025,
+    1: 0.3,
     2: 0.025,
     3: 0.4
 }
@@ -85,7 +85,7 @@ for num_segs in [1, 2, 3]:
             final_dataset[str(len(final_dataset))] = data[idx]
             combined_data.append(data[idx])
 
-    with open(f'final_data_{num_segs}.json', 'w') as f:
+    with open(f'./data/new_final/final_data_{num_segs}.json', 'w') as f:
         json.dump(final_dataset, f, indent=6)
 
 
@@ -94,5 +94,5 @@ combined_data_dict = {}
 for i in range(len(combined_data)):
     combined_data_dict[str(i)] = combined_data[i]
 
-with open('final_data.json', 'w') as f:
+with open('./data/new_final/final_data.json', 'w') as f:
     json.dump(combined_data_dict, f, indent=6)

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from collections import defaultdict
 
 # Open the JSON file
-with open('./data/final_intermediates/post_processed_NO_DISGUSTED.json') as f:
+with open('./data/new_final/final_data.json') as f:
     data = json.load(f)
 
 # Initialize a list to store all values of the "emotion" key
