@@ -1,0 +1,29 @@
+Analysis better 
+1.) LSTMs-2 5000 vs LSTMS-2 10000:
+	LSTMs-2 5000 perform better in seg recall, seg precision, IoU total.
+	LSTMs-2 10000 perform better slightly in emotion accuracy matched.
+
+
+2.) LSTMs-2-uni 5000 vs LSTMs-2-unit 10000: 
+
+10000 wins for every single metric.
+    
+
+
+3.) LSTMs-4 5000 vs LSTMS-4 10000:
+We have KO here --- 10000 has knocked 5000 out of the ring!
+
+
+4.) LSTMs-4-uni 5000 vs LSTMs-4 10000:
+    LSTMs-4-uni 10000 performs better in seg recall, seg precision, IoU total,
+    and emotion accuracy matched.
+
+
+5.) MLP 5000 vs MLP 10000
+10000 wins: IoU Total, Segmentation precision, segmentation recall
+5000 wins: 1% in emotion accuracy
+
+
+6.) Softmax 5000 vs Softmax 10000
+    Softmax 5000 performs better in seg recall (1.2%), seg precision (1%)
+    emotion accuracy (0.9%), IoU total (2%).

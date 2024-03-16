@@ -1,0 +1,5010 @@
+{
+    "0": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "i was so excited to see the concert",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but it was postponed until next year",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "1": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my mom told me",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "she",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "would be home by five",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "but she is still not here at six",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "2": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was surprised when my teacher gave me",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "an a",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "on my test",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "3": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "the news about the natural disaster is",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "devastating",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "4": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "my brother",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "took",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "video game controller",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "broke",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "5": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i cannot believe",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "failed my math test",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "6": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "just found out",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "that my favorite band is coming",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "to",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "town and i am totally",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "stoke",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "d",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "7": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my dog ran away",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and now i am feeling",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "really",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "upset",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "8": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was so startled",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "when the door slammed",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "shut",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "9": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "when i",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "saw the",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "snake",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "in the",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "grass",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "jumped and",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "screamed",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "10": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my dog ran away",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but luckily we found",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "him",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a few hours",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "later",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "11": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "i just saw a cute puppy",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "12": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "was so scared to go sky",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "di",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "ving",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "but it turned out to be an amazing experience",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "13": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "the haunted house was so scary",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "almost",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "peed my pants",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "14": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "the test was",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "way",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "harder than i thought it would be",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "now",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i am worried i failed",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "15": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "the roller coaster was so much fun",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but then",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "i rode it again",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "and it made me sick",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "16": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "my dog just ran away",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and now i am really worried",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "17": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "my friend borrowed",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "favorite",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "video game",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and now",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "is",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "broken",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "18": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "i got invited to a party this weekend",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but i do not",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "have",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "anything to wear",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "19": {
+        "num_segments": 12,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "friend",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "invited me to a",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "party",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "then she",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "texted",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "that it was",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a joke",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "and i felt so",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "embarrassed",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "20": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "my cats death made me feel sad",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "21": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "my cat is really sick",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "am",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "really",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "worried about him",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "22": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my dog is so cute",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "he always puts",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "a smile on",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "my face",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "23": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "the haunted house was really scary",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "but the",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "actor",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "who",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "jumped out",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "at me was kind of hot",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "24": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "mom",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "is",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "going to be",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "mad when she finds out",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "broke the",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "vase",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "25": {
+        "num_segments": 10,
+        "segments": [
+            {
+                "Segment": "i hate it when my mom tells me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "what to",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "wear",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "guess",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "she is",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "just trying",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "to",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "help",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "26": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "the roller coaster was so fun",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but then",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "it suddenly",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "stopped",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and now i am terrified",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "27": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "i was so excited for the concert",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but when i got there",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "realized i had left my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "tickets",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "at home",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "28": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my teacher gave me a surprise pop quiz",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and i was",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "not",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "prepared",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but i am proud of myself for doing well",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "29": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "i got a new job offer and i am really happy about it",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "the com",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "mute",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "is",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "going",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "to",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "be terrible",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "30": {
+        "num_segments": 9,
+        "segments": [
+            {
+                "Segment": "i woke",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "up",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "late for work",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and had to speed",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "to",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "get there",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "on time",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i got a flat tire",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "31": {
+        "num_segments": 9,
+        "segments": [
+            {
+                "Segment": "my friend just",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "told me a",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "joke",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "that was",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "so",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "funny",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "made me laugh out",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "loud",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "32": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "i just saw a snake in the park",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "33": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just saw a spider crawling across my",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "desk",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "and it freaked me out",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "34": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my teacher gave me a lot of homework",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "now",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i am stressed",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "35": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "saw",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "a snake in my backyard",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and it totally freaked me out",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "36": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "my cat",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "loves",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "to",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "sit",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "on",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "lap",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "while i am studying but it is really distracting",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "37": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "my little brother is being really",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "annoying right",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "now",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and i am starting to",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "get",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "mad",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "38": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "the beach was beautiful and had such clear water",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "39": {
+        "num_segments": 10,
+        "segments": [
+            {
+                "Segment": "the",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "teacher",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "gave",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "a really",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "hard",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "math",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "problem",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and i do not know",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "how to do it",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "40": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the cake was delicious",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but also",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "very rich",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "41": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "the cashier gave",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "a",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "rude",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "look when",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "i tried to",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "pay with a card",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "42": {
+        "num_segments": 9,
+        "segments": [
+            {
+                "Segment": "my friend told me a joke",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "that was",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "so",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "funny",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "that",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "spit out",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "drink",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "43": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "i love watching the sunset",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "44": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my cat wakes me up every morning by",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "poun",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "cing",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "on",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "my face",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "45": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "the haunted house was so scary that i did not even want to go inside",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "46": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "dad told me to clean my room",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "47": {
+        "num_segments": 10,
+        "segments": [
+            {
+                "Segment": "i hate",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "public speaking",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "guess",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "it is",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "important",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "for",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "career",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "48": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "i was angry",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "that my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "brother took",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "video game",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "49": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "i was watching a",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "scary",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "movie",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "but then i",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "saw",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "a spider",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "crawling on the",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "wall and i freaked out",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "50": {
+        "num_segments": 10,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "mom was so mad at",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "for",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "breaking",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "the vase",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "did",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "not mean to",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "51": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "brother",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "lied to",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me again",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "i do",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "not know",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "why",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "i am still surprised",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "52": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "i got an a on",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "math test",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but the",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "teacher",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "took off points for bad handwriting",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "53": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was so excited to try skydiving",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but i chickened",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "out",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "54": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "my friends joke was really funny",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "also",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "made me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a little",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "uncomfortable",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "55": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am so",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "glad",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "i finally finished that project",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "56": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the traffic jam caused me to be late",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "for",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "work",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "57": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "boss just gave",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "a promotion",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "and i am really excited about it",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "58": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "i cannot believe i won the lottery",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "i am so excited",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but i know i have to be careful",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "with",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "winnings",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "59": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "i studied hard for the test",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "but i am still worried that i am going to fail",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "60": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "i had a fun time at the arcade",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "61": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my crush",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "just",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "asked me out",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "62": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "i just",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "saw",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "the fun",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "niest video",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "ever",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "63": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "i just saw a snake in my backyard",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "it scared me",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "so",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "much",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "64": {
+        "num_segments": 9,
+        "segments": [
+            {
+                "Segment": "i cannot",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "believe",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "i finally got tickets to see my favorite band",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but they are playing",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "on a tuesday and i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "have",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "work",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "the",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "next day",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "65": {
+        "num_segments": 9,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "brother borrowed my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "car",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "without asking",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "returned",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "it with a dented fender",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but he also left a gift on my doorstep as an",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "apology",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "66": {
+        "num_segments": 9,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "little",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "brother is",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "always getting",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "into",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "trouble",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and it is",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "really",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "stressing me out",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "67": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "the",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "line",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "for",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "the bathroom is now moving at a snails pace",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "68": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "i just found out",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "my favorite show is canceled",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "69": {
+        "num_segments": 12,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "little",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "brother threw",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "tan",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "trum in the",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "middle",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "of the",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "grocery",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "store",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "because he wanted a toy",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but my mom would not buy it for him",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "70": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "the roller coaster was really fun",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but it also",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "made me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "feel",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "a",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "bit",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "sick",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "71": {
+        "num_segments": 11,
+        "segments": [
+            {
+                "Segment": "my teacher",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "gave",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "a really",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "hard",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "math",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "problem",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "in front",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "of the",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "whole",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "class",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "72": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "my friend cancelled",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "our",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "plans",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "at",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "the last",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "minute",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "which really annoyed",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "73": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "the movie was really scary",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "74": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "saw",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "a snake on my hike",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "it startled me",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "75": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "the joke was so funny",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "76": {
+        "num_segments": 9,
+        "segments": [
+            {
+                "Segment": "my dog loves to play with his toys",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "sometimes he",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "gets",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "really",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "carried away",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "and starts",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "barking",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "loudly",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "77": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "amusement park ride",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "made me really dizzy",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "78": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "the roller coaster was really fun",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but also kind of terrifying",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "79": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "the",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "clown at my",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "brothers",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "birthday party was creepy",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and made me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "feel",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "uncomfortable",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "80": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "was",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "expecting a raise",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "boss",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "gave me a lecture instead",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "81": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "i saw a beautiful rainbow yesterday",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "82": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "my friend surprised me with a visit",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "but i was",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "not",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "prepared",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "now",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i feel embarrassed",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "83": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "i just",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "saw a",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "video",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "of",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "a puppy learning how to",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "surf",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "84": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my cat is so cute",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but sometimes she scratches",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "the furniture",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and it makes me angry",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "85": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "i just found out that my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "favorite",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "book is being",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "turned into a movie",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "86": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the movie was",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "terrible",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "and i was disappointed",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "87": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "i was",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "surprised",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "when my dog",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "learned how",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "to do tricks",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "88": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "i am so sad that my grandma passed away",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "89": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "i saw a snake in the",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "grass",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "jumped back",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "in fright",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "90": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my little brother",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "just",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "broke my favorite",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "toy",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "91": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my little brother is so cute",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "when he",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "is sleeping",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "92": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my friend surprised me with a birthday cake",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "i am",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "on a diet",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "93": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "i am so excited for my upcoming vacation to hawaii",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "94": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "my best friend moved away",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "95": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "my teacher just",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "gave",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me a",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "really",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "hard assignment",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and now i am feeling stressed and anxious",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "96": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "i am so nervous about my upcoming job interview",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "97": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat jumped onto",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "lap and started purring it was really cute",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "98": {
+        "num_segments": 13,
+        "segments": [
+            {
+                "Segment": "my boss",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "gave",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "a",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "compliment",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "in",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "front",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "of my cow",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "or",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "kers",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "i felt",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "embarrassed",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "but also proud",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "99": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "the joke was really funny",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "it was",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "also",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "a",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "bit",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "offensive",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "100": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "brother",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "always eats my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "favorite",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "snacks",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "it is so frustrating",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "101": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "the test was",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "much",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "harder than i expected",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "but i think i did okay",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "102": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "my best friend just moved away and i am really sad about it",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "103": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my dog loves to",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "play fetch in",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "the park",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "104": {
+        "num_segments": 9,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "was so nervous for",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "job interview",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "but i think it went well",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "now",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "am hopeful",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "105": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat just knocked over",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "water",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "106": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "friend gave",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "a really",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "nice gift",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "107": {
+        "num_segments": 10,
+        "segments": [
+            {
+                "Segment": "the",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "cash",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "ier",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "at",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "the",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "grocery",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "store",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "was",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "so rude to",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "108": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "the concert was amazing i am so glad i went",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "109": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "i found out",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "favorite restaurant is",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "closing",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "110": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my friend just told me a secret",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "promised not",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "to tell anyone",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "111": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "i was so excited to see my crush",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "he",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "did not",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "even",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "notice",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "112": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my brother always takes the last slice of pizza",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "it really ticks",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me off",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "113": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i saw a",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "hilarious",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "video on youtube last night",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "114": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "the roller coaster was so much fun",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but the",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "line to get on it",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "was",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "incredibly",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "long",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "115": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "the test was really difficult",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "116": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "i was so scared watching that horror movie last night",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "117": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "i am so nervous for my upcoming presentation",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "118": {
+        "num_segments": 14,
+        "segments": [
+            {
+                "Segment": "i was surprised when my teacher gave me a",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "compliment",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "on my essay",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "then i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "realized",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "that",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "was a mistake",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and she",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "meant",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "to give",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "to someone else",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "119": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my mom",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "surprised",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "me with",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "a new bike",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "for my birthday",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "120": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "the traffic jam was terrible",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "but at least i had a good book to read",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "121": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "my teacher just gave me a surprise pop quiz",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and i am really nervous",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "122": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "i am so excited to see my crush",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but i am also super nervous that i will say something stupid",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "123": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "cat",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "scratched me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and now i am",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "bleeding",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "124": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "i was surprised when my boss gave me a raise",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "but now i am worried about the extra responsibility",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "125": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother was really happy that he got an a on",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "his",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "test",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "126": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "i saw a spider crawling on my arm",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "while i",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "was driving",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "on",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "the highway",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "127": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "the",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "clown",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "at the",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "birthday",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "party",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "was creepy",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "128": {
+        "num_segments": 14,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "cat woke",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "me up",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "at",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "5",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "am",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and i",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "had",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "to",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "feed",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "him",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "but at least",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "he",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "is adorable",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "129": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "the teacher gave me a surprise pop quiz",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and i was",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "not",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "prepared",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "130": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "i am so excited for my upcoming birthday party",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but i am worried no",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "one",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "will show up",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "131": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "i am so done with this rain",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "it is been pouring",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "all day",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and now my",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "shoes",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "are soaked",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "132": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "my dog ran away and never came back",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "133": {
+        "num_segments": 11,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "friend",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "told",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "a joke that was",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "so",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "funny",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "i snorted coffee",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "out",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "of",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "my nose",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "134": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "won",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "a",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "prize in",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "a",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "contest",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and was thrilled",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "135": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "i woke up",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "late",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and had",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "to",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "run to",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "class",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but i made it just in time",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "136": {
+        "num_segments": 12,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "finally",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "finished that",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "project",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "but now",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "am worried that",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "did not",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "do a",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "good enough",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "job",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "137": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my cat was sleeping on my lap",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but then suddenly jumped up",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "startled me",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "138": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my friend surprised me with a birthday party",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "but i had to leave",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "early because of",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "work",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "139": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "friend borrowed my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "book",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "lost it",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "140": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "my teacher assigned us a project over the weekend",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and now",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "have to",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "spend",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "entire saturday working on it",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "141": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "brothers teasing",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "made me angry",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "142": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "i saw",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "a snake in the",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "park",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "and it scared",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "the living",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "daylight",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "s out",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "of me",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "143": {
+        "num_segments": 12,
+        "segments": [
+            {
+                "Segment": "my mom",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "told me that i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "have to clean",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "room",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i do",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "not",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "want",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "to",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "do",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "144": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "i just saw a snake in the grass",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "it startled me",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "now i",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "am",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "shaking",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "145": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "brother",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "is",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "so annoying",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "he always tries to bug me when i am trying to focus",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "146": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "i love surprises and",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "my surprise",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "party was",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "the best",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "147": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the haunted house was so scary",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "screamed",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "148": {
+        "num_segments": 17,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "boss just gave",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "a promotion",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but now i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "have to",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "work",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "longer",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "hours",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "am not",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "sure",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "if",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "is",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "worth it",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "149": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "my friend told me a secret",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "then",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "she",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "denied",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "150": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just saw a",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "video of a puppy who learned",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "how to drive",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "151": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my mom told me i could have ice cream for dessert",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but then she",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "changed",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "her mind",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "152": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "friend",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "invited me to a",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "party",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "but i do not want to go because i do not",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "have",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "anything to wear",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "153": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "just",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "saw a great concert",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "was",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "really",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "loud and now my ears are ringing",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "154": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "my cat loves to cuddle",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but sometimes",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "he",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "gets too cl",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "ing",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "y",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "155": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "my mom told me that she is taking me to the zoo this weekend",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "156": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "i am so excited to go to the beach this weekend",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but i am worried",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "might rain",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "157": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "brothers",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "apology made me feel",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "relieved",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "158": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "i just",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "saw",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "a proposal",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "in",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "real life",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "159": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "think i left",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "my",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "phone",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "in",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "the",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "restaurant",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i am so annoyed",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "160": {
+        "num_segments": 12,
+        "segments": [
+            {
+                "Segment": "my friend",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "just",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "told me a",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "secret",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "that totally shocked me",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "am not",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "sure",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "if i should",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "believe",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "161": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "the haunted house was way too scary for me",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "162": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "my cat was so happy to see me that",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "he",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "pu",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "rred",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and rubbed against",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "my leg",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "163": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i love playing video games",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but i am bad at",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "them",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "164": {
+        "num_segments": 9,
+        "segments": [
+            {
+                "Segment": "i cannot believe i won the lottery",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "am",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "going",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "to",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "buy",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "a",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "house",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "on the beach",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "165": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "cannot believe he would say that to me",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "166": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "i hate",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "it when",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "my mom calls me during",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "work",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "hours",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but i guess",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "she",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "just wants to check in",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "167": {
+        "num_segments": 7,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "saw",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "a snake",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "in",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "the bathroom but it was just a",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "rubber",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "snake",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "168": {
+        "num_segments": 8,
+        "segments": [
+            {
+                "Segment": "my brother",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "lied to",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "now i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "do not know what",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "to",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "do",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "169": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my favorite song",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "came on the radio",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "it totally made my day",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "170": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "my friend told me a secret",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "now i",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "feel guilty",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "for",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "not telling anyone",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "171": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my mom is so annoying she always",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "na",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "gs",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me about my",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "homework",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "172": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my brother",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "is",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "such a",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "show",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "off",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "173": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "i just saw a spider crawling across the floor",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and it freaked me out",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "174": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "i am so excited for my upcoming birthday",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "175": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i found out my dog",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "could sing",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and it was hilarious",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "176": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "my brother teased me relentlessly when we",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "were kids",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "177": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "my brother",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "lied to",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and now i do not trust him",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "178": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "i just saw a snake in the park",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "it totally startled",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "179": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "i am so done with this rain",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but at",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "least it is",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "not",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "snow",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "180": {
+        "num_segments": 1,
+        "segments": [
+            {
+                "Segment": "my brother surprised me with a birthday party yesterday",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "181": {
+        "num_segments": 12,
+        "segments": [
+            {
+                "Segment": "my mom",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "always",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "tells me to",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "wear",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a jacket",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "when",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "go outside",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "i hate",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "carrying",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "it around",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "182": {
+        "num_segments": 4,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "was",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "expecting a raise",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "but instead i got laid off",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "183": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "i finally got my drivers license",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but i am nervous about driving on the highway",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "184": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "my teacher gave me a surprise pop quiz",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "did",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "not study",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "now i am really nervous",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "185": {
+        "num_segments": 11,
+        "segments": [
+            {
+                "Segment": "i was",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "supposed to meet",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "my friend",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "at the",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "park",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "but",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "forgot",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "now",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i feel terrible",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "186": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "i was so excited to see my friends at the party last night",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but they ended up not showing up",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "187": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "little",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "brother broke my favorite toy",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "188": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "the roller coaster was amazing",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but it made",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a little",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "na",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "useous",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "189": {
+        "num_segments": 10,
+        "segments": [
+            {
+                "Segment": "i accidentally spilled",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "coffee on my",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "shirt",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "now",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "am",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "in a",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "bad",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "mood",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "190": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "i am so excited to go on vacation next week",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but i am also a little nervous about flying",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "191": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "the movie was so good",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "that i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "did",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "not want",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "it",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "to end",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "192": {
+        "num_segments": 5,
+        "segments": [
+            {
+                "Segment": "i am so angry that i lost my favorite ear",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "ring",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "it is",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "just not",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "fair",
+                "Emotion": "NEUTRAL"
+            }
+        ]
+    },
+    "193": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i finally got the job offer i am so relieved",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "it took long",
+                "Emotion": "NEUTRAL"
+            },
+            {
+                "Segment": "enough",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "194": {
+        "num_segments": 6,
+        "segments": [
+            {
+                "Segment": "i just saw a snake in the parking lot",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "i froze",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "and",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "did not",
+                "Emotion": "FEARFUL"
+            },
+            {
+                "Segment": "know",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "what to do",
+                "Emotion": "FEARFUL"
+            }
+        ]
+    },
+    "195": {
+        "num_segments": 2,
+        "segments": [
+            {
+                "Segment": "my friends ditched me at the",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "mall",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    }
+}

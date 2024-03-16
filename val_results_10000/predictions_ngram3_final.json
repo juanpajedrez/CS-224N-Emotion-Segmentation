@@ -1,0 +1,3334 @@
+{
+    "0": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was so excited to",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "see the concert but",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "it was postponed until next year",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "1": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my mom told me she would",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "be home by five but",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "she is still not here at six",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "2": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was surprised when",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "my teacher gave me an",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "a on my test",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "3": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the news",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "about the natural",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "disaster is devastating",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "4": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother took",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "my video game controller",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and broke it",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "5": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i cannot",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "believe i failed",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "my math test",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "6": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just found out that my",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "favorite band is coming to town",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and i am totally stoked",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "7": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my dog ran away",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and now i",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "am feeling really upset",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "8": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was so",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "startled when",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "the door slammed shut",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "9": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "when i saw the",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "snake in the grass",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i jumped and screamed",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "10": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my dog ran away",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but luckily we",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "found him a few hours later",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "11": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "just saw",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "a cute puppy",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "12": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was so scared to go",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "skydiving but it",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "turned out to be an amazing experience",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "13": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the haunted house was",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "so scary i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "almost peed my pants",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "14": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the test was way harder than",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "i thought it would be",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and now i am worried i failed",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "15": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the roller coaster was so much fun",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but then i rode it again",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and it made me sick",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "16": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my dog just ran",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "away and now",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "i am really worried",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "17": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend borrowed my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "favorite video game",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and now it is broken",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "18": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i got invited to a",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "party this weekend but",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "i do not have anything to wear",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "19": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend invited me to a party",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but then she texted me that it was",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "a joke and i felt so embarrassed",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "20": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cats",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "death made me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "feel sad",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "21": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat is",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "really sick and i",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "am really worried about him",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "22": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my dog is so",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "cute he always",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "puts a smile on my face",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "23": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the haunted house was really scary",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but the actor who jumped",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "out at me was kind of hot",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "24": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my mom is going to",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "be mad when she finds out",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "i broke the vase",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "25": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i hate it when my mom tells",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "me what to wear but i",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "guess she is just trying to help",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "26": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the roller coaster was so fun",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but then it suddenly stopped",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and now i am terrified",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "27": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was so excited for the concert",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but when i got there i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "realized i had left my tickets at home",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "28": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my teacher gave me a surprise pop quiz",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and i was not prepared",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but i am proud of myself for doing well",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "29": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i got a new job offer",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and i am really happy about it",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but the commute is going to be terrible",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "30": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i woke up late for work",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and had to speed to get there on time",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but i got a flat tire",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "31": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend just told me a",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "joke that was so funny",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "it made me laugh out loud",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "32": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "saw a snake",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "in the park",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "33": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just saw a spider",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "crawling across my desk",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and it freaked me out",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "34": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my teacher gave me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a lot of homework",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and now i am stressed",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "35": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i saw a snake",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "in my backyard",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and it totally freaked me out",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "36": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat loves to sit on",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "my lap while i am studying",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but it is really distracting",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "37": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my little brother is being",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "really annoying right now",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and i am starting to get mad",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "38": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the beach was",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "beautiful and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "had such clear water",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "39": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the teacher gave me a really",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "hard math problem and i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "do not know how to do it",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "40": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the cake was",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "delicious but",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "also very rich",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "41": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the cashier gave me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a rude look when i tried",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "to pay with a card",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "42": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend told me a joke",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "that was so funny",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "that i spit out my drink",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "43": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "love watching",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "the sunset",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "44": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat wakes me",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "up every morning by po",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "uncing on my face",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "45": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the haunted house was",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "so scary that i did",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "not even want to go inside",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "46": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my dad",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "told me to",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "clean my room",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "47": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i hate public speaking",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but i guess",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "it is important for my career",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "48": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was angry",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "that my brother took",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "my video game",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "49": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was watching a scary movie",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but then i saw a spider crawling",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "on the wall and i freaked out",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "50": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my mom was so mad at",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "me for breaking the vase",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but i did not mean to",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "51": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother lied to me",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "again i do not",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "know why i am still surprised",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "52": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i got an a on my",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "math test but the teacher",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "took off points for bad handwriting",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "53": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was so excited to",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "try skydiving",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but i chickened out",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "54": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friends joke was really",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "funny but it also",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "made me a little uncomfortable",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "55": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "so glad i",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "finally finished that project",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "56": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the traffic jam",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "caused me to be",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "late for work",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "57": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my boss just gave me",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "a promotion and i",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "am really excited about it",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "58": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i cannot believe i won the lottery",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "i am so excited but i",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "know i have to be careful with my winnings",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "59": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i studied hard for the test",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "but i am still worried",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "that i am going to fail",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "60": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i had",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a fun time",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "at the arcade",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "61": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "crush just",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "asked me out",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "62": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "saw the fun",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "niest video ever",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "63": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just saw a snake",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "in my backyard and",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "it scared me so much",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "64": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i cannot believe i finally got tickets to see",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "my favorite band but they are playing on",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a tuesday and i have work the next day",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "65": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother borrowed my car without asking and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "returned it with a dented fender but he",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "also left a gift on my doorstep as an apology",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "66": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my little brother is always",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "getting into trouble and",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "it is really stressing me out",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "67": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the line for",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "the bathroom is now",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "moving at a snails pace",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "68": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "found out my",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "favorite show is canceled",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "69": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my little brother threw a tantrum in the middle",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "of the grocery store because he wanted a toy",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but my mom would not buy it for him",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "70": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the roller coaster was really",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "fun but it also",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "made me feel a bit sick",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "71": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my teacher gave me a",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "really hard math problem",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "in front of the whole class",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "72": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend cancelled our",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "plans at the last minute",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "which really annoyed me",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "73": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "movie was",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "really scary",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "74": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i saw a snake",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "on my hike",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and it startled me",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "75": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "joke was",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "so funny",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "76": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my dog loves to play with his",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "toys but sometimes he gets really",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "carried away and starts barking loudly",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "77": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the amusement",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "park ride made",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "me really dizzy",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "78": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the roller coaster was",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "really fun but",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "also kind of terrifying",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "79": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the clown at my brothers",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "birthday party was creepy",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and made me feel uncomfortable",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "80": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was expecting a",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "raise but my",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "boss gave me a lecture instead",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "81": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "saw a",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "beautiful rainbow yesterday",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "82": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend surprised me with a",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "visit but i was not",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "prepared and now i feel embarrassed",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "83": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just saw",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "a video of a",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "puppy learning how to surf",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "84": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat is so cute",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but sometimes she scratches",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "the furniture and it makes me angry",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "85": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just found out",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "that my favorite book is",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "being turned into a movie",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "86": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the movie was",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "terrible and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i was disappointed",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "87": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was surprised",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "when my dog learned",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "how to do tricks",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "88": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "so sad that",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "my grandma passed away",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "89": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i saw a snake",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "in the grass",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and jumped back in fright",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "90": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my little",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "brother just broke",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "my favorite toy",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "91": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my little brother",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "is so cute when",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "he is sleeping",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "92": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend surprised me with",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a birthday cake but",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i am on a diet",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "93": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am so",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "excited for my upcoming",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "vacation to hawaii",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "94": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "best friend",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "moved away",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "95": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my teacher just gave me a",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "really hard assignment and now",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i am feeling stressed and anxious",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "96": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "so nervous about",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "my upcoming job interview",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "97": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat jumped onto my",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "lap and started purring",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "it was really cute",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "98": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my boss gave me a compliment",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "in front of my coworkers",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "i felt embarrassed but also proud",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "99": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the joke was really",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "funny but it",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "was also a bit offensive",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "100": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother always eats",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "my favorite snacks",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "it is so frustrating",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "101": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the test was much harder",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "than i expected but",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "i think i did okay",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "102": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my best friend just",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "moved away and i am",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "really sad about it",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "103": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my dog",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "loves to play",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "fetch in the park",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "104": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was so nervous for my job",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "interview but i think it went",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "well and now i am hopeful",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "105": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "just knocked over",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "my water",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "106": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "gave me a",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "really nice gift",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "107": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the cashier",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "at the grocery store",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "was so rude to me",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "108": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the concert was",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "amazing i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "am so glad i went",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "109": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i found",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "out my favorite",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "restaurant is closing",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "110": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend just told me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a secret but i",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "promised not to tell anyone",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "111": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was so excited to",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "see my crush but",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "he did not even notice me",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "112": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother always takes the",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "last slice of pizza",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and it really ticks me off",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "113": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i saw",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "a hilarious video",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "on youtube last night",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "114": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the roller coaster was so much",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "fun but the line to",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "get on it was incredibly long",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "115": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "test was",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "really difficult",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "116": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was so",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "scared watching that horror",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "movie last night",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "117": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "so nervous for",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "my upcoming presentation",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "118": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was surprised when my teacher gave me a compliment on",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "my essay but then i realized that it was a",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "mistake and she meant to give it to someone else",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "119": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my mom surprised",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me with a new",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "bike for my birthday",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "120": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the traffic jam was terrible",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but at least i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "had a good book to read",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "121": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my teacher just gave me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a surprise pop quiz",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and i am really nervous",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "122": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am so excited to see my",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "crush but i am also super",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "nervous that i will say something stupid",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "123": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat scratched",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me and",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "now i am bleeding",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "124": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was surprised when my boss",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "gave me a raise but",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "now i am worried about the extra responsibility",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "125": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother was really",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "happy that he got an",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "a on his test",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "126": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i saw a spider crawling",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "on my arm while",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i was driving on the highway",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "127": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the clown",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "at the birthday",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "party was creepy",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "128": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat woke me up at 5",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "am and i had to feed",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "him but at least he is adorable",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "129": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the teacher gave me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a surprise pop quiz",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and i was not prepared",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "130": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am so excited for my",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "upcoming birthday party but i",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "am worried no one will show up",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "131": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am so done with this rain",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "it is been pouring all day",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and now my shoes are soaked",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "132": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my dog",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "ran away and",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "never came back",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "133": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend told me a joke",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "that was so funny i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "snorted coffee out of my nose",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "134": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i won a",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "prize in a contest",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and was thrilled",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "135": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i woke up late",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and had to run to class",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but i made it just in time",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "136": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i finally finished that project",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but now i am worried that",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i did not do a good enough job",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "137": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat was sleeping on my",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "lap but then suddenly jumped",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "up and startled me",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "138": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend surprised me with a",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "birthday party but i had",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "to leave early because of work",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "139": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend borrowed",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "my book",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and lost it",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "140": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my teacher assigned us a project over",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "the weekend and now i have",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "to spend my entire saturday working on it",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "141": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "brothers teasing",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "made me angry",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "142": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i saw a snake in the",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "park and it scared the",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "living daylights out of me",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "143": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my mom told me that i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "have to clean my room",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and i do not want to do it",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "144": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just saw a snake in",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "the grass and it startled",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "me now i am shaking",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "145": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother is so annoying",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "he always tries to bug me",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "when i am trying to focus",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "146": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i love surprises",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "and my",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "surprise party was the best",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "147": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the haunted house",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "was so scary",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "i screamed",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "148": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my boss just gave me a promotion",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but now i have to work longer hours",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and i am not sure if it is worth it",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "149": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend told me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a secret but",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "then she denied it",
+                "Emotion": "SURPRISED"
+            }
+        ]
+    },
+    "150": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just saw a",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "video of a puppy who",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "learned how to drive",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "151": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my mom told me i could",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "have ice cream for dessert",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but then she changed her mind",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "152": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend invited me to a party",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but i do not want to",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "go because i do not have anything to wear",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "153": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just saw a great concert",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "but it was really loud",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and now my ears are ringing",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "154": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat loves to cu",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "ddle but sometimes he",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "gets too clingy",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "155": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my mom told me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "that she is taking me",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "to the zoo this weekend",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "156": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am so excited to go",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "to the beach this weekend",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but i am worried it might rain",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "157": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brothers",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "apology made me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "feel relieved",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "158": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "saw a proposal",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "in real life",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "159": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i think i left",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "my phone in the restaurant",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "i am so annoyed",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "160": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend just told me a secret",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "that totally shocked me but i",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "am not sure if i should believe it",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "161": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the haunted",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "house was way",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "too scary for me",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "162": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my cat was so happy to",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "see me that he pu",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "rred and rubbed against my leg",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "163": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i love playing video",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "games but i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "am bad at them",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "164": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i cannot believe i won the",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "lottery i am going to",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "buy a house on the beach",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "165": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i cannot",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "believe he would",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "say that to me",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "166": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i hate it when my mom calls",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "me during work hours but i",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "guess she just wants to check in",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "167": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i saw a snake in",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "the bathroom but it",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "was just a rubber snake",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "168": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother lied to me",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and now i do",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "not know what to do",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "169": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my favorite song came",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "on the radio",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "it totally made my day",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "170": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friend told me a",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "secret and now i",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "feel guilty for not telling anyone",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "171": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my mom is so",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "annoying she always nags",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "me about my homework",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "172": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "is such a",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "showoff",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "173": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just saw a spider",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "crawling across the floor",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and it freaked me out",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "174": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "so excited for",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "my upcoming birthday",
+                "Emotion": "HAPPY"
+            }
+        ]
+    },
+    "175": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i found out my",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "dog could sing",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "and it was hilarious",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "176": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother teased",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "me relentlessly when",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "we were kids",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "177": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother lied to",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "me and now",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "i do not trust him",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "178": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just saw a",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "snake in the park",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and it totally startled me",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "179": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am so done with",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "this rain but at",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "least it is not snow",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "180": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my brother",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "surprised me with",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "a birthday party yesterday",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "181": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my mom always tells me to",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "wear a jacket when i go outside",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but i hate carrying it around",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "182": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was expecting a",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "raise but instead",
+                "Emotion": "SURPRISED"
+            },
+            {
+                "Segment": "i got laid off",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "183": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i finally got my drivers",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "license but i am",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "nervous about driving on the highway",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "184": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my teacher gave me a surprise pop",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "quiz and i did not study",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "now i am really nervous",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "185": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was supposed to meet my friend",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "at the park but i forgot",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "and now i feel terrible",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "186": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i was so excited to see my",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "friends at the party last night",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "but they ended up not showing up",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "187": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my little",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "brother broke my",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "favorite toy",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "188": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the roller coaster was amazing",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "but it made me",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "a little nauseous",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "189": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i accidentally spilled coffee on",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "my shirt and now",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "i am in a bad mood",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "190": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am so excited to go",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "on vacation next week but",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "i am also a little nervous about flying",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "191": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "the movie was so",
+                "Emotion": "HAPPY"
+            },
+            {
+                "Segment": "good that i",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "did not want it to end",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "192": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i am so angry that",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "i lost my favorite earring",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "it is just not fair",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "193": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i finally got the job",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "offer i am so",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "relieved it took long enough",
+                "Emotion": "SAD"
+            }
+        ]
+    },
+    "194": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "i just saw a snake in",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "the parking lot i froze",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "and did not know what to do",
+                "Emotion": "ANGRY"
+            }
+        ]
+    },
+    "195": {
+        "num_segments": 3,
+        "segments": [
+            {
+                "Segment": "my friends",
+                "Emotion": "SAD"
+            },
+            {
+                "Segment": "ditched me",
+                "Emotion": "ANGRY"
+            },
+            {
+                "Segment": "at the mall",
+                "Emotion": "ANGRY"
+            }
+        ]
+    }
+}

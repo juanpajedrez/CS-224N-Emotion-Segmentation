@@ -1,0 +1,9 @@
+{
+      "num_gt_segments": 902,
+      "IoU_total": 0.8820055151765427,
+      "IoU_matched": 0.939520690944549,
+      "IoU_total_emotions": 0.535550628233555,
+      "emotion_accuracy_matched": 0.49445676274944567,
+      "segmentation_recall": 0.9290465631929047,
+      "segmentation_precision": 0.8128031037827352
+}
