@@ -1,12 +1,10 @@
 # CS-224N-Emotion-Segmentation
 This Custom CS224N NLP final project consists on understanding complex emotions in sentences segments.
 
-Using LLMs, specifically LLAMA-2 70B model, we generated a large scale dataset of 3907 sentences. Each of them
-contained either 1, 2, or 3 segments; corresponding to a ground truth emotion.
+Using large language models (LLMs), specifically the LLAMA-2 70B model, we generated a dataset of 3,907 sentences, each containing 1 to 3 segments associated with distinct ground truth emotions.
 
-Here, by usinh a BERT tokenizer, BERT encoder, we passed the encoded positional words to a bidirectional LSTM; where
-it would perform sentence-emotion segmentation againts the ground truth. 
+We tokenized these sentences with a BERT tokenizer and passed the encoded tokens through a BERT encoder. The resulting embeddings were then input into a bidirectional LSTM, which performed sentence-emotion segmentation in alignment with the ground truth labels.
 
-After comparing against MLP, and N-grams models, we found this approach to have an intersection over union of 0.9230; 
-and a emotion accuracy of 0.5021. This showcases the massive improvement against the baselines, yet the need to further
-understand how humans convey emotion; and which models would be useful to do this.
+When benchmarked against MLP and N-gram models, this approach achieved an intersection-over-union score of 0.9230 and an emotion accuracy of 0.5021, demonstrating a substantial improvement over the baseline models. However, these results also highlight the need for further exploration into how humans convey emotions and the potential of different models to capture these subtleties more effectively.
+
+
