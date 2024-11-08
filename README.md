@@ -1,4 +1,10 @@
 # CS-224N-Emotion-Segmentation
+
+### Contributors
+1.) Hannah Levin
+2.) Samir Agarwala
+3.) Juan Pablo Triana 
+
 This Custom CS224N NLP final project consists on understanding complex emotions in sentences segments.
 
 Using large language models (LLMs), specifically the LLAMA-2 70B model, we generated a dataset of 3,907 sentences, each containing 1 to 3 segments associated with distinct ground truth emotions.
