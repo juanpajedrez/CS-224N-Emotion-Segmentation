@@ -1,9 +1,9 @@
 # CS-224N-Emotion-Segmentation
 
 ### Contributors
-1.) Hannah Levin
-2.) Samir Agarwala
-3.) Juan Pablo Triana 
+  1.) Hannah Levin <br>
+  2.) Samir Agarwala <br>
+  3.) Juan Pablo Triana <br>
 
 This Custom CS224N NLP final project consists on understanding complex emotions in sentences segments.
 
